@@ -1,0 +1,42 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 10:17:55
+	name: Wat Tambor, Union Foreman
+	casting_cost: 2G
+	image: image287.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Rogue</word-list-race-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Whenever you exile a creature from your graveyard, you may assign charge counters equal to its power to target craft. 
+		<sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>: Exile target creature card from your graveyard
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 3
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RG04
+	card_code_text_2: 
+	card_code_text_3: 

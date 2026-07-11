@@ -1,0 +1,35 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:40:47
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Droid Reprogramming
+	casting_cost: 4
+	image: image334.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: <sym-auto>5</sym-auto>, <sym-auto>T</sym-auto>: Gain control of target artifact until end of turn. Untap it. It gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> until end of turn, prevent all damage that would be dealt to it this turn.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MA04
+	card_code_text_2: 
+	card_code_text_3: 

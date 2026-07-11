@@ -1,0 +1,47 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-split-fusable
+	stylesheet_version: 2024-09-03
+	has_styling: true
+	styling_data:
+		frames: 
+		auto_frames: 
+		room_images: one image
+		other_options: two illustrators
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-05 19:54:04
+	time_modified: 2026-04-05 19:54:04
+	card_color: colorless
+	card_color_2: colorless
+	name: Mace Windu, Bringer of Justice
+	name_2: Palpatine, Sith Revealed
+	casting_cost: 
+	casting_cost_2: 
+	image: 
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Jedi</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Noble</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Windu</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, you may pay LL any number of times. Untap that many permanents you control. <sym-auto>3U</sym-auto>: Draw a card and you get <sym-auto>L</sym-auto>
+	rule_text_2: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Palpatine</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, target opponent may <kw-A><nospellcheck><key>Contract <param-number>2</param-number></key></nospellcheck> targeting <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Palpatine</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>. If they do, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Palpatine</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> gains <kw-A><nospellcheck><key>Ward <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck> and target opponent loses 3 life. <sym-auto>O</sym-auto>: Destroy target tapped creature. Activate only once each turn.<blob><atom-reminder-custom> <i-auto>(Put <param-number>two</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.</atom-reminder-custom></kw-A><moved><atom-reminder-expert> Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays <param-mana><sym-auto>2</sym-auto></param-mana>.)</i-auto></atom-reminder-expert></kw-A></moved></blob>
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_2: <i-flavor></i-flavor>
+	watermark: 
+	watermark_2: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UZ12B_0
+	card_code_text_2: UZ12B_1
+	card_code_text_3: 
+	special_text: 

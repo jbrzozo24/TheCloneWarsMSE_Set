@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-05 08:36:17
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Twin Blaster Showdown
+	casting_cost: 4RR
+	image: image71.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		This spell costs <sym-auto>1</sym-auto> less to cast for each <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control. <atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A>
+		Whenever you attack, target creature gains <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a> until end of turn, then <kw-A><nospellcheck><key>contract <param-number>1</param-number></key></nospellcheck>.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CR15
+	card_code_text_2: 
+	card_code_text_3: 

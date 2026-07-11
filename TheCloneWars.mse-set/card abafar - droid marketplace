@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 23:26:01
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Abafar - Droid Marketplace
+	casting_cost: 
+	image: image363.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Land</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-land>Planet</word-list-land><soft><atom-sep> </atom-sep></soft><word-list-land></word-list-land>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		As Droid Marketplace comes into play, you may reveal a Droid card from your hand, if you don’t, Droid marketplace enters tapped. 
+		Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>. 
+		Exhaust <sym-auto>3WU</sym-auto>: Create a token that’s a copy of target artifact or enchantment you control, except it’s legendary. Activate only as a sorcery
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	level_2: 10+
+	level_1_text: As <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Abafar</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, you may <kw-0><nospellcheck><key>behold <param-a>a</param-a> <param-name>Droid</param-name>.</key></nospellcheck></kw-0> If you don’t, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Abafar</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters tapped. 
+	level_2_text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>. 
+		<kw-0><nospellcheck><key>Station</key></nospellcheck></kw-0>
+	level_3_text: <sym-auto>3WU</sym-auto>, <sym-auto>T</sym-auto>: Create a token that’s a copy of target artifact or enchantment you control, except it’s legendary. Activate only as a sorcery
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: 6
+	card_code_text_2: 
+	card_code_text_3: 

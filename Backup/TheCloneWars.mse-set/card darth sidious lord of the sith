@@ -1,0 +1,54 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: use short frame, un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:29:52
+	name: Darth Sidious, Lord of the Sith
+	casting_cost: 5BB
+	image: image319.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Sidious</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: You may cast cards from your hand as though they had plot. The plot cost is equal to that card’s mana cost. <sym>2</sym>: Target opponent may <kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>, activate only if you control a creature. <sym>1</sym>: Draw a card and you lose 1 life. [−9]: Destroy each creature you don’t control. For each creature that died this way, you gain 1 life.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor><margin:130:0:0>Target opponent may <kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>, activate only if you control a creature.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A></margin:130:0:0></i-flavor>
+	watermark: 
+	loyalty_cost_1: 
+	loyalty_cost_2: +2
+	loyalty_cost_3: +1
+	loyalty_cost_4: -9
+	loyalty: 4
+	level_1_text: You may cast cards from your hand as though they had plot. The plot cost is equal to that card’s mana cost.
+	level_2_text: <margin:130:0:0>Target opponent may <kw-0><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck></kw-0>, activate only if you control a creature.</margin:130:0:0>
+	level_3_text: <margin:130:0:0>Draw a card and you lose 1 life.</margin:130:0:0>
+	level_4_text: <margin:130:0:0>Destroy each creature you don’t control. For each creature that died this way, you gain 1 life.</margin:130:0:0>
+	level_5_text: 
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MB01
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		You may cast cards from your hand as though they had plot. The plot cost is equal to that card’s mana cost.
+		[+2]: <margin:130:0:0>Target opponent may <kw-0><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck></kw-0>, activate only if you control a creature.</margin:130:0:0>
+		[+1]: <margin:130:0:0>Draw a card and you lose 1 life.</margin:130:0:0>
+		[-9]: <margin:130:0:0>Destroy each creature you don’t control. For each creature that died this way, you gain 1 life.</margin:130:0:0>

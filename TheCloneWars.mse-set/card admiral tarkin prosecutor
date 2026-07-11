@@ -1,0 +1,42 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:17:45
+	name: Admiral Tarkin, Prosecutor
+	casting_cost: 2WB
+	image: image221.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Noble</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		<kw-A><nospellcheck><key>Kicker <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay an additional <param-mana><sym-auto>2</sym-auto></param-mana> as you cast this spell.)</i-auto></atom-reminder-expert></kw-A>
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tarkin</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, if it was kicked, <kw-A><nospellcheck><key>contract <param-number>1</param-number></key></nospellcheck>. Whenever a creature with a bounty counter on it dies, you gain 2 life and draw a card.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor>“Justice must be swift and absolute”</i-flavor>
+	watermark: 
+	power: 3
+	toughness: 3
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ26
+	card_code_text_2: 
+	card_code_text_3: 

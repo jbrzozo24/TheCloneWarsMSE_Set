@@ -1,0 +1,55 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-saga
+	stylesheet_version: 2024-09-23
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 08:07:00
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Jedi Master's Talent
+	casting_cost: U
+	image: image244.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment>Class</word-list-enchantment><soft><atom-sep> </atom-sep></soft><word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	chapter_text: <i>(Gain the next level as a sorcery to add its ability.)</i>
+	rule_text: You may look at the top card of your library at any time. Level 2 <sym-auto>U</sym-auto>: You may play cards and cast spells from the top of your library, when you do you get <sym-auto>LL</sym-auto>. Level 3 <sym-auto>3UU</sym-auto>: At the beginning of your end step, you may pay seven L. When you do, take an extra after this one.
+	rule_text_3: 
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	watermark: 
+	level_2: Level 2
+	level_3: Level 3
+	level_1_text: You may look at the top card of your library at any time.
+	level_2_text: <margin:0:0:30>You may play cards and cast spells from the top of your library, when you do you get <sym-auto>LL</sym-auto>.</margin:0:0:30>
+	level_3_text:
+		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra after this one.
+		</margin:0:0:30>
+	level_4_text: 
+	level_9_text: <sym-auto>U</sym-auto>:
+	level_10_text: <sym-auto>3UU</sym-auto>:
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RU07
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		<i>(Gain the next level as a sorcery to add its ability.)</i>
+		You may look at the top card of your library at any time.
+		<sym-auto>U</sym-auto>: Level 2
+		<margin:0:0:30>You may play cards and cast spells from the top of your library, when you do you get <sym-auto>LL</sym-auto>.</margin:0:0:30>
+		<sym-auto>3UU</sym-auto>: Level 3
+		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra after this one.
+		</margin:0:0:30>

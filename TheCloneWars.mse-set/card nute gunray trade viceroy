@@ -1,0 +1,42 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:05:48
+	name: Nute Gunray, Trade Viceroy
+	casting_cost: 2UB
+	image: image205.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Neimoidian</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Noble</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		Battles you cast cost <sym-auto>1</sym-auto> less to cast. 
+		Whenever you cast a battle transformed, you create a <kw-a><nospellcheck><key>treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a> and you get <sym-auto>O</sym-auto>.
+	flavor_text: <i-flavor>“This will work out very well for us.”</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 3
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UZ03
+	card_code_text_2: 
+	card_code_text_3: 

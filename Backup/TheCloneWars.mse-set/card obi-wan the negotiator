@@ -1,0 +1,55 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:41:29
+	name: Obi-Wan, The Negotiator
+	casting_cost: 4UU
+	image: image380.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Obi-Wan</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: Whenever an opponent casts a spell, you may pay <sym-auto>1U</sym-auto>. If you do, counter that spell unless its controller pays <sym-auto>2</sym-auto>. <sym-auto>+2</sym-auto>: Look at the top three cards of your library. Put one into your hand and the rest on the bottom in any order. <sym-auto>0</sym-auto>: You get <sym-auto>LL</sym-auto> <sym-auto>-7</sym-auto>: Return X nonland permanents you don’t control to their owner’s hand, where X is the number of L you have.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty_cost_1: 
+	loyalty_cost_2: +2
+	loyalty_cost_3: 0
+	loyalty_cost_4: -7
+	loyalty: 5
+	level_1_text: Whenever an opponent casts a spell, you may pay <sym-auto>1U</sym-auto>. If you do, counter that spell unless its controller pays <sym-auto>2</sym-auto>. 
+	level_2_text: <margin:130:0:0>Look at the top three cards of your library. Put one into your hand and the rest on the bottom in any order. </margin:130:0:0>
+	level_3_text: <margin:130:0:0>You get <sym-auto>LL</sym-auto></margin:130:0:0>
+	level_4_text: <margin:130:0:0>Return X nonland permanents you don’t control to their owner’s hand, where X is the number of <sym-auto>L</sym-auto>, you have.</margin:130:0:0>
+	level_5_text: 
+	level_6_text: 
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MU04
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		Whenever an opponent casts a spell, you may pay <sym-auto>1U</sym-auto>. If you do, counter that spell unless its controller pays <sym-auto>2</sym-auto>. 
+		[+2]: <margin:130:0:0>Look at the top three cards of your library. Put one into your hand and the rest on the bottom in any order. </margin:130:0:0>
+		[0]: <margin:130:0:0>You get <sym-auto>LL</sym-auto></margin:130:0:0>
+		[-7]: <margin:130:0:0>Return X nonland permanents you don’t control to their owner’s hand, where X is the number of <sym-auto>L</sym-auto>, you have.</margin:130:0:0>

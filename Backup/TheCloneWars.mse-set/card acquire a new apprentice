@@ -1,0 +1,39 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	card_color: red
+	name: Acquire A New Apprentice
+	casting_cost: 
+	transformation: back triangle
+	image: image174.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Instant</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		As an additional cost to cast this spell, destroy target <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> you control. 
+		Search your library for a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> card, reveal it, put it into your hand, then discard a card at random. You may put the revealed card onto the battlefield tapped if it is still in your hand.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UR17B
+	card_code_text_2: 
+	card_code_text_3: 

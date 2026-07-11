@@ -1,0 +1,54 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:32:51
+	name: Hondo Ohnaka, Pirate King
+	casting_cost: 2RR
+	image: image323.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Hondo</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: Whenever you create a <kw-a><nospellcheck><key>treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a>, put a loyalty counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>. <sym>1</sym>: <kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>. [−3]: <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> deals 3 damage to target creature, planeswalker or battle. [−8]: You get an emblem with “Whenever an <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control attacks, this emblem deals 2 damage to each opponent.”<blob><atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.</atom-reminder-custom></kw-A><moved><atom-reminder-action> Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></moved></blob>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty_cost_1: 
+	loyalty_cost_2: +1
+	loyalty_cost_3: -3
+	loyalty_cost_4: -8
+	loyalty: 4
+	level_1_text: Whenever you create a <kw-a><nospellcheck><key>treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a>, put a loyalty counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+	level_2_text: <margin:130:0:0><kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A></margin:130:0:0>
+	level_3_text: <margin:130:0:0><error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> deals 3 damage to target creature, planeswalker or battle.</margin:130:0:0>
+	level_4_text: <margin:130:0:0>You get an emblem with “Whenever an <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control attacks, this emblem deals 2 damage to each opponent.”<atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></margin:130:0:0>
+	level_5_text: 
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MR03
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		Whenever you create a <kw-a><nospellcheck><key>treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a>, put a loyalty counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+		[+1]: <margin:130:0:0><kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A></margin:130:0:0>
+		[-3]: <margin:130:0:0><error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Hondo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> deals 3 damage to target creature, planeswalker or battle.</margin:130:0:0>
+		[-8]: <margin:130:0:0>You get an emblem with “Whenever an <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control attacks, this emblem deals 2 damage to each opponent.”<atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></margin:130:0:0>

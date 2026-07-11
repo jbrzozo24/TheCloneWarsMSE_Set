@@ -1,0 +1,53 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-split-fusable
+	stylesheet_version: 2024-09-03
+	has_styling: true
+	styling_data:
+		frames: 
+		auto_frames: 
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 23:57:18
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	card_color: white
+	card_color_2: green
+	name: Dooku's Cloak
+	name_2: Dark Side Temptation
+	casting_cost: 
+	casting_cost_2: 
+	image: image370.png
+	image_2: image_24.png
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft><atom-sep> </atom-sep></soft><word-list-artifact></word-list-artifact>
+	sub_type_2: <word-list-enchantment>Aura</word-list-enchantment><soft><atom-sep> </atom-sep></soft><word-list-enchantment></word-list-enchantment>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck><key>Equip <param-cost><sym-auto>4</sym-auto></param-cost></key></nospellcheck></kw-a>
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Dooku’s</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <kw-0><nospellcheck><key>cloak</key></nospellcheck></kw-0> enters, attach it to target creature you control. 
+		Equipped creature has <kw-a><nospellcheck><key>hexproof</key></nospellcheck></kw-a>. 
+		Whenever you gain life, you gain that much life plus one instead.
+	rule_text_2:
+		<kw-a><nospellcheck><key>Enchant <param-name>creature</param-name>.</key></nospellcheck></kw-a> Enchanted creature can’t attack or block. Put a temptation counter on it.
+		At the beginning of your upkeep, put a temptation counter on enchanted creature. If there are three temptation counters on it, exile it. During your turn, you may cast cards exiled with Dark Side Temptation using mana of any color to cast it.
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_2: <i-flavor></i-flavor>
+	watermark: 
+	watermark_2: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UZ15B_0
+	card_code_text_2: UZ15B_1
+	card_code_text_3: 
+	special_text: 

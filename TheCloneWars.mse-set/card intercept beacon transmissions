@@ -1,0 +1,38 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-05 08:25:03
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Intercept Beacon Transmissions
+	casting_cost: 3B
+	image: image49.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		<kw-A><nospellcheck><key>Plot <param-cost><sym-auto>4B</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay <param-mana><sym-auto>4B</sym-auto></param-mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
+		<kw-0><nospellcheck><key>Kicker—<param-cost> Sacrifice a creature. </param-cost></key></nospellcheck></kw-0>
+		Draw two cards and you lose three life. If this spell was kicked, you draw two cards and each opponent loses 3 life instead.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CB12
+	card_code_text_2: 
+	card_code_text_3: 

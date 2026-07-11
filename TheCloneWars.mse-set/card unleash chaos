@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 10:47:22
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Unleash Chaos
+	casting_cost: XBR
+	image: image308.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Exile cards from the top of your library until you exile a nonland card. You may cast that card if its mana value is X or less without paying its mana cost. Put the rest into your graveyard. 
+		<kw-0><nospellcheck><key>Unleash</key></nospellcheck></kw-0> Chaos deals X damage divided as you choose among any number of targets. You get <sym-auto>XO</sym-auto>.
+	flavor_text: <i-flavor>*Maul carved through the ship.*</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ05
+	card_code_text_2: 
+	card_code_text_3: 

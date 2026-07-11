@@ -1,0 +1,38 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 22:28:58
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Jedi Blindness
+	casting_cost: 1UBR
+	image: image349.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		When Jedi Blindness enters, target opponent discards a card at random. 
+		As long as you have two or more <sym-auto>O</sym-auto>, permanents you control have <kw-a><nospellcheck><key>hexproof</key></nospellcheck></kw-a>. 
+		As long as you have four or more <sym-auto>O</sym-auto>, you may cast spells as if they had <kw-a><nospellcheck><key>flash</key></nospellcheck></kw-a>.
+	flavor_text: <i-flavor>“The dark side clouds everything. Impossible to see, the future is” - Yoda</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MB03
+	card_code_text_2: 
+	card_code_text_3: 

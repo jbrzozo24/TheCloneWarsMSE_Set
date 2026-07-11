@@ -1,0 +1,227 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2025-06-14
+stylesheet: m15-altered
+stylesheet_version: 2025-10-05
+set_info:
+	title: The Clone Wars
+	copyright: 101
+	set_code: TCW
+	symbol: symbol4.mse-symbol
+	masterpiece_symbol: 
+	automatic_card_numbers: no
+	card_number_style: 0001
+	last_main_partition: 
+styling:
+	magic-DayNight:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-classicshifted-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-genevensis-02-leveler:
+		casting_cost_mana_symbols: magic-mana-genevensis-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-genevensis-small.mse-symbol-font
+	magic-m15-Kaladesh:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		frames: 
+		other_options: avoid covering devoid, auto vehicles, auto snow, auto nyx crowns, auto ub, auto spacecraft
+		font_cap: 11
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		use_flash_dot: no
+		overlay: 
+	magic-m15-commander:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-expedition:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-flip:
+		bottom_card_color_indicator: no
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-battles:
+		image_style: spillover
+		defense_style: defense
+		show_transform_notch: no
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		promo: no
+		overlay: 
+	magic-m15-mainframe-dfc:
+		dfc_type: transforming
+		front_style: 2 box saga
+		defaults: 4 box saga stripes - "225,296,367"
+		back_style: 3 box saga
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-outlaws:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker-extra-purple:
+		text_box_mana_symbols: magic-mana-small-extra-m15-purple.mse-symbol-font
+		overlay: 
+	magic-m15-saga:
+		chapter_textboxes: three
+		separated_text_size: 10
+		auto_frames: vehicle, snow, universes beyond
+		other_options: 
+		class_levels: notched
+		remove_from_autocount: no
+		wider_watermarks: no
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-scroll:
+		text_box_mana_symbols: magic-mana-scroll.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-bloomburrow-woodland:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-art-deco:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-golden-age:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-skyscraper:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-doctor-who-tardis:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-dominaria-stained-glass:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-dungeon-module:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-duskmourn-paranormal:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-etched-foil:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-fallout-pipboy:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ikoria-crystal:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-innistrad-double-feature:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-caverns:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-legends:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-treasure:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-monster-manual:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-praetor:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-strixhaven:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-small-strixhaven.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-tarkir-dragon-wing:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-thunder-junction-breaking-news:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-thunder-junction-breaking-news.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-thunder-junction-vault:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-split-fusable:
+		frames: room
+		auto_frames: 
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-treasure-maps:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-unstable-basics:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler-clear:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler-gradiented:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-starwars:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+include_file: cards
+keyword:
+	keyword: Scrap
+	match: Scrap <atom-param>number</atom-param>
+	reminder: Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at {param1}+
+	rules: 
+	mode: custom
+keyword:
+	keyword: Contract
+	match: Contract <atom-param>number</atom-param>
+	reminder: Put {english_number(param1)} bounty counters on target creature. When that creature dies, create that many Treasure tokens.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Reclaim
+	match: Reclaim <atom-param>number</atom-param> <atom-param>cost</atom-param>
+	reminder: You may cast this card from your graveyard for its reclaim cost. If you do, it enters the battlefield with {param1} –1/–1 counters on it.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Duel
+	match: Duel
+	reminder: As a Duel enters, choose an opponent to protect it, then choose _ or _. When it’s defeated, exile it, then cast it transformed as your chosen winner.
+	rules: 
+	mode: custom
+version_control:
+	type: none
+apprentice_code: 

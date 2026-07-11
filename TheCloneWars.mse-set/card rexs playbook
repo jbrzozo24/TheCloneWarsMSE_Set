@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	card_color: blue
+	name: Rex's Playbook
+	casting_cost: 
+	transformation: back triangle
+	image: image139.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: Whenever an opponent casts a spell, untap target land you control, then <kw-A><nospellcheck><key>surveil <param-number>1</param-number></key></nospellcheck>. If the <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>surveiled</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> card was an <kw-A><nospellcheck><key>outlaw</key></nospellcheck>, you may put it into your hand.<blob><atom-reminder-action> <i-auto>(To surveil <param-number>1</param-number>, look at the top card of your library. You may put it into your graveyard.</atom-reminder-action></kw-A><moved><atom-reminder-action> Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></moved></blob>
+	flavor_text: <i-flavor>“They’re using our own strategy against us”</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UU17B
+	card_code_text_2: 
+	card_code_text_3: 

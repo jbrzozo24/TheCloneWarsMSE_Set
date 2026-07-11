@@ -1,0 +1,18 @@
+mse_set_builder_info:
+  name: "The Clone Wars"
+  code: "tcw"
+  release_date: "2013-04-16"
+
+  # Import mse-set file path (optional, can be used to import existing MSE set data)
+  # If this is excluded, we don't merge the data and instead overwrite from the spreadsheet.
+  mse_set_file: "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\MagicSetEditor_Sets\\TheCloneWars\\TheCloneWars.mse-set"
+  
+  # Google Sheets configuration
+  credentials_file: "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\git_repo\\magic_the_gathering_projects\\src\\mse_set_builder_app\\google_auth\\credentials.json"
+  sheet_id: "1-wtFsyoYK8ZmldBv5XRnhYA7dnbmab54esaRGs0N2M0"
+  read_worksheet_title: "Cards"
+  write_worksheet_title: "Cards"
+  write_spreadsheet: true
+
+  # Output File
+  output_file: "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\MagicSetEditor_Sets\\TheCloneWars\\TheCloneWars.mse-set\\cards"

@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		frames: vehicle
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 10:44:59
+	name: Invisible Hand
+	casting_cost: 5UB
+	image: image306.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact>Craft</word-list-artifact><atom-sep> </atom-sep><word-list-artifact>Cruiser</word-list-artifact><soft><atom-sep> </atom-sep></soft><word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>first strike</key></nospellcheck></kw-a>, <kw-0><nospellcheck><key>scrap <param-number>5</param-number></key></nospellcheck></kw-0>. 
+		When Invisible Hand becomes a creature, gain control of target artifact or creature an opponent controls for as long as you control Invisible Hand. 
+		Whenever Invisible Hand deals combat damage to a player, you may pay <sym-auto>3</sym-auto>. If you do, return target creature card from your graveyard to the battlefield.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 6
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ03
+	card_code_text_2: 
+	card_code_text_3: 

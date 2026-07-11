@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:35:58
+	name: Darth Tyranus, Patient Orchestrator
+	casting_cost: 3RWB
+	image: image20.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Noble</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		<kw-0><nospellcheck><key>Plot <param-cost><sym-auto>2BR</sym-auto></param-cost></key></nospellcheck></kw-0>
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tyranus</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, if you cast him from exile, create two 1/1 colorless Droid artifact creature tokens and you get <sym-auto>OO</sym-auto>.
+		<kw-0><nospellcheck><key>Menace</key></nospellcheck></kw-0>, <kw-0><nospellcheck><key>lifelink</key></nospellcheck></kw-0>
+		<sym-auto>OO</sym-auto>, Sacrifice any number of creatures: Each opponent loses X life and you gain X life, where X is the number of creatures sacrificed this way. Then exile that many cards from the top of your library, you many play them until the end of your next turn.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 4
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MZ06
+	card_code_text_2: 
+	card_code_text_3: 

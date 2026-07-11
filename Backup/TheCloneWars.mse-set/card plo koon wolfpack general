@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:06:12
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Plo Koon, Wolfpack General
+	casting_cost: 2UR
+	image: 
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Jedi</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>General</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: <kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>. When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Plo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Koon</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, if you control a Clone, draw a card and you get <sym-auto>L</sym-auto>. <sym-auto>LL</sym-auto>: Clone creatures you control get +1/+0 and gain <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a> until end of turn. Whenever you cast a noncreature spell, if you control a Clone, you get one L.
+	flavor_text: <i-flavor>“We’re just clones, sir. We’re meant to be expendable.” “Not to me.”</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: U_UR1
+	card_code_text_2: 
+	card_code_text_3: 

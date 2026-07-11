@@ -1,0 +1,51 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		frames: 
+		other_options: avoid covering devoid, auto vehicles, auto snow, auto nyx crowns, auto spacecraft
+		font_cap: 11
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		use_flash_dot: no
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 23:29:35
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Mustafar - Bred For Evil
+	casting_cost: 
+	image: image360.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Land</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-land>Planet</word-list-land><soft><atom-sep> </atom-sep></soft><word-list-land></word-list-land>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	level_2: 5+
+	level_1_text: As <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Mustafar</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, you may <kw-0><nospellcheck><key>behold <param-a>a</param-a> <param-name>Sith</param-name>.</key></nospellcheck></kw-0> If you don’t, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Mustafar</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters tapped.
+	level_2_text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>.
+		<kw-0><nospellcheck><key>Station</key></nospellcheck></kw-0>
+	level_3_text: <sym-auto>T</sym-auto>: Add <sym-auto>OO</sym-auto>
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: 7
+	card_code_text_2: 
+	card_code_text_3: 

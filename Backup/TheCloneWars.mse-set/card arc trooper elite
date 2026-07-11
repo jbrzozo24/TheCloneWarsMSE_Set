@@ -1,0 +1,40 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: ARC Trooper Elite
+	casting_cost: G
+	image: image72.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Clone</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Trooper</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		<kw-A><nospellcheck><key>Squad <param-cost><sym-auto>2G</sym-auto></param-cost></key></nospellcheck> <atom-reminder-expert> <i-auto>(As an additional cost to cast this spell, you may pay <param-cost><sym-auto>2G</sym-auto></param-cost> any number of times. When this creature enters, create that many tokens that are copies of it.)</i-auto></atom-reminder-expert></kw-A>
+		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto>
+		<sym-auto>2</sym-auto>, Sacrifice ARC Trooper Elite: Clone troopers you control get +1/+0 until end of turn.
+	flavor_text: <i-flavor>ARC troopers were one man armies, trained to do as much damage as possible.</i-flavor>
+	watermark: 
+	power: 1
+	toughness: 1
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CG01
+	card_code_text_2: 
+	card_code_text_3: 

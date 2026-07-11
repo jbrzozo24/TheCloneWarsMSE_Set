@@ -1,0 +1,38 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Galactic Disturbance
+	casting_cost: 3B
+	image: image52.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Instant</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		Choose one — 
+		<li><bullet>• </bullet>Destroy target creature or battle, target player <kw-a><nospellcheck><key><param-mill>mills</param-mill> <param-one_word>3</param-one_word> car<param-*s>ds</param-*s></key></nospellcheck></kw-a> 
+		</li><li><bullet>• </bullet>Sacrifice a creature, then create a 2/2 black battle droid artifact creature token, you get <sym-auto>OO</sym-auto>.</li>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CB14
+	card_code_text_2: 
+	card_code_text_3: 

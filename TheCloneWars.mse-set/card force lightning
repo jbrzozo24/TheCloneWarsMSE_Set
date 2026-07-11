@@ -1,0 +1,39 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Force Lightning
+	casting_cost: R
+	image: image82.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		This spell can’t be countered. 
+		<kw-A><nospellcheck><key>Plot <param-cost><sym-auto>1R</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay <param-mana><sym-auto>1R</sym-auto></param-mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
+		Kicker <sym-auto>OO</sym-auto>:
+		Force Lightning deals 2 damage to target creature or planeswalker. If it was kicked, it deals 5 damage to target creature or planeswalker instead.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UR12
+	card_code_text_2: 
+	card_code_text_3: 

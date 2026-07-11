@@ -1,0 +1,54 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: use short frame, un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:37:09
+	name: General Grievous, Ruthless Warlord
+	casting_cost: 3
+	image: image329.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Grievous</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: Whenever an artifact you control enters, put a loyalty counter on Grievous. <sym>0</sym>: Untap target artifact or creature. If it’s an artifact creature, put a +1/+1 counter on it. [−3]: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle. [−7]: You get an emblem with “At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it’s not a creature, it becomes a 0/0 Droid artifact creature.”
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty_cost_1: 
+	loyalty_cost_2: 0
+	loyalty_cost_3: -3
+	loyalty_cost_4: -7
+	loyalty: 4
+	level_1_text: Whenever an artifact you control enters, put a loyalty counter on Grievous.
+	level_2_text: <margin:130:0:0>Untap target artifact or creature. If it’s an artifact creature, put a +1/+1 counter on it.</margin:130:0:0>
+	level_3_text: <margin:130:0:0>Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.</margin:130:0:0>
+	level_4_text: <margin:130:0:0>You get an emblem with “At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it’s not a creature, it becomes a 0/0 Droid artifact creature.”</margin:130:0:0>
+	level_5_text: 
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MA01
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		Whenever an artifact you control enters, put a loyalty counter on Grievous.
+		[0]: <margin:130:0:0>Untap target artifact or creature. If it’s an artifact creature, put a +1/+1 counter on it.</margin:130:0:0>
+		[-3]: <margin:130:0:0>Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.</margin:130:0:0>
+		[-7]: <margin:130:0:0>You get an emblem with “At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it’s not a creature, it becomes a 0/0 Droid artifact creature.”</margin:130:0:0>

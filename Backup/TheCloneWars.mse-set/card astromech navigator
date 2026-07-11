@@ -1,0 +1,40 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Astromech Navigator
+	casting_cost: 3W
+	image: image163.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Droid</word-list-race-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Astromech</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Navigator enters, target creature gains <kw-a><nospellcheck><key>flying</key></nospellcheck></kw-a> until end of turn.
+		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>
+		<kw-A><nospellcheck><key>Exhaust — <param-cost><sym-auto>4W</sym-auto></param-cost>: <param-action>Put three +1/+1 counters on another target creature</param-action></key></nospellcheck><atom-reminder-expert> <i-auto>(Activate each exhaust ability only once.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 3
+	toughness: 3
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UW05
+	card_code_text_2: 
+	card_code_text_3: 

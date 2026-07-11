@@ -1,0 +1,50 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-saga
+	stylesheet_version: 2024-09-23
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:02:20
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Revival
+	casting_cost: 2BRG
+	image: image117.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment>Saga</word-list-enchantment><soft><atom-sep> </atom-sep></soft><word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	chapter_text: <i-auto>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)</i-auto>
+	rule_text: 
+	rule_text_3: 
+	flavor_text: <i-flavor>“Remember... remember... I am your brother.” - Savage <error-spelling:en_US>Opress</i-flavor></error-spelling:en_US>
+	flavor_text_3: <i-flavor></i-flavor>
+	watermark: 
+	level_2: 
+	level_3: 
+	level_1_text: <i>The Search:</i> <kw-a><nospellcheck><key><param-mill>Mill</param-mill> <param-one_word>four</param-one_word> car<param-*s>ds</param-*s></key></nospellcheck></kw-a>. You may return target creature card from your graveyard to your hand. You get two O.
+	level_2_text: <i>Dark Magic Restored:</i> Return target creature card from your graveyard to the battlefield. It enters with two +1/+1 counters on it and gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> until end of turn.
+	level_3_text: <i>Vengeance Sworn:</i> Creatures you control gain +2/+2 and <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> until end of turn. You get three O.
+	level_4_text: 
+	level_9_text: 
+	level_10_text: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ16
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		<i-auto>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)</i-auto>
+		I — <i>The Search:</i> <kw-a><nospellcheck><key><param-mill>Mill</param-mill> <param-one_word>four</param-one_word> car<param-*s>ds</param-*s></key></nospellcheck></kw-a>. You may return target creature card from your graveyard to your hand. You get two O.
+		II — <i>Dark Magic Restored:</i> Return target creature card from your graveyard to the battlefield. It enters with two +1/+1 counters on it and gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> until end of turn.
+		III — <i>Vengeance Sworn:</i> Creatures you control gain +2/+2 and <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> until end of turn. You get three O.

@@ -1,0 +1,43 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		frames: vehicle
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	name: Clegg Holdfast's Podracer
+	casting_cost: 3W
+	image: image12.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact>Craft</word-list-artifact><atom-sep> </atom-sep><word-list-artifact>Podracer</word-list-artifact><soft><atom-sep> </atom-sep></soft><word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		When this card enters, create a 2/2 colorless droid artifact creature token.
+		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>, <kw-A><nospellcheck><key>scrap <param-number>4</param-number></key></nospellcheck>.<atom-reminder-custom> <i-auto>(Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at <param-number>4</param-number>+)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 4
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CW11
+	card_code_text_2: 
+	card_code_text_3: 

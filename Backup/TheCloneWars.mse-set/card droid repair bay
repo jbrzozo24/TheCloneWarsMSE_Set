@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:05:48
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Droid Repair Bay
+	casting_cost: 2
+	image: image199.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		Whenever an artifact creature enters the battlefield under your control, put a +1/+1 counter on it.
+		<sym-auto>1WU</sym-auto>, <sym-auto>T</sym-auto>: Move a +1/+1 counter from target artifact creature you control to another target artifact creature you control.
+	flavor_text: <i-flavor>Every <error-spelling:en_US>starship</error-spelling:en_US> needs a maintenance deck.</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UA03
+	card_code_text_2: 
+	card_code_text_3: 

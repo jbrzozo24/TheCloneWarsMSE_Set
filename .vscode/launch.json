@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SetBuilder",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\git_repo\\magic_the_gathering_projects\\src\\mse_set_builder_app\\set_builder.py",
+      "console": "integratedTerminal",
+      "python": "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\git_repo\\magic_the_gathering_projects\\src\\mse_set_builder_app\\.venv\\Scripts\\python.exe",
+      "args": ["-v"]
+    }
+  ]
+}

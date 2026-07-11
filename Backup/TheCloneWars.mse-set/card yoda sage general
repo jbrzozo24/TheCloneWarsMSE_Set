@@ -1,0 +1,49 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-flip
+	stylesheet_version: 2024-06-06
+	has_styling: true
+	styling_data:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:20:07
+	card_color: white, multicolor
+	card_color_2: black, multicolor
+	name: Yoda, Sage General
+	name_2: Sidious, Darkness Unleashed
+	casting_cost: 
+	casting_cost_2: 
+	image: image377.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Jedi</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>General</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text: Exhaust — <sym-auto>3</sym-auto>, Clone Commanders you control gain <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>indestructible</key></nospellcheck></kw-a> until end of turn. If you control another Jedi, Clones you control get +1/+1 until end of turn.
+	rule_text_2:
+		At the beginning of your main phase, if you control exactly two <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> creatures, you get <sym-auto>O</sym-auto>. 
+		<sym-auto>OO</sym-auto>: <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sidious</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> gains <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> until end of turn. Prevent all combat damage that would be dealt to <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sidious</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> this turn.
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_2: <i-flavor></i-flavor>
+	watermark: 
+	watermark_2: 
+	power: 2
+	power_2: 6
+	toughness: 6
+	toughness_2: 1
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ20B_0
+	card_code_text_2: RZ20B_1
+	card_code_text_3: 
+	special_text: 

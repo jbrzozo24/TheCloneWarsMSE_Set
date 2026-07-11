@@ -1,0 +1,40 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:06:12
+	name: Geonosian Hive Queen
+	casting_cost: 4BG
+	image: 
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Geonosian</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Insect</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text: <sym-auto>2BG</sym-auto>, for each creature in your graveyard, create a 1/1 drone <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>geonosian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> with <kw-a><nospellcheck><key>reach</key></nospellcheck></kw-a>. <kw-A><nospellcheck><key>Reclaim <param-number>3</param-number> <param-cost><sym-auto>1BG</sym-auto></param-cost></key></nospellcheck><atom-reminder-custom> <i-auto>(You may cast this card from your graveyard for its reclaim cost. If you do, it enters the battlefield with <param-number>3</param-number> –1/–1 counters on it.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 6
+	toughness: 6
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: R_BG1
+	card_code_text_2: 
+	card_code_text_3: 

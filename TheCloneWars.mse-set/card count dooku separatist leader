@@ -1,0 +1,42 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 09:00:42
+	name: Count Dooku, Separatist Leader
+	casting_cost: 1B
+	image: image278.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Noble</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Whenever you deal combat damage to a battle, you get <sym-auto>O</sym-auto>. 
+		Whenever a creature you control blocks a battle, you may pay <sym-auto>OO</sym-auto>. If you do, deal 2 damage to any target and creatures you control gain <kw-A><nospellcheck><key>wither</key></nospellcheck> until end of turn.<atom-reminder-expert> <i-auto>(This deals damage to creatures in the form of -1/-1 counters.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor>“The banking clan will sign your treaty”</i-flavor>
+	watermark: 
+	power: 3
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RB03
+	card_code_text_2: 
+	card_code_text_3: 

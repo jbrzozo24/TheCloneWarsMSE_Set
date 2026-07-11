@@ -1,0 +1,43 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 07:54:29
+	name: Commander Cody, Methodical Leader
+	casting_cost: 1W
+	image: image239.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Clone</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Commander</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Other Clones you control get +1/+1. 
+		Whenever a Clone you control attacks with at least two other creatures, tap up to one target creature defending player controls. 
+		Whenever a Battle you control is defeated, create a 2/2 white Clone Soldier creature token.
+	flavor_text: <i-flavor>“The mission comes first. Always.”</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RW09
+	card_code_text_2: 
+	card_code_text_3: 

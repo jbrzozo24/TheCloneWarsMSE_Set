@@ -1,0 +1,53 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 08:49:55
+	name: Watto, Junkyard Tycoon
+	casting_cost: 3R
+	image: image267.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Watto</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text: <sym>2</sym>: Discard up to two cards, then draw that many cards. [−2]: Sacrifice an artifact. If you do, return target artifact from your graveyard to the battlefield. [−10]: You get an emblem with “Whenever an artifact is put into your graveyard from the battlefield, return that card to the battlefield at the beginning of the next end step” <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Watto</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, Junkyard Tycoon can be your commander.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty_cost_1: +2
+	loyalty_cost_2: -2
+	loyalty_cost_3: -10
+	loyalty_cost_4: 
+	loyalty: 3
+	level_1_text: <margin:130:0:0>discard up to two cards, then draw that many cards.</margin:130:0:0>
+	level_2_text: <margin:130:0:0>Sacrifice an artifact. If you do, return target artifact from your graveyard to the battlefield.</margin:130:0:0>
+	level_3_text: <margin:130:0:0>You get an emblem with “Whenever an artifact is put into your graveyard from the battlefield, return that card to the battlefield at the beginning of the next end step” <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Watto</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, Junkyard Tycoon can be your commander.</margin:130:0:0>
+	level_4_text: 
+	level_5_text: 
+	toughness: 3
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RR07
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		[+2]: <margin:130:0:0>discard up to two cards, then draw that many cards.</margin:130:0:0>
+		[-2]: <margin:130:0:0>Sacrifice an artifact. If you do, return target artifact from your graveyard to the battlefield.</margin:130:0:0>
+		[-10]: <margin:130:0:0>You get an emblem with “Whenever an artifact is put into your graveyard from the battlefield, return that card to the battlefield at the beginning of the next end step” <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Watto</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, Junkyard Tycoon can be your commander.</margin:130:0:0>

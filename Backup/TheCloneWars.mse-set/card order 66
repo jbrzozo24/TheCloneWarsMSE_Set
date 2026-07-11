@@ -1,0 +1,39 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:48:06
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Order 66
+	casting_cost: 5WB
+	image: image340.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		<kw-0><nospellcheck><key>Plot <param-cost><sym-auto>7WB</sym-auto></param-cost></key></nospellcheck></kw-0>
+		Order 66 deals X damage to target opponent, where X is the number of non-legendary creatures that opponent controls. Then pair each non-legendary creature that opponent controls with another non-legendary creature that opponent controls. Then each pair fights each other. 
+	flavor_text:
+		<i-flavor>“Execute Order 66. Yes, my lord”
+		</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MZ14
+	card_code_text_2: 
+	card_code_text_3: 

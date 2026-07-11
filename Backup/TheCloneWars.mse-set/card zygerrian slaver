@@ -1,0 +1,39 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Zygerrian Slaver
+	casting_cost: 2G
+	image: image179.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Beast</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Rogue</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		Whenever you sacrifice a treasure, put a +1/+1 counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Zygerrian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Slaver. 
+		<sym-auto>T</sym-auto>, Sacrifice a treasure: <kw-A><nospellcheck><key>Contract <param-number>1</param-number></key></nospellcheck>.<atom-reminder-custom> <i-auto>(Put <param-number>one</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor>Each kill adds to the legend.</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UG04
+	card_code_text_2: 
+	card_code_text_3: 

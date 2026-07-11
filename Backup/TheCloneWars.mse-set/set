@@ -1,0 +1,589 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2025-06-14
+stylesheet: m15-altered
+stylesheet_version: 2025-10-05
+set_info:
+	title: The Clone Wars
+	copyright: 101
+	set_code: TCW
+	symbol: symbol4.mse-symbol
+	masterpiece_symbol: 
+	automatic_card_numbers: no
+	card_number_style: 0001
+	last_main_partition: 
+styling:
+	magic-DayNight:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-classicshifted-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-genevensis-02-leveler:
+		casting_cost_mana_symbols: magic-mana-genevensis-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-genevensis-small.mse-symbol-font
+	magic-m15-Kaladesh:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		frames: 
+		other_options: avoid covering devoid, auto vehicles, auto snow, auto nyx crowns, auto ub, auto spacecraft
+		font_cap: 11
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		use_flash_dot: no
+		overlay: 
+	magic-m15-commander:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-expedition:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-flip:
+		bottom_card_color_indicator: no
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-battles:
+		image_style: spillover
+		defense_style: defense
+		show_transform_notch: no
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		promo: no
+		overlay: 
+	magic-m15-mainframe-dfc:
+		dfc_type: transforming
+		front_style: 2 box saga
+		defaults: 4 box saga stripes - "225,296,367"
+		back_style: 3 box saga
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-outlaws:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker-extra-purple:
+		text_box_mana_symbols: magic-mana-small-extra-m15-purple.mse-symbol-font
+		overlay: 
+	magic-m15-saga:
+		chapter_textboxes: three
+		separated_text_size: 10
+		auto_frames: vehicle, snow, universes beyond
+		other_options: 
+		class_levels: notched
+		remove_from_autocount: no
+		wider_watermarks: no
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-scroll:
+		text_box_mana_symbols: magic-mana-scroll.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-bloomburrow-woodland:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-art-deco:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-golden-age:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-capenna-skyscraper:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-doctor-who-tardis:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-dominaria-stained-glass:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-dungeon-module:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-duskmourn-paranormal:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-etched-foil:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-fallout-pipboy:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ikoria-crystal:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-innistrad-double-feature:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-caverns:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-legends:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-ixalan-treasure:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-monster-manual:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-praetor:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-strixhaven:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-small-strixhaven.mse-symbol-font
+		overlay: 
+	magic-m15-showcase-tarkir-dragon-wing:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-thunder-junction-breaking-news:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-thunder-junction-breaking-news.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-showcase-thunder-junction-vault:
+		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+	magic-m15-split-fusable:
+		frames: room
+		auto_frames: 
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-treasure-maps:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-unstable-basics:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler-clear:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-leveler-gradiented:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-starwars:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+include_file: card clone trooper regiment
+include_file: card coruscant street urchin
+include_file: card coruscant senator
+include_file: card communication specialist
+include_file: card droid processing unit
+include_file: card winged womp rat
+include_file: card republic deployment
+include_file: card pit droid team
+include_file: card senate commando
+include_file: card zillo beast
+include_file: card clegg holdfasts podracer
+include_file: card false start
+include_file: card scrap salvage
+include_file: card republic battle tactics
+include_file: card containment field
+include_file: card techno service droid
+include_file: card maintenance trooper
+include_file: card separatist infiltrators
+include_file: card trade federation officer
+include_file: card medical droid
+include_file: card astromech investigator
+include_file: card kamino stormcaller
+include_file: card naboo n-1 starfighter
+include_file: card force push
+include_file: card clone batch production
+include_file: card jedi meditation
+include_file: card force stasis
+include_file: card moment of stillness
+include_file: card run away together
+include_file: card develop a plan
+include_file: card sith acolyte
+include_file: card battle droid scout
+include_file: card apprentice of the dark side
+include_file: card weequay pirate
+include_file: card pyke syndicate warrior
+include_file: card mastiff phalones
+include_file: card the last geonosian
+include_file: card banking clan enforcer
+include_file: card trade federation mtt
+include_file: card sabotage mission
+include_file: card political leverage
+include_file: card intercept beacon transmissions
+include_file: card drain the living force
+include_file: card galactic disturbance
+include_file: card dark side temptations
+include_file: card lone raider
+include_file: card immoral general
+include_file: card patrolian robot fish
+include_file: card guild member
+include_file: card warmongers fodder
+include_file: card clone paratrooper
+include_file: card coruscanti protestor
+include_file: card hutt clan member
+include_file: card anakins speeder bike
+include_file: card junkpile diving
+include_file: card huttese contract
+include_file: card simulated combat drill
+include_file: card separatist bombardment
+include_file: card clone trooper blaster
+include_file: card twin blaster showdown
+include_file: card arc trooper elite
+include_file: card tuned assassin
+include_file: card gungan operative
+include_file: card rocket droid squadron
+include_file: card gamorrean guard
+include_file: card jedi youngling initiate
+include_file: card meandering bantha
+include_file: card leader of kashyyyk
+include_file: card delta 7 jedi starfighter
+include_file: card shatter the holocron
+include_file: card commune with bounty hunters
+include_file: card pursue the bounty
+include_file: card luminaras safekeeping
+include_file: card jedi training grounds
+include_file: card jangos poison dart
+include_file: card hologram projector
+include_file: card credit vault
+include_file: card network terminal
+include_file: card ohnakas florrum rum
+include_file: card grievous medical droid
+include_file: card hallowed fountain
+include_file: card godless shrine
+include_file: card watery grave
+include_file: card steam vents
+include_file: card blood crypt
+include_file: card overgrown tomb
+include_file: card stomping ground
+include_file: card sacred foundry
+include_file: card temple garden
+include_file: card breeding pool
+include_file: card fabled passage
+include_file: card shmi skywalker desert survivor
+include_file: card bail organa principled senator
+include_file: card huyang lightsaber architect
+include_file: card 212th battalion
+include_file: card astromech navigator
+include_file: card duchess of mandalore
+include_file: card obi-wan kenobi patient general
+include_file: card sebulbas pod
+include_file: card droid distress network
+include_file: card clone trooper helmet
+include_file: card republic battle tactics.1
+include_file: card dismantle for parts
+include_file: card spare hyperdrive
+include_file: card assassinate the exposed
+include_file: card coordinated assault
+include_file: card senatorial decree
+include_file: card battle of christophsis
+include_file: card ahsoka tano reinforcement
+include_file: card mechanics talent
+include_file: card clone vat technician
+include_file: card y-wing squadron leader
+include_file: card ahsoka tano padawan learner
+include_file: card az-345211896246498721347
+include_file: card separatist saboteur
+include_file: card now there are two of them
+include_file: card reprogramming station
+include_file: card jedi temple archives
+include_file: card inhibitor chip
+include_file: card dont try it
+include_file: card trade federation blockade
+include_file: card jedi training helmet
+include_file: card jedi mind trick
+include_file: card tactical retreat
+include_file: card shape the force
+include_file: card wolfpack battalion
+include_file: card battle of anaxes
+include_file: card rexs playbook
+include_file: card astromechs talent
+include_file: card nightsister initiate
+include_file: card geonosian hive wurm
+include_file: card super battle droid
+include_file: card undercity scavenger
+include_file: card jar jar binks sith lord
+include_file: card almec prime minister
+include_file: card ig-100 magnaguard
+include_file: card maul broken by hatred
+include_file: card the malevolence
+include_file: card rebuild the legion
+include_file: card nightsister energy bow
+include_file: card separatist intelligence network
+include_file: card political assassination
+include_file: card is that legal
+include_file: card dookus manipulation
+include_file: card palpatines revelation
+include_file: card battle of dathomir
+include_file: card the undead army
+include_file: card separatists talent
+include_file: card rako marksman of concord dawn
+include_file: card hondo pirate captain
+include_file: card anakins podracer
+include_file: card clone deserter
+include_file: card asajj ventress siths apprentice
+include_file: card watto toydarian junkdealer
+include_file: card scrapyard smelter droid
+include_file: card savage manipulated brute
+include_file: card army of the dead
+include_file: card blast them
+include_file: card kamino tidal surge
+include_file: card force lightning
+include_file: card seismic charge
+include_file: card put a price on their head
+include_file: card discard the defective
+include_file: card explosive dismantling
+include_file: card battle of sullust
+include_file: card acquire a new apprentice
+include_file: card sith apprentices talent
+include_file: card honorable jedi knight
+include_file: card gungan battle party
+include_file: card geonosian grunt
+include_file: card zygerrian slaver
+include_file: card hevy devoted trooper
+include_file: card clone liutenant waxer
+include_file: card bossk trandoshan enforcer
+include_file: card droideka
+include_file: card cham syndulla radical captain
+include_file: card kit fisto frontline tactician
+include_file: card battle for the droid factory
+include_file: card super tank
+include_file: card jedi brain fog
+include_file: card grappling hook
+include_file: card coordinated strike
+include_file: card 501st legion
+include_file: card battle of kadavo
+include_file: card daring rescue
+include_file: card padawans talent
+include_file: card clan viszla
+include_file: card droid foundry
+include_file: card armored assault tank
+include_file: card droid repair bay
+include_file: card power cell array
+include_file: card arc-170 starfighter
+include_file: card droid coordinator
+include_file: card hutt tax collector
+include_file: card nute gunray trade viceroy
+include_file: card nala se genetic designer
+include_file: card shadow collective commando
+include_file: card super tactical droid
+include_file: card aurra sing deadly assassin
+include_file: card jawa salvage team
+include_file: card anakin skywalker 501st general
+include_file: card qui-gon jinn jedi wanderer
+include_file: card hunt for maul
+include_file: card mauls visions
+include_file: card revelation of the sith
+include_file: card mace windu bringer of justice
+include_file: card this partys over
+include_file: card windus judgement
+include_file: card duel of the fates
+include_file: card mauls saberstaff
+include_file: card twice the pride double the fall
+include_file: card dookus cloak
+include_file: card c-3po protocol specialist
+include_file: card wattos junkyard
+include_file: card padmé voice of the people
+include_file: card ipv-2c stealth corvette
+include_file: card mon mothma silent dissentor
+include_file: card gungan energy shield
+include_file: card buzz droid swarm
+include_file: card representatives talent
+include_file: card commander cody methodical leader
+include_file: card battle over coruscant
+include_file: card coruscant burning
+include_file: card ray shield
+include_file: card genetic template vault
+include_file: card technological breakthrough
+include_file: card jedi temple guard
+include_file: card stun blaster
+include_file: card r2-d2 daring savior
+include_file: card take a seat
+include_file: card jedi masters talent
+include_file: card arc trooper fives loyal brother
+include_file: card fives bearer of the truth
+include_file: card puppet ruler
+include_file: card battle of kashyyyk
+include_file: card escape pod
+include_file: card fives warning
+include_file: card brink of death
+include_file: card sith amulet
+include_file: card count dooku separatist leader
+include_file: card the galactic senate
+include_file: card vulture class starfighter
+include_file: card mother talzin harnesser of voodoo
+include_file: card hateful tutor
+include_file: card sith lords talent
+include_file: card palpatines command
+include_file: card battle of umbara
+include_file: card full frontal assault
+include_file: card dark reflection
+include_file: card the sandcrawler
+include_file: card assassins impulse
+include_file: card jango fett clone template
+include_file: card false friend
+include_file: card trash compacter
+include_file: card wrist mounted flamethrower
+include_file: card watto junkyard tycoon
+include_file: card spice slavers talent
+include_file: card echo victim of lola sayu
+include_file: card echo hero of anaxes
+include_file: card siege of mandalore
+include_file: card solitary containment vault
+include_file: card secret account
+include_file: card profitable carnage
+include_file: card obi-wan kenobi jedi master
+include_file: card republic gunship
+include_file: card wat tambor union foreman
+include_file: card kyber crystal
+include_file: card jedi sacrifice
+include_file: card droidmakers talent
+include_file: card captain rex loyal soldier
+include_file: card captain rex defier of orders
+include_file: card saw gerrera
+include_file: card battle of ringo vinda
+include_file: card inorganic material
+include_file: card skirmish on florrum
+include_file: card pirates and jedi
+include_file: card ancient sith holocron
+include_file: card security droid data core
+include_file: card mos eisley cantina
+include_file: card primary motivator
+include_file: card ancient jedi holocron
+include_file: card c-3po and r2-d2 droid duo
+include_file: card nubian royal starship
+include_file: card invisible hand
+include_file: card prototype iteration
+include_file: card unleash chaos
+include_file: card honor bound duel
+include_file: card cad bane infamous mercenary
+include_file: card anakin skywalker prodigy mechanic
+include_file: card plo koon guardian general
+include_file: card mastery of the force
+include_file: card general grievous droid general
+include_file: card ahsoka tano grey jedi
+include_file: card sith teachings
+include_file: card count dooku political mastermind
+include_file: card mace windu council champion
+include_file: card revival
+include_file: card rebellion on onderon
+include_file: card the wrong jedi
+include_file: card the clone who knew too much
+include_file: card duel in the senate
+include_file: card yoda sage general
+include_file: card duel on kamino
+include_file: card obi wans lightsaber
+include_file: card throne room massacre
+include_file: card sidious vengeful killer
+include_file: card duel on mustafar
+include_file: card vader the fallen
+include_file: card duel on utapau
+include_file: card obi wans varactyl
+include_file: card commander fox coruscant guard
+include_file: card admiral tarkin prosecutor
+include_file: card padmé amidala senator of naboo
+include_file: card qui-gon jinn force ghost
+include_file: card grand army mobilization
+include_file: card good soldiers follow orders
+include_file: card astromech interface socket
+include_file: card thunderous applause
+include_file: card yoda future seer
+include_file: card obi-wan the negotiator
+include_file: card darth sidious lord of the sith
+include_file: card trade federation battleship
+include_file: card jedi blindness
+include_file: card tragedy of darth plagueis
+include_file: card darth vader twisted by fear
+include_file: card the boonta eve classic
+include_file: card hondo ohnaka pirate king
+include_file: card slave i
+include_file: card anakin skywalker chosen one
+include_file: card poggle archduke of geonosis
+include_file: card jedi lightsaber
+include_file: card republic venator class cruiser
+include_file: card general grievous ruthless warlord
+include_file: card starship license
+include_file: card battle of lola sayu
+include_file: card hyperspace lanes
+include_file: card droid reprogramming
+include_file: card r2-d2 astromech companion
+include_file: card palpatine supreme chancellor
+include_file: card admiral trench cunning general
+include_file: card lama su prime minister
+include_file: card darth tyranus patient orchestrator
+include_file: card darth maul shadow lord
+include_file: card jango fett master bounty hunter
+include_file: card sebulba vicious pilot
+include_file: card commander rex and ahsoka
+include_file: card yoda part of the living force
+include_file: card first battle of geonosis
+include_file: card the clone wars
+include_file: card fall of the chosen one
+include_file: card darth vader sith lord
+include_file: card asajj ventress unlikely ally
+include_file: card order 66
+include_file: card abafar - droid marketplace
+include_file: card coruscant - stratified metropolis
+include_file: card mandalore - warriors haven
+include_file: card kamino - planet of storms
+include_file: card mustafar - bred for evil
+include_file: card geonosis - hive of war
+include_file: card florrum - outer rim paradise
+include_file: card tatooine - twin-sunned arena
+include_file: card naboo - idllyic world
+include_file: card mortis - balance point
+keyword:
+	keyword: Scrap
+	match: Scrap <atom-param>number</atom-param>
+	reminder: Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at {param1}+
+	rules: 
+	mode: custom
+keyword:
+	keyword: Contract
+	match: Contract <atom-param>number</atom-param>
+	reminder: Put {english_number(param1)} bounty counters on target creature. When that creature dies, create that many Treasure tokens.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Reclaim
+	match: Reclaim <atom-param>number</atom-param> <atom-param>cost</atom-param>
+	reminder: You may cast this card from your graveyard for its reclaim cost. If you do, it enters the battlefield with {param1} –1/–1 counters on it.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Duel
+	match: Duel
+	reminder: As a Duel enters, choose an opponent to protect it, then choose _ or _. When it’s defeated, exile it, then cast it transformed as your chosen winner.
+	rules: 
+	mode: custom
+version_control:
+	type: none
+apprentice_code: 

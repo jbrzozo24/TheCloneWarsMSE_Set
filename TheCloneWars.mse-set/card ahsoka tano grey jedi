@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 10:53:37
+	name: Ahsoka Tano, Grey Jedi
+	casting_cost: 1GWU
+	image: image315.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Togruta</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Jedi</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, put a +1/+1 counter on each creature you control. 
+		<kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a> 
+		<sym-auto>LLL</sym-auto>: Exile <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tano</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, then return her to the battlefield under your owner’s control. Activate only as a sorcery. 
+		<sym-auto>2GWU</sym-auto>, <sym-auto>T</sym-auto>: If a source would deal damage to you or target creature you control, it deals that damage to <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> instead.
+	flavor_text: <i-flavor>“I am no Jedi.”</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ12
+	card_code_text_2: 
+	card_code_text_3: 

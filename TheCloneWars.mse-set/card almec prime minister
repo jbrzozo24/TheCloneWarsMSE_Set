@@ -1,0 +1,40 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Almec, Prime Minister
+	casting_cost: 3B
+	image: image145.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Advisor</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Almec</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, target opponent may <kw-A><nospellcheck><key>Contract <param-number>2</param-number></key></nospellcheck> targeting <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Almec</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>. <atom-reminder-custom> <i-auto>(Put <param-number>two</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+		At the beginning of your upkeep, create a <kw-a><nospellcheck><key>Treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a>. 
+		<sym-auto>T</sym-auto>, Sacrifice three treasures: Destroy target creature or battle.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	power: 2
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UB06
+	card_code_text_2: 
+	card_code_text_3: 

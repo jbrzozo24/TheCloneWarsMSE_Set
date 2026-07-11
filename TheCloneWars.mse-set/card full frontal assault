@@ -1,0 +1,42 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 09:02:08
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	card_color: black
+	name: Full Frontal Assault
+	casting_cost: 
+	transformation: back triangle
+	image: image273.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Choose one — 
+		<li><bullet>• </bullet>Destroy all creatures. 
+		</li><li><bullet>• </bullet>Pay <sym-auto>OO</sym-auto>, choose two target creatures. They gain <kw-a><nospellcheck><key>deathtouch</key></nospellcheck></kw-a> until end of turn, then those creatures <kw-A><nospellcheck><key>fight</key></nospellcheck> each other.<atom-reminder-action> <i-auto>(Each deals damage equal to its power to the other.)</i-auto></atom-reminder-action></kw-A></li>
+	flavor_text:
+		<i-flavor>“Everyone, stop firing! We’re shooting at our own men! They’re not <error-spelling:en_US>Umbarans</error-spelling:en_US>! They’re clones!”
+		</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RB10B
+	card_code_text_2: 
+	card_code_text_3: 

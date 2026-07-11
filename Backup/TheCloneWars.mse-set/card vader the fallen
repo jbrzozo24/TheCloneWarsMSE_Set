@@ -1,0 +1,47 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-flip
+	stylesheet_version: 2024-06-06
+	has_styling: true
+	styling_data:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:20:25
+	card_color: black, multicolor
+	card_color_2: green, multicolor
+	name: Vader, The Fallen
+	name_2: Obi Wan, Blade of Mercy
+	casting_cost: 
+	casting_cost_2: 
+	image: image374.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Jedi</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Anakin</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> attacks alone, he gains <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> until end of turn.
+	rule_text_2: <sym-auto>1G</sym-auto>, <sym-auto>L</sym-auto>: You may have Obi Wan assign its combat damage as though it weren’t blocked.
+	flavor_text: <i-flavor>“I see through the lies of the Jedi”</i-flavor>
+	flavor_text_2: <i-flavor>“Only a <error-spelling:en_US>sith</error-spelling:en_US> deals in absolutes” — Then you’re a <error-spelling:en_US>sith</error-spelling:en_US> :|</i-flavor>
+	watermark: 
+	watermark_2: 
+	power: 4
+	power_2: 4
+	toughness: 2
+	toughness_2: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ23B_0
+	card_code_text_2: RZ23B_1
+	card_code_text_3: 
+	special_text: 

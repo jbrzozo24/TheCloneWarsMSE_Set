@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 10:41:25
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Security Droid Data Core
+	casting_cost: 3
+	image: image300.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Whenever an artifact creature you control deals combat damage to a player, you may pay <sym-auto>1</sym-auto>. If you do, draw a card.
+		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: Target artifact creature you control gets +2/+2 and gains <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor>Every patrol logged. Every breach recorded. Every intruder identified.</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RA02
+	card_code_text_2: 
+	card_code_text_3: 

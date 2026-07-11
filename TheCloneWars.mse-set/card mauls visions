@@ -1,0 +1,47 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-split-fusable
+	stylesheet_version: 2024-09-03
+	has_styling: true
+	styling_data:
+		frames: universes beyond
+		room_images: two images
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:27:56
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	card_color: blue, multicolor
+	card_color_2: white, multicolor
+	name: Maul’s Visions
+	name_2: Ahsoka's Visions
+	casting_cost: 
+	casting_cost_2: 
+	image: image222.png
+	image_2: image_21.png
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: <word-list-enchantment></word-list-enchantment>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: At the beginning of each opponent’s upkeep, if they have one or fewer cards in hand, they <kw-a><nospellcheck><key><param-mill>mill</param-mill> <param-one_word>two</param-one_word> car<param-*s>ds</param-*s></key></nospellcheck></kw-a>, until the end of your next turn, you may play one of the cards milled this way. Use mana of any color to cast spells this way.
+	rule_text_2: At the beginning of your upkeep, <kw-A><nospellcheck><key>surveil <param-number>2</param-number></key></nospellcheck>.<atom-reminder-action> <i-auto>(Look at the top <param-number>two</param-number> cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</i-auto></atom-reminder-action></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_2: <i-flavor></i-flavor>
+	watermark: 
+	watermark_2: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UZ11B_0
+	card_code_text_2: UZ11B_1
+	card_code_text_3: 
+	special_text: 

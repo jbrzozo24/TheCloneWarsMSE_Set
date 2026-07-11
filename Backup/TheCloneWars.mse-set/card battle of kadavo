@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-battles
+	stylesheet_version: 2025-01-21
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 21:22:18
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Battle of Kadavo
+	casting_cost: 3G
+	transformation: front triangle
+	image: image194.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Battle</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-battle>Siege</word-list-battle><soft><atom-sep> </atom-sep></soft><word-list-battle></word-list-battle>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: When Battle of <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Kadavo</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, create two 5/5 white republic gunship tokens with <kw-A><nospellcheck><key>scrap <param-number>2</param-number></key></nospellcheck>. You gain 2 life<atom-reminder-custom> <i-auto>(Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at <param-number>2</param-number>+)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty: 5
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UG16
+	card_code_text_2: 
+	card_code_text_3: 

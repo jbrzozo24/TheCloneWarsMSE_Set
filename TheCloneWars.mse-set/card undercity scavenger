@@ -1,0 +1,40 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Undercity Scavenger
+	casting_cost: 2B
+	image: image144.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Rogue</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text:
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Undercity</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Scavenger enters, each player loses 2 life. 
+		Whenever an opponent loses life, if you have less life than that player, you gain 1 life. 
+		<sym-auto>2B</sym-auto>, Pay 3 life: Return <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Undercity</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Scavenger from your graveyard to your hand.
+	flavor_text: <i-flavor>In the depths, the desperate feed on the scraps from above.</i-flavor>
+	watermark: 
+	power: 2
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UB04
+	card_code_text_2: 
+	card_code_text_3: 

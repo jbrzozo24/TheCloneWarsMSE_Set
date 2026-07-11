@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:06:09
+	name: R2-D2, Astromech Companion
+	casting_cost: 2WU
+	image: image24.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Artifact Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Droid</word-list-race-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		When R2-D2 enters and whenever you cast an artifact spell, put a +1/+1 counter on target artifact creature you control. 
+		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>. 
+		<sym-auto>1U</sym-auto>, Remove a +1/+1 counter from R2-D2: Target creature can’t attack or block until the end of your turn. 
+		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Exile two cards from the top of your library, you may play an artifact with mana value 3 or less from among them without paying its mana cost.
+	flavor_text: <i-flavor>“Beep beep <error-spelling:en_US>boop</error-spelling:en_US> <error-spelling:en_US>wheaaaoooooaao</error-spelling:en_US>!”</i-flavor>
+	watermark: 
+	power: 3
+	toughness: 3
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MZ01
+	card_code_text_2: 
+	card_code_text_3: 

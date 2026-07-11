@@ -1,0 +1,49 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-flip
+	stylesheet_version: 2024-06-06
+	has_styling: true
+	styling_data:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:13:29
+	card_color: black, multicolor
+	card_color_2: red, multicolor
+	name: Sidious, Vengeful Killer
+	name_2: Maul and Savage, Scrappy Duo
+	casting_cost: 
+	casting_cost_2: 
+	image: image216.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Human</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Sith</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Assassin</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: <word-list-race-en>Sith</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Duo</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sidious</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, each opponent discards a card, then sacrifices a creature.
+	rule_text_2:
+		<kw-a><nospellcheck><key>Menace</key></nospellcheck></kw-a> When, Maul and Savage enters, you may sacrifice a creature, when you do, you gain an emblem which says “Scrap abilities you control require one fewer charge counter to become a creature.” 
+		Whenever you attack with Maul and Savage, you may choose to have them attack as two separate creatures. If you do, you may <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>divy</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> up their power and toughness in any way you choose.
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_2: <i-flavor></i-flavor>
+	watermark: 
+	watermark_2: 
+	power: 3
+	power_2: 4
+	toughness: 3
+	toughness_2: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ22B_0
+	card_code_text_2: RZ22B_1
+	card_code_text_3: 
+	special_text: 

@@ -1,0 +1,52 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-saga
+	stylesheet_version: 2024-09-23
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-01 13:05:41
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Astromech's Talent
+	casting_cost: 1U
+	image: image140.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment>Class</word-list-enchantment><soft><atom-sep> </atom-sep></soft><word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	chapter_text: <i>(Gain the next level as a sorcery to add its ability.)</i>
+	rule_text: The first artifact spell you cast each turn costs <sym-auto>1</sym-auto> less to cast. Level 2 <sym-auto>1U</sym-auto>: When this class becomes level <sym-auto>2</sym-auto>, exile cards off the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in any order. Level 3 <sym-auto>5U</sym-auto>: At the beginning of your end step, create a token that’s a copy of target artifact you control.
+	rule_text_3: 
+	flavor_text: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	watermark: 
+	level_2: Level 2
+	level_3: Level 3
+	level_1_text: The first artifact spell you cast each turn costs <sym-auto>1</sym-auto> less to cast.
+	level_2_text: <margin:0:0:30>When this class becomes level <nosym>2</nosym>, exile cards off the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in any order.</margin:0:0:30>
+	level_3_text: <margin:0:0:30>At the beginning of your end step, create a token that’s a copy of target artifact you control.</margin:0:0:30>
+	level_4_text: 
+	level_9_text: <sym-auto>1U</sym-auto>:
+	level_10_text: <sym-auto>5U</sym-auto>:
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UU18
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		<i>(Gain the next level as a sorcery to add its ability.)</i>
+		The first artifact spell you cast each turn costs <sym-auto>1</sym-auto> less to cast.
+		<sym-auto>1U</sym-auto>: Level 2
+		<margin:0:0:30>When this class becomes level <nosym>2</nosym>, exile cards off the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in any order.</margin:0:0:30>
+		<sym-auto>5U</sym-auto>: Level 3
+		<margin:0:0:30>At the beginning of your end step, create a token that’s a copy of target artifact you control.</margin:0:0:30>

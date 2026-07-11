@@ -1,0 +1,37 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 08:21:33
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Technological Breakthrough
+	casting_cost: 3UU
+	image: image248.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		Artifact creatures you control have “Whenever this creature becomes tapped, put a +1/+1 counter on it.”
+		<kw-A><nospellcheck><key>Exhaust — <param-cost><sym-auto>5WU</sym-auto></param-cost>: <param-action>Create a token that’s a copy of each artifact creature you control. Activate only as a sorcery</param-action>.</key></nospellcheck><atom-reminder-expert> <i-auto>(Activate each exhaust ability only once.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor>The Clone Wars accelerated innovation across the galaxy.</i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RU02
+	card_code_text_2: 
+	card_code_text_3: 

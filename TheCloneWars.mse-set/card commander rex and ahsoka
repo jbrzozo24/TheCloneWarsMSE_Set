@@ -1,0 +1,44 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: true
+	styling_data:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:37:59
+	name: Commander Rex and Ahsoka
+	casting_cost: 4GW
+	image: image17.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Jedi</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Clone</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text:
+		When Rex and <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, exile target creature, then return it to the battlefield under its owners control.
+		<kw-a><nospellcheck><key>First strike</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a>
+		<sym-auto>L</sym-auto>: Set to Stun - Prevent all combat damage that would be dealt to target creature until end of turn.
+		<kw-A><nospellcheck><key>Escape—<param-cost> <sym-auto>3GW</sym-auto>, Exile four cards from your graveyard</param-cost>.</key></nospellcheck><atom-reminder-expert> <i-auto>(You may cast this card from your graveyard for its escape cost.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor>“This Ship Is Going Down And Those Soldiers, My Brothers, Are Willing To Die And Take You And Me Along With Them.”</i-flavor>
+	watermark: 
+	power: 3
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MZ09
+	card_code_text_2: 
+	card_code_text_3: 

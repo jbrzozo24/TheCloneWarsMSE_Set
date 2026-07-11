@@ -1,0 +1,38 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 22:28:01
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Hyperspace Lanes
+	casting_cost: 
+	transformation: back triangle
+	image: image333.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Enchantment</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: Crafts you control gain <kw-a><nospellcheck><key>flash</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a>, and “Exhaust <sym-auto>1</sym-auto>: This craft becomes an artifact creature until end of turn.”
+	flavor_text:
+		<i-flavor>“These hyperspace lanes are of immense interest to both our sides and could tip the scale of the war to whomever is in possession of them.” 
+		- <error-spelling:en_US>Plo</error-spelling:en_US> <error-spelling:en_US>Koon</i-flavor></error-spelling:en_US>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MA03B
+	card_code_text_2: 
+	card_code_text_3: 

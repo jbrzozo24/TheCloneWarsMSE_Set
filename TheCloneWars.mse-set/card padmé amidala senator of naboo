@@ -1,0 +1,53 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-planeswalker
+	stylesheet_version: 2024-09-01
+	has_styling: true
+	styling_data:
+		override_levels: automatic
+		other_options: un-indent nonloyalty abilities
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-02 11:17:59
+	name: Padmé Amidala, Senator of Naboo
+	casting_cost: 3WW
+	image: image226.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Legendary Planeswalker</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-planeswalker>Padmé</word-list-planeswalker><soft><atom-sep> </atom-sep></soft><word-list-planeswalker></word-list-planeswalker>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: mythic rare
+	rule_text: <sym>1</sym>: Create a 1/1 human citizen token with <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a> [−3]: Create a token that’s a copy of target artifact you control. [−5]: Put a +1/1 counter on each artifact creature you control, they gain “when this creature dies, draw a card.”
+	flavor_text: <i-flavor>“I will not let this Republic that has stood for a thousand years be split in two.”</i-flavor>
+	watermark: 
+	loyalty_cost_1: +1
+	loyalty_cost_2: -3
+	loyalty_cost_3: -5
+	loyalty_cost_4: 
+	loyalty: 4
+	level_1_text: <margin:130:0:0>Create a 1/1 human citizen token with <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a></margin:130:0:0>
+	level_2_text: <margin:130:0:0>Create a token that’s a copy of target artifact you control.</margin:130:0:0>
+	level_3_text: <margin:130:0:0>Put a +1/1 counter on each artifact creature you control, they gain “when this creature dies, draw a card.”</margin:130:0:0>
+	level_4_text: 
+	level_5_text: 
+	toughness: 4
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: MW01
+	card_code_text_2: 
+	card_code_text_3: 
+	special_text:
+		[+1]: <margin:130:0:0>Create a 1/1 human citizen token with <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a></margin:130:0:0>
+		[-3]: <margin:130:0:0>Create a token that’s a copy of target artifact you control.</margin:130:0:0>
+		[-5]: <margin:130:0:0>Put a +1/1 counter on each artifact creature you control, they gain “when this creature dies, draw a card.”</margin:130:0:0>

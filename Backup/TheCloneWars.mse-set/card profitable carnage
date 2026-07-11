@@ -1,0 +1,38 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2025-10-05
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-04 23:47:09
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Profitable Carnage
+	casting_cost: 3GG
+	image: image367.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Sorcery</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-spell></word-list-spell>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		<kw-A><nospellcheck><key>Plot <param-cost><sym-auto>4GG</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay <param-mana><sym-auto>4GG</sym-auto></param-mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
+		<kw-A><nospellcheck><key>Contract <param-number>5</param-number></key></nospellcheck>. <atom-reminder-custom> <i-auto>(Put <param-number>five</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+		Creatures you control get +1/+1 and gain <kw-a><nospellcheck><key>trample</key></nospellcheck></kw-a> until end of turn. 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RG01
+	card_code_text_2: 
+	card_code_text_3: 

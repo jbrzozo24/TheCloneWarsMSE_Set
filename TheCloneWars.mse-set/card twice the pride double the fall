@@ -1,0 +1,36 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-battles
+	stylesheet_version: 2025-01-21
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-01 13:06:09
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Twice The Pride, Double the Fall
+	casting_cost: G/WG/W
+	image: image229.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Battle</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-battle>Duel</word-list-battle><soft><atom-sep> </atom-sep></soft><word-list-battle></word-list-battle>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: uncommon
+	rule_text: <kw-A><nospellcheck><key>Duel</key></nospellcheck>, when this card enters, draw a card if your opponent has more cards than you, or search your library for a basic land and put it onto the battlefield if your opponent controls more lands than you.<atom-reminder-custom> <i-auto>(As a Duel enters, choose an opponent to protect it, then choose _ or _. When it’s defeated, exile it, then cast it transformed as your chosen winner.)</i-auto></atom-reminder-custom></kw-A>
+	flavor_text: <i-flavor></i-flavor>
+	watermark: 
+	loyalty: 6
+	toughness: 6
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: UZ15
+	card_code_text_2: 
+	card_code_text_3: 

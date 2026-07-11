@@ -1,0 +1,39 @@
+﻿mse_version: 2.5.8
+card:
+	stylesheet: m15-mainframe-battles
+	stylesheet_version: 2025-01-21
+	has_styling: false
+	notes: 
+	time_created: 2026-04-21 21:48:00
+	time_modified: 2026-05-05 00:10:17
+	extra_data:
+		magic-m15-altered: vorthos_box: Jack Brzozowski
+	name: Duel in the Senate
+	casting_cost: 3W/BW/B
+	transformation: front triangle
+	image: image375.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Battle</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-battle>Duel</word-list-battle><soft><atom-sep> </atom-sep></soft><word-list-battle></word-list-battle>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: rare
+	rule_text:
+		<kw-1><nospellcheck><key>Duel</key></nospellcheck><atom-reminder-custom> <i-auto>(As a Duel enters, choose an opponent to protect it, then choose _ or _. When it’s defeated, exile it, then cast it transformed as your chosen winner.)</i-auto></atom-reminder-custom></kw-1>
+		When <kw-0><nospellcheck><key>Duel</key></nospellcheck></kw-0> in the Senate enters, if you chose Yoda, you gain 3 life. If you chose <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Palpatine</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, you may sacrifice a creature. If you do, target creature gains <kw-A><nospellcheck><key>shadow</key></nospellcheck> until end of turn.<atom-reminder-expert> <i-auto>(That creature can block or be blocked by only creatures with shadow.)</i-auto></atom-reminder-expert></kw-A>
+	flavor_text: <i-flavor>“If so powerful you are... why leave?” “You will not stop me”</i-flavor>
+	watermark: 
+	loyalty: 5
+	toughness: 5
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: RZ20
+	card_code_text_2: 
+	card_code_text_3: 
