@@ -4,32 +4,33 @@ card:
 	stylesheet_version: 2025-10-05
 	has_styling: false
 	notes: 
-	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 10:18:58
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-05-05 22:43:42
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
-	name: Jedi Mind Trick
-	casting_cost: 1G
-	image: image289.png
+	card_color: land, multicolor
+	name: Fabled Passage
+	casting_cost: 
+	image: image103.png
 	image_2: 
 	mainframe_image: 
 	mainframe_image_2: 
-	super_type: <word-list-type-en>Instant</word-list-type-en>
+	super_type: <word-list-type-en>Land</word-list-type-en>
 	super_type_2: <word-list-type-en></word-list-type-en>
 	super_type_3: <word-list-type-en></word-list-type-en>
 	super_type_4: <word-list-type-en></word-list-type-en>
-	sub_type: <word-list-spell></word-list-spell>
+	sub_type: <word-list-land></word-list-land>
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
 	rarity: rare
-	rule_text: Target creature you control gains “When another creature you control would be dealt damage, you may have this creature be dealt that damage instead” until end of turn. Draw a card.
+	rule_text: <sym-auto>T</sym-auto>, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond
-	illustrator: LUCASFILM
+	illustrator: Andreas Rocha
 	custom_card_number: 
-	card_code_text: RG06
+	card_code_text: CL01
 	card_code_text_2: 
 	card_code_text_3: 

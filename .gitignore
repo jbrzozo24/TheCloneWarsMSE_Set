@@ -2,3 +2,4 @@ __pycache__/
 Test.mse-set/
 test_cfg.yaml
 set_builder.log
+*.log
