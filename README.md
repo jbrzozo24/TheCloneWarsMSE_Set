@@ -8,3 +8,6 @@ cd magic_the_gathering_projects/src/mse_set_builder_app/
 ```
 
 You'll need to set up google_auth in mse_set_builder_app/google_auth, follow the readme in mse_set_builder_app.
+
+# Set Version 3.0
+This is the set after the first two draft playtests covering half of the set.
