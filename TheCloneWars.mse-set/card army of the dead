@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-05 08:39:05
+	time_modified: 2026-07-18 18:21:58
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -26,7 +26,7 @@ card:
 	rarity: uncommon
 	rule_text:
 		As an additional cost to cast this spell, sacrifice a creature. 
-		Whenever a creature is put into your graveyard, create a 1/1 <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>undead</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> skeleton creature token wit <kw-A><nospellcheck><key>decayed</key></nospellcheck> and “Whenever you commit a <kw-0><nospellcheck><key>crime</key></nospellcheck></kw-0>, this creature gets +1/+0 until end of turn.<atom-reminder-expert> <i-auto>(It can’t block. When it attacks, sacrifice it at end of combat.)</i-auto></atom-reminder-expert></kw-A>
+		Whenever a creature is put into your graveyard, create a 1/1 <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>undead</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> skeleton creature token with <kw-A><nospellcheck><key>decayed</key></nospellcheck> and “Whenever you commit a <kw-0><nospellcheck><key>crime</key></nospellcheck></kw-0>, this creature gets +1/+0 until end of turn.”<atom-reminder-expert> <i-auto>(It can’t block. When it attacks, sacrifice it at end of combat.)</i-auto></atom-reminder-expert></kw-A>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

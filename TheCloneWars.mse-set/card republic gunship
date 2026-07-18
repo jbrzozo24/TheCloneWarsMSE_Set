@@ -4,6 +4,7 @@ card:
 	stylesheet_version: 2025-10-05
 	has_styling: true
 	styling_data:
+		frames: vehicle
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
@@ -11,7 +12,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 10:17:36
+	time_modified: 2026-07-18 18:26:14
 	name: Republic Gunship
 	casting_cost: 1GG
 	image: image286.png
@@ -30,7 +31,7 @@ card:
 	rule_text:
 		When Republic Gunship enters the battlefield, create a 1/1 white Clone Trooper creature token.
 		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>. <kw-0><nospellcheck><key>scrap <param-number>2</param-number></key></nospellcheck></kw-0>. 
-		Whenever Republic Gunship attacks, you may pay <sym-auto>2</sym-auto>. If you do, put target Clone Trooper creature card from your graveyard onto the battlefield tapped and attacking.
+		Whenever Republic Gunship attacks, you may pay <sym-auto>2</sym-auto>. If you do, put target Clone creature card from your graveyard onto the battlefield tapped and attacking.
 	flavor_text:
 		<i-flavor>Rapid deployment for the Republic’s finest.
 		</i-flavor>

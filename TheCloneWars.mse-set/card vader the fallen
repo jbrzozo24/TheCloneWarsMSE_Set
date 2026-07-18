@@ -8,7 +8,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-05 00:20:25
+	time_modified: 2026-07-18 18:25:54
 	card_color: black, multicolor
 	card_color_2: green, multicolor
 	name: Vader, The Fallen
@@ -28,7 +28,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: rare
-	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Anakin</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> attacks alone, he gains <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> until end of turn.
+	rule_text: When Vader attacks alone, he gains <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a> until end of turn.
 	rule_text_2: <sym-auto>1G</sym-auto>, <sym-auto>L</sym-auto>: You may have Obi Wan assign its combat damage as though it weren’t blocked.
 	flavor_text: <i-flavor>“I see through the lies of the Jedi”</i-flavor>
 	flavor_text_2: <i-flavor>“Only a <error-spelling:en_US>sith</error-spelling:en_US> deals in absolutes” — Then you’re a <error-spelling:en_US>sith</error-spelling:en_US> :|</i-flavor>

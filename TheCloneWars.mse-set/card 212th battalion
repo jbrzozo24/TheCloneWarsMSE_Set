@@ -1,4 +1,4 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-saga
 	stylesheet_version: 2024-09-23
@@ -24,14 +24,14 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	chapter_text: <i>(Gain the next level as a sorcery to add its ability.)</i>
-	rule_text: When 212th Battalion enters, create a 2/2 white Clone Trooper creature token. Then, you may pay 2 any number of times. For each time you paid 2 this way, create a 2/2 white Clone Trooper creature token. Level 2 2W: Clones you control have vigilance. Level 3 3W: Whenever a Clone or Jedi you control attacks, put a +1/+1 counter on each creature you control.
+	rule_text: When 212<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>th</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <kw-A><i-auto><nospellcheck><key>Battalion</key></nospellcheck></i-auto></kw-A> enters, create a 2/2 white Clone Trooper creature token. Then, you may pay 2 any number of times. For each time you paid 2 this way, create a 2/2 white Clone Trooper creature token. Level 2 <sym-auto>2W</sym-auto>: Clones you control have <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a>. Level 3 <sym-auto>3W</sym-auto>: Whenever a Clone or Jedi you control attacks, put a +1/+1 counter on each creature you control.
 	rule_text_3: 
 	flavor_text: <i-flavor></i-flavor>
 	flavor_text_3: <i-flavor></i-flavor>
 	watermark: 
 	level_2: Level 2
 	level_3: Level 3
-	level_1_text: When 212th Battalion enters, create a 2/2 white Clone Trooper creature token. Then, you may pay 2 any number of times. For each time you paid 2 this way, create a 2/2 white Clone Trooper creature token.
+	level_1_text: When 212<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>th</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <kw-A><i-auto><nospellcheck><key>Battalion</key></nospellcheck></i-auto></kw-A> enters, create a 2/2 white Clone Trooper creature token. Then, you may pay 2 any number of times. For each time you paid 2 this way, create a 2/2 white Clone Trooper creature token.
 	level_2_text: <margin:0:0:30>Clones you control have <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a>.</margin:0:0:30>
 	level_3_text: <margin:0:0:30>Whenever a Clone or Jedi you control attacks, put a +1/+1 counter on each creature you control.</margin:0:0:30>
 	level_4_text: 
@@ -45,7 +45,7 @@ card:
 	card_code_text_3: 
 	special_text:
 		<i>(Gain the next level as a sorcery to add its ability.)</i>
-		When 212<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>th</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Attack <kw-A><i-auto><nospellcheck><key>Battalion</key></nospellcheck></i-auto></kw-A> enters, create a 2/2 white Clone Trooper creature token with <kw-A><nospellcheck><key>squad <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck>.<atom-reminder-expert> <i-auto>(As an additional cost to cast this spell, you may pay <param-cost><sym-auto>2</sym-auto></param-cost> any number of times. When this creature enters, create that many tokens that are copies of it.)</i-auto></atom-reminder-expert></kw-A>
+		When 212<error-spelling:en_US:/magic.mse-game/dictionary/magic-words>th</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <kw-A><i-auto><nospellcheck><key>Battalion</key></nospellcheck></i-auto></kw-A> enters, create a 2/2 white Clone Trooper creature token. Then, you may pay 2 any number of times. For each time you paid 2 this way, create a 2/2 white Clone Trooper creature token.
 		<sym-auto>2W</sym-auto>: Level 2
 		<margin:0:0:30>Clones you control have <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a>.</margin:0:0:30>
 		<sym-auto>3W</sym-auto>: Level 3

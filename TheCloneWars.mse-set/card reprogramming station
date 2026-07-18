@@ -1,4 +1,4 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
@@ -19,7 +19,7 @@ card:
 	super_type_2: <word-list-type-en></word-list-type-en>
 	super_type_3: <word-list-type-en></word-list-type-en>
 	super_type_4: <word-list-type-en></word-list-type-en>
-	sub_type: Craft Cruiser
+	sub_type: <word-list-artifact>Craft</word-list-artifact><atom-sep> </atom-sep><word-list-artifact>Cruiser</word-list-artifact><soft><atom-sep> </atom-sep></soft><word-list-artifact></word-list-artifact>
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 

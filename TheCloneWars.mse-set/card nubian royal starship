@@ -12,7 +12,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 10:43:52
+	time_modified: 2026-07-18 18:28:11
 	name: Nubian Royal Starship
 	casting_cost: 3WB
 	image: image305.png
@@ -29,8 +29,9 @@ card:
 	sub_type_4: 
 	rarity: rare
 	rule_text:
-		When Nubian Royal <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Starship</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, exile target creature or planeswalker
+		When Nubian Royal <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Starship</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, exile target creature or planeswalker.
 		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>vigilance</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a>
+		<kw-A><nospellcheck><key>Scrap <param-number>2</param-number></key></nospellcheck><atom-reminder-custom> <i-auto>(Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at <param-number>2</param-number>+)</i-auto></atom-reminder-custom></kw-A>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 4

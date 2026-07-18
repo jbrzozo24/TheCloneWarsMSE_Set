@@ -1,4 +1,4 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-mainframe-battles
 	stylesheet_version: 2025-01-21
@@ -25,8 +25,8 @@ card:
 	sub_type_4: 
 	rarity: rare
 	rule_text:
-		When Siege of Mandalore enters, contract 3. 
-		If you control a Jedi or outlaw, create a 2/2 clone trooper token with haste.
+		When Siege of <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Mandalore</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, <kw-A><nospellcheck><key>contract <param-number>3</param-number></key></nospellcheck>. <atom-reminder-custom> <i-auto>(Put <param-number>three</param-number> bounty counters on target creature. When that creature dies, create that many Treasure tokens.)</i-auto></atom-reminder-custom></kw-A>
+		If you control a Jedi or <kw-A><nospellcheck><key>outlaw</key></nospellcheck>, create a 2/2 clone trooper token with <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a>.<atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	loyalty: 5

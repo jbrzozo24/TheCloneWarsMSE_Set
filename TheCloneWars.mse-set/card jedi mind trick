@@ -1,11 +1,11 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-07-18 17:18:33
+	time_modified: 2026-07-18 18:08:47
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Damage that would be dealt to target permanent this turn is dealt instead to another target creature, planewalker, or battle you control. If it was kicked, copy this spell without its kicker, you may choose new targets for the copy.
+	rule_text: Damage that would be dealt to target permanent this turn is dealt instead to another target creature, planeswalker, or battle you control. If it was kicked, copy this spell without its kicker, you may choose new targets for the copy.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-07-18 18:21:25
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Whenever <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Gungan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Battle <kw-A><nospellcheck><key>Party</key></nospellcheck> attacks, if you control three or more creatures, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Gungan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Battle <kw-A><nospellcheck><key>Party</key></nospellcheck> gets +2/+2 until end of turn<blob></kw-A><moved><atom-reminder-action> <i-auto>(Your party consists of up to one of each of Cleric, Rogue, Warrior, and Wizard.)</i-auto></atom-reminder-action></kw-A></moved></blob>
+	rule_text: Whenever <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Gungan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Battle <kw-0><nospellcheck><key>Party</key></nospellcheck></kw-0> attacks, if you control three or more creatures, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Gungan</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Battle <kw-0><nospellcheck><key>Party</key></nospellcheck></kw-0> gets +2/+2 until end of turn
 	flavor_text: <i-flavor>“<error-spelling:en_US>Yousa</error-spelling:en_US> right. Thinking time’s-a done!”</i-flavor>
 	watermark: 
 	power: 2

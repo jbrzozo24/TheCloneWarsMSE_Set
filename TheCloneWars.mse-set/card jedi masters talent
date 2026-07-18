@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 08:07:00
+	time_modified: 2026-07-18 18:29:59
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Jedi Master's Talent
@@ -37,7 +37,7 @@ card:
 		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra after this one.
 		</margin:0:0:30>
 	level_4_text: 
-	level_9_text: <sym-auto>U</sym-auto>:
+	level_9_text: <sym-auto>2U</sym-auto>:
 	level_10_text: <sym-auto>3UU</sym-auto>:
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
@@ -48,7 +48,7 @@ card:
 	special_text:
 		<i>(Gain the next level as a sorcery to add its ability.)</i>
 		You may look at the top card of your library at any time.
-		<sym-auto>U</sym-auto>: Level 2
+		<sym-auto>2U</sym-auto>: Level 2
 		<margin:0:0:30>You may play cards and cast spells from the top of your library, when you do you get <sym-auto>LL</sym-auto>.</margin:0:0:30>
 		<sym-auto>3UU</sym-auto>: Level 3
 		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra after this one.

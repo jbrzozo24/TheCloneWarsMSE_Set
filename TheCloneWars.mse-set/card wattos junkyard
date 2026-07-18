@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 07:37:29
+	time_modified: 2026-07-18 18:31:00
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -26,7 +26,7 @@ card:
 	rarity: rare
 	rule_text:
 		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Watto’s</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Junkyard enters, create two scrap tokens. 
-		Whenever a craft you control becomes a creature, exile target creature you control, then return it to the <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>battlefiled</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> under its owner’s control.
+		Whenever a craft you control becomes a creature, exile target creature you control, then return it to the battlefield under its owner’s control.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

@@ -560,8 +560,6 @@ include_file: card florrum - outer rim paradise
 include_file: card tatooine - twin-sunned arena
 include_file: card naboo - idllyic world
 include_file: card mortis - balance point
-include_file: card geonosian hive queen
-include_file: card plo koon wolfpack general
 keyword:
 	keyword: Scrap
 	match: Scrap <atom-param>number</atom-param>

@@ -1,15 +1,16 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-mainframe-battles
 	stylesheet_version: 2025-01-21
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-07-18 17:17:18
+	time_modified: 2026-07-18 18:22:22
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Battle of Christophsis
 	casting_cost: 2WW
+	transformation: front triangle
 	image: image121.png
 	image_2: 
 	mainframe_image: 
@@ -26,12 +27,11 @@ card:
 	rule_text: When Battle of <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Christophsis</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, create two 1/1 white Clone Soldier creature tokens.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
-	loyalty: 
+	loyalty: 4
+	toughness: 4
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
 	custom_card_number: 
 	card_code_text: UW17
 	card_code_text_2: 
 	card_code_text_3: 
-	toughness: 4
-	transformation: front triangle

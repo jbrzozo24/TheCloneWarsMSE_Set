@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 08:56:39
+	time_modified: 2026-07-18 18:23:27
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Battle of Umbara
@@ -27,7 +27,7 @@ card:
 	rule_text: When Battle of <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Umbara</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, you may sacrifice a creature, when you do, draw a card and you gain 2 life.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
-	loyalty: 
+	loyalty: 4
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
 	custom_card_number: 

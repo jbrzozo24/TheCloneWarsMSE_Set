@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-07-18 18:24:21
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Geonosian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Hive Wurm dies, you may pay <sym-auto>B</sym-auto>, when you do, return <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Geonosian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Hive Mind to the Battlefield tapped and it Endures Battle Droids 1.
+	rule_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Geonosian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Hive Wurm dies, you may pay <sym-auto>B</sym-auto>, when you do, return <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Geonosian</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Hive Wurm to the Battlefield tapped and it Endures Battle Droids 1.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 2

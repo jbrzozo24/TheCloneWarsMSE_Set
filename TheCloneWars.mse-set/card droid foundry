@@ -12,7 +12,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-01 13:05:48
+	time_modified: 2026-07-18 18:12:59
 	name: Droid Foundry
 	casting_cost: 3
 	image: image202.png
@@ -29,9 +29,9 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		<kw-A><nospellcheck><key>Scrap <param-number>3</param-number></key></nospellcheck> <atom-reminder-custom> <i-auto>(Sacrifice an artifact you control, put a charge counter onto this card. If it’s an artifact creature, instead put charge counters equal to its power onto this card. Scrap only as a sorcery. It’s an artifact creature at <param-number>3</param-number>+)</i-auto></atom-reminder-custom></kw-A>
+		<kw-0><nospellcheck><key>Scrap <param-number>3</param-number></key></nospellcheck></kw-0>
 		Droid Foundry’s power and toughness is equal to the number of charge counters on it.
-		Remove a charge counter from Droid Foundry: Target creature endures battle droids 1. Activate this ability only as a sorcery.
+		Remove a charge counter from Droid Foundry: Target creature endures battle droids 1. Activate this ability only as a sorcery and only once per turn.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: *
