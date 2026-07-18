@@ -1,11 +1,11 @@
-﻿mse_version: 2.5.8
+mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-07-18 17:16:48
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -25,8 +25,8 @@ card:
 	sub_type_4: 
 	rarity: common
 	rule_text:
-		<kw-a><nospellcheck><key>Enchant <param-name>creature</param-name></key></nospellcheck></kw-a>
-		Enchanted creature loses all abilities and is a white and black human noble creature token with base power and toughness 1/1 named Definitely Not A <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
+		Enchant creature
+		Enchanted creature loses all abilities and is a white and black human noble creature with base power and toughness 1/1 named Definitely Not A Sith.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond
