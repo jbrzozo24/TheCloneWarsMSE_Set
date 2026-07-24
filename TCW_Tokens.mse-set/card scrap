@@ -1,0 +1,30 @@
+﻿mse_version: 2.5.8
+card:
+	has_styling: true
+	styling_data:
+		frames: M20
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	notes: 
+	time_created: 2026-07-12 05:51:05
+	time_modified: 2026-07-12 05:58:26
+	card_color: artifact
+	name: Scrap
+	image: image4.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Token Artifact</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-artifact>Scrap</word-list-artifact><soft><atom-sep> </atom-sep></soft><word-list-artifact></word-list-artifact>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rule_text: When this artifact is used for a scrap ability, put an additional charge counter on that target
+	flavor_text: <i-flavor></i-flavor>
+	card_stamp: universes beyond
+	card_code_text: 
+	card_code_text_2: 
+	card_code_text_3: 

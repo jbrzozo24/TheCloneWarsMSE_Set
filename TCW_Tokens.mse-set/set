@@ -1,0 +1,53 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2025-06-14
+stylesheet: m15-mainframe-tokens
+stylesheet_version: 2025-01-11
+set_info:
+	symbol: 
+	masterpiece_symbol: 
+styling:
+	magic-m15-altered:
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-tokens:
+		frames: M20
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-outlaws-tokens:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-token-invention:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+include_file: card battle droid
+include_file: card scrap
+include_file: card clone trooper
+include_file: card clone trooper.1
+include_file: card clone trooper.2
+include_file: card clone trooper.3
+include_file: card pit droid
+include_file: card pit droid leader
+include_file: card droid
+include_file: card battle droid.1
+include_file: card clone trooper.4
+include_file: card jawa
+include_file: card clone trooper.5
+include_file: card zombie
+include_file: card sith apprentice
+include_file: card republic gunship
+include_file: card droid.1
+include_file: card clone trooper.6
+include_file: card clone trooper.7
+include_file: card droid.2
+include_file: card rebel
+include_file: card clone trooper.8
+include_file: card human citizen
+include_file: card demon
+include_file: card warrior
+version_control:
+	type: none
+apprentice_code: 
