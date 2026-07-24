@@ -1,0 +1,26 @@
+﻿mse_version: 2.5.8
+card:
+	has_styling: false
+	notes: 
+	time_created: 2026-07-12 06:20:08
+	time_modified: 2026-07-12 21:46:00
+	card_color: white, green, multicolor, horizontal
+	name: Pit Droid Leader
+	image: image13.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Token Artifact Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Pit</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Droid</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Leader</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	power: 2
+	toughness: 3
+	card_stamp: universes beyond
+	card_code_text: 
+	card_code_text_2: 
+	card_code_text_3: 
