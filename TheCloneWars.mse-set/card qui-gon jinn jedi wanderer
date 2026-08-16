@@ -4,6 +4,10 @@ card:
 	stylesheet_version: 2025-10-05
 	has_styling: true
 	styling_data:
+		shrink_name_text: 
+		shrink_typeline_text: 
+		font_cap: 
+		custom_pt_font: 
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
@@ -11,9 +15,9 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 10:16:19
+	time_modified: 2026-08-16 13:55:19
 	name: Qui-Gon Jinn, Jedi Wanderer
-	casting_cost: 2GU
+	casting_cost: 1GU
 	image: image213.png
 	image_2: 
 	mainframe_image: 
@@ -28,13 +32,15 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		When this card enters, you get <sym-auto>LLL</sym-auto>. 
-		Whenever you spend one or more <sym-auto>L</sym-auto>, draw a card.
-		<sym-auto>LLL</sym-auto>: Untap target permanent, then tap target artifact, creature, or land an opponent controls.
-	flavor_text: <i-flavor>“Control is not domination -- it is harmony”</i-flavor>
+		When this card enters, you get <sym-auto>LL</sym-auto>. 
+		Whenever you spend one or more <sym-auto>L</sym-auto>, draw a card. This ability triggers only once each turn.
+		<sym-auto>LLL</sym-auto>: Untap target permanent you control, then tap target artifact, creature, or land an opponent controls.
+	flavor_text:
+		<i-flavor>“Control is not domination -- it is harmony”
+		</i-flavor>
 	watermark: 
 	power: 2
-	toughness: 3
+	toughness: 2
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
 	custom_card_number: 

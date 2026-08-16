@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-16 14:04:57
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -23,7 +23,7 @@ card:
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
-	rarity: uncommon
+	rarity: common
 	rule_text:
 		<kw-a><nospellcheck><key>Trample</key></nospellcheck></kw-a>
 		Whenever a creature you control dies, put a +1/+1 counter on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Gamorrean</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Guard.

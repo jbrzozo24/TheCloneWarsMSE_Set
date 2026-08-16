@@ -1,11 +1,11 @@
-﻿mse_version: 2.5.8
+mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-16 15:48:22
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Return target artifact creature card from your graveyard to the battlefield with a <kw-a><nospellcheck><key>finality counter</key></nospellcheck></kw-a> on it. You may pay <sym-auto>OO</sym-auto>, when you do it gains <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a> until end of turn.
+	rule_text: Return target artifact creature card from your graveyard to the battlefield with a finality counter on it, it gains haste. You may pay OO, when you do it gains double strike until end of turn.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

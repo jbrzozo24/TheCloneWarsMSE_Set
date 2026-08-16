@@ -5,13 +5,13 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-16 14:57:18
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
 	name: Now There Are Two Of Them!
 	casting_cost: 3UU
-	image: image128.png
+	image: image282.png
 	image_2: 
 	mainframe_image: 
 	mainframe_image_2: 
@@ -24,7 +24,9 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Create a token copy of any creature on the battlefield, if it was an artifact creature, then put a +1/+1 counter on it and draw a card.
+	rule_text:
+		This spell costs <sym-auto>2</sym-auto> less to cast if you’ve cast an instant or sorcery spell this turn.
+		Create a token that’s a copy of target creature.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

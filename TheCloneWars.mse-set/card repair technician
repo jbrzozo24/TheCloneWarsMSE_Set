@@ -5,11 +5,11 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-16 14:29:24
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
-	name: Medical Droid
+	name: Repair Technician
 	casting_cost: 3U
 	image: image32.png
 	image_2: 
@@ -26,9 +26,9 @@ card:
 	rarity: common
 	rule_text:
 		<kw-A><nospellcheck><key>Kicker <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay an additional <param-mana><sym-auto>2</sym-auto></param-mana> as you cast this spell.)</i-auto></atom-reminder-expert></kw-A>
-		When Medical Droid enters, return target creature an opponent controls to its owners hand. If it was kicked, draw a card.
+		When Repair Technician enters, return target creature an opponent controls to its owners hand. If it was kicked, draw a card.
 	flavor_text: <i-flavor></i-flavor>
-	watermark: 
+	watermark: guild symbol The Izzet (U/R)
 	power: 2
 	toughness: 2
 	card_stamp: universes beyond

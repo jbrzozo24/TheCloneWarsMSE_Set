@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-16 15:16:12
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -19,16 +19,18 @@ card:
 	super_type_2: <word-list-type-en></word-list-type-en>
 	super_type_3: <word-list-type-en></word-list-type-en>
 	super_type_4: <word-list-type-en></word-list-type-en>
-	sub_type: <word-list-race-en>Clone</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Trooper</word-list-class-en><atom-sep> </atom-sep><word-list-class-en>Citizen</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type: <word-list-race-en>Clone</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Citizen</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
 	sub_type_2: 
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		Whenever you cast a noncreature spell, you may sacrifice a Clone. When you do, choose one — 
-		<li><bullet>• </bullet>Target clone you control gains +2/+0 and <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a> until end of turn. 
+		Whenever you cast a noncreature spell, choose one — 
+		<li><bullet>• </bullet>Create a 2/2 red clone creature token that’s tapped and attacking. Sacrifice it at the beginning of your next end step. 
 		</li><li><bullet>• </bullet>Create a <kw-a><nospellcheck><key>treasure toke<param-*s>n</param-*s></key></nospellcheck></kw-a>.</li>
-	flavor_text: <i-flavor>“More efficient than a number? I doubt the <error-spelling:en_US>Kaminoans</error-spelling:en_US> would think that way”</i-flavor>
+	flavor_text:
+		<i-flavor>“More efficient than a number? I doubt the <error-spelling:en_US>Kaminoans</error-spelling:en_US> would think that way”
+		</i-flavor>
 	watermark: 
 	power: 2
 	toughness: 3

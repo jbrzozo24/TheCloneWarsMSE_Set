@@ -28,7 +28,7 @@ styling:
 	magic-m15-altered:
 		frames: 
 		other_options: avoid covering devoid, auto vehicles, auto snow, auto nyx crowns, auto ub, auto spacecraft
-		font_cap: 11
+		font_cap: 
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
@@ -216,7 +216,7 @@ include_file: card techno service droid
 include_file: card maintenance trooper
 include_file: card separatist infiltrators
 include_file: card trade federation officer
-include_file: card medical droid
+include_file: card repair technician
 include_file: card astromech investigator
 include_file: card kamino stormcaller
 include_file: card naboo n-1 starfighter
@@ -242,7 +242,7 @@ include_file: card intercept beacon transmissions
 include_file: card drain the living force
 include_file: card galactic disturbance
 include_file: card dark side temptations
-include_file: card lone raider
+include_file: card unmodified template
 include_file: card immoral general
 include_file: card patrolian robot fish
 include_file: card guild member
@@ -263,7 +263,7 @@ include_file: card gungan operative
 include_file: card rocket droid squadron
 include_file: card gamorrean guard
 include_file: card jedi youngling initiate
-include_file: card meandering bantha
+include_file: card sparring padawan
 include_file: card leader of kashyyyk
 include_file: card delta 7 jedi starfighter
 include_file: card shatter the holocron

@@ -27,16 +27,6 @@ before turn four at common.
 | 2.3 | `CG07` Meandering Bantha | **Cut** (Common, R... green). A 10/6 for `2GGG` is far outside the common power band and its `5: You get LL` is never activated. | Proposed |
 | 2.4 | *Sparring Padawan* (new) | **Add** (Common, green) — replaces 2.3. `1G` 2/2 Creature — Human Jedi. "When Sparring Padawan enters, you get L. Whenever you spend one or more L, Sparring Padawan gets +1/+1 until end of turn." | Proposed |
 
-Rationale for 2.2: a signpost uncommon at 4 can't signal during the game. The
-draw trigger *is* the signpost; the untap/tap mode is a second card's worth of
-text. Once-per-turn is not optional at 3 mana.
-
-Alternative to 2.3 if the Bantha stays: cut `CG03` Gungan Operative instead
-(Glue two-drop, curve-neutral swap, costs some land fixing).
-
-**Weighted Simic creature curve, MV 1–6:** `2 / 6 / 4 / 13 / 8 / 7` →
-`2 / 8 / 8 / 9 / 6 / 7`. Total unchanged at 40.
-
 ### Kamino — Izzet: fewest playables in the set
 
 **Finding.** Izzet has 96 weighted playables, last of ten, 41 behind Azorius.
@@ -56,47 +46,29 @@ two-colour archetype with a one-colour identity.
 | 2.10 | `CR15` Twin Blaster Showdown | **Cut** (Common, red). Six-mana common referencing outlaws, scrapping *and* contract on one card — the identity-crisis problem in miniature. | Proposed |
 | 2.11 | *Double Blaster Volley* (new) | **Add** (Common, red) — replaces 2.10. `1R` Instant. "Deals 2 damage to any target. If you've cast another spell this turn, copy this spell. You may choose new targets for the copy." Red copy card + spells payoff + one more removal common. | Proposed |
 
-**Balance ledger (weighted playables):**
-
-| Change | Izzet | Azorius | Gruul | Rakdos |
-|---|---|---|---|---|
-| 2.5 Lone Raider → Izzet | +2 | | −2 | −2 |
-| 2.6 Medical Droid retheme | +2 | −2 | | |
-| 2.7 Now There Are Two Of Them! | — | −2 | | |
-| 2.8/2.9 blue common swap | +2 | −2 | | |
-| 2.10/2.11 red common swap | +2 | | −2 | |
-| **Net** | **+8** | **−6** | **−4** | **−2** |
-| **Before → after** | 96 → **104** | 137 → **131** | 112 → **108** | 114 → **112** |
-
-Izzet moves from last to 7th of ten, inside the bottom cluster
-(Boros 102, Selesnya 102, Orzhov 100) rather than below it.
-
-### Not yet specified
-
-Directional findings from the same pass, no cards drafted yet:
-
-- **Dimir one-drops.** 9 weighted at MV 1 against 30 at MV 2, and almost all
-  non-creature. Wants one common one-drop creature each in U and B with
-  board-relevant text. Needs two same-rarity cuts.
-- **Selesnya interaction.** Thinnest instant/sorcery line in the set — 8 weighted
-  spells across MV 1–3, zero at MV 5–6. Fix via the planned removal commons,
-  weighted so *opponents* can answer a wide board (a cheap sweeper at common
-  taxes Selesnya without nerfing it directly).
-- **Simic MV 6.** Now the second-tallest bar at 7 weighted; `CU07` Kamino
-  Stormcaller is a common 5/5 for six. Revisit if Simic still feels clunky.
-- **Colorless artifact concentration.** Azorius carries 78 weighted generic
-  pickups, the most in the set, almost all colorless artifacts. `CA01` Hologram
-  Projector is the obvious candidate to carry a spells-matter trigger, held back
-  because it currently feeds Boros (102), which can't afford the loss.
-
 ---
 
-## Pass 1 — post-draft design document
+## Pass 3 — v3 MSE application (2026-08-16)
 
-- Add ~5 removal commons (removal is ~6 of 79 commons vs. a healthy 12–15%).
-- Consolidate Rakdos around one Plot/Dark Side → payoff loop; cut sacrifice,
-  crime, Morbid and Sith tribal gating.
-- Double scrap fodder-making commons (4 → 8); cap scrap costs at 2/3/4 by rarity.
-- Address Selesnya's strength via removal additions rather than direct nerfs.
-- Concentrate copy-referencing cards into Izzet; add copy-themed commons.
-  *(Changes 2.7, 2.9, 2.11 begin this.)*
+### Pass 2 proposals now applied
+
+| # | Card | Change | Status |
+|---|---|---|---|
+| 3.1 | `CG06` Jedi Youngling Initiate | **Applied as proposed (2.1).** `3G` 3/4 → `2G` 2/3. ETB `LLL` → `LL`. "Untap up to two creatures" → "`LL`: Untap target creature you control." | Applied |
+| 3.2 | `UZ10` Qui-Gon Jinn, Jedi Wanderer | **Applied, deviates from 2.2.** `2GU` 2/3 → `1GU` 2/2. ETB `LLL` → `LL`. Draw trigger now reads "This ability triggers only once each turn." **The `LLL` untap/tap ability was kept**, narrowed to "Untap target permanent *you control*." 2.2 called for deleting it as a second card's worth of text; it is still there at a lower mana cost. | Applied |
+| 3.3 | `CG07` Meandering Bantha → *Sparring Padawan* | **Applied, deviates from 2.3/2.4.** In-place rename of the same common green slot. `2GGG` 10/6 Beast → `1G` **1/3** Human Jedi with vigilance: "Whenever Sparring Padawan attacks, you get `L`. Whenever you spend one or more `L`, Sparring Padawan gets +1/+1 until end of turn." 2.4 specified a 2/2 with an **ETB** `L`; the shipped card is a 1/3 whose `L` is gated behind attacking, which is slower to turn on than the proposal intended. New art `image245.png`. | Applied |
+| 3.4 | `CR01` Lone Raider → *Unmodified Template* | **Applied, deviates from 2.5.** Renamed; Rogue Citizen → Human Clone; gains **haste and prowess**. But `R` **1/1** (2.5 asked for 1/2) and **the "dies → create a Treasure" trigger was kept**. The point of 2.5 was to strip a Gruul currency off a Glue card; that currency is still on it, so the Izzet/Gruul ledger line for 2.5 no longer holds. New art `image249.png`. | Applied |
+| 3.5 | `CU05` Medical Droid → *Repair Technician* | **Applied, deviates from 2.6.** Renamed and given an Izzet guild watermark. **The type line was not changed — still Creature — Droid Artificer.** 2.6's whole argument was that the word "Droid" is what makes an Izzet tempo card read as Azorius; the watermark signals Izzet to the drafter but the Droid type still feeds every Azorius artifact/droid payoff. Rules text unchanged apart from the name. | Applied |
+| 3.6 | `UU06` Now There Are Two Of Them! | **Applied, redesigned from 2.7.** Artifact rider dropped as proposed. The spells payoff moved from a rider onto the cost instead: "This spell costs `2` less to cast if you've cast an instant or sorcery spell this turn. Create a token that's a copy of target creature." Cost stays `3UU`, so it's effectively `1UU` in the Izzet deck and unplayable elsewhere — a sharper archetype signal than 2.7's version. New art `image282.png`. | Applied |
+
+### New changes, not from Pass 2
+
+| # | Card | Change | Status |
+|---|---|---|---|
+| 3.7 | `UR04` Clone Deserter | **Modify.** Sacrifice-a-Clone additional cost removed. Modes are now "Create a 2/2 red Clone creature token that's tapped and attacking, sacrifice it at the beginning of your next end step" or "Create a Treasure." Also `+2/+0` and menace mode dropped. Subtype Clone Trooper Citizen → Clone Citizen. `2R` 2/3 unchanged. | Applied |
+| 3.8 | `UR15` Discard the Defective | **Modify.** "As an additional cost, sacrifice a creature" removed. Adds "If this is the second spell you've cast this turn, copy it, you may choose new targets for the copy." Both existing modes unchanged. Second Izzet copy/spells-matter card in this batch. | Applied |
+| 3.9 | `CG05` Gamorrean Guard | **Modify.** Rarity **uncommon → common**. No cost, stat or text change. ⚠ This is the one change in the batch that breaks a fixed budget: nothing moved common → uncommon to balance it, so the set is now 81 commons / 109 uncommons against the fixed 80/110. Needs a paired demotion or promotion before the next export. | Applied |
+| 3.10 | `CG08` Leader of Kashyyyk | **Modify.** `4GG` → `3GG`. | Applied |
+| 3.11 | `MZ07` Jango Fett, Master Bounty Hunter | **Modify.** Crime trigger gated to once per turn: "Whenever you commit a crime **for the first time each turn**, contract 2." Flying/haste, the `RR` unblockable attack trigger and Escape `5RG` unchanged. | Applied |
+| 3.12 | `UB08` Maul, Broken by Hatred | **Modify.** Template fix, no design change: "Whenever a creature you commit a crime" → "Whenever a creature **you control commits** a crime." The Sith sacrifice cost and the `1BR` halving ability are unchanged — note this leaves Rakdos Sith tribal gating in place, which Pass 1 wanted cut. | Applied |
+| 3.13 | `UB10` Rebuild the Legion | **Modify.** The returned artifact creature now **gains haste**. Finality counter and the `OO` double strike rider unchanged. | Applied |
