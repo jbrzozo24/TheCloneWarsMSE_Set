@@ -1,0 +1,336 @@
+Code,Name,Color,Rarity,Weight,CMC,Type,Bucket,Archetypes,NumArchetypes,Selesnya,Orzhov,Azorius,Dimir,Simic,Izzet,Rakdos,Golgari,Gruul,Boros
+CW01,Clone Trooper Regiment,W,Common,2,1,Creature,Creature,Orzhov; Azorius; Selesnya,3,designed,generic,generic,,,,,,,
+CW02,Coruscant Street Urchin,W,Common,2,1,Creature,Creature,Orzhov,1,,designed,,,,,,,,
+CW03,Coruscant Senator,W,Common,2,2,Creature,Creature,Orzhov; Selesnya,2,secondary,designed,,,,,,,,
+CW04,Communication Specialist,W,Common,2,2,Artifact Creature,Creature,Orzhov; Azorius,2,,generic,designed,,,,,,,
+CW05,Droid Processing Unit,W,Common,2,3,Artifact,Other,Azorius,1,,,designed,,,,,,,
+CW06,Winged Womp Rat,W,Common,2,3,Creature,Creature,Boros,1,,,,,,,,,,designed
+CW07,Republic Deployment,W,Common,2,4,Sorcery,Instant/Sorcery,Azorius; Selesnya,2,designed,,generic,,,,,,,
+CW08,Pit Droid Team,W,Common,2,5,Sorcery,Instant/Sorcery,Azorius,1,,,designed,,,,,,,
+CW09,Senate Commando,W,Common,2,6,Creature,Creature,Orzhov; Azorius; Selesnya; Boros,4,designed,generic,generic,,,,,,,generic
+CW10,Zillo Beast,W,Common,2,7,Creature,Creature,Orzhov; Azorius; Selesnya; Boros,4,generic,designed,generic,,,,,,,generic
+CW11,Clegg Holdfast's Podracer,W,Common,2,4,Artifact,Other,Azorius; Boros,2,,,generic,,,,,,,designed
+CW12,False Start,W,Common,2,2,Instant,Instant/Sorcery,Boros,1,,,,,,,,,,designed
+CW13,Scrap Salvage,W,Common,2,1,Instant,Instant/Sorcery,Boros,1,,,,,,,,,,designed
+CW14,Republic Battle Tactics,W,Common,2,2,Instant,Instant/Sorcery,Orzhov,1,,generic,,,,,,,,
+CW15,Containment Field,W,Common,2,3,Enchantment,Other,Orzhov,1,,generic,,,,,,,,
+CU01,Techno Service Droid,U,Common,2,1,Creature,Creature,Azorius; Dimir,2,,,secondary,designed,,,,,,
+CU02,Maintenance Trooper,U,Common,2,2,Creature,Creature,Azorius; Izzet,2,,,generic,,,designed,,,,
+CU03,Separatist Infiltrators,U,Common,2,2,Creature,Creature,Azorius; Golgari; Dimir,3,,,generic,designed,,,,secondary,,
+CU04,Trade Federation Officer,U,Common,2,3,Creature,Creature,Dimir,1,,,,designed,,,,,,
+CU05,Medical Droid,U,Common,2,4,Creature,Creature,Azorius,1,,,designed,,,,,,,
+CU06,Astromech Investigator,U,Common,2,5,Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+CU07,Kamino Stormcaller,U,Common,2,6,Creature,Creature,Simic; Izzet; Dimir,3,,,,generic,secondary,designed,,,,
+CU08,Naboo N-1 Starfighter,U,Common,2,4,Artifact,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,designed,secondary,,,,
+CU09,Force Push,U,Common,2,3,Sorcery,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,designed,generic,,,,
+CU10,Clone Batch Production,U,Common,2,3,Instant,Instant/Sorcery,Azorius; Izzet,2,,,generic,,,designed,,,,
+CU11,Jedi Meditation,U,Common,2,2,Instant,Instant/Sorcery,Simic,1,,,,,designed,,,,,
+CU12,Force Stasis,U,Common,2,1,Enchantment,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+CU13,Moment of Stillness,U,Common,2,4,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+CU14,Run Away Together,U,Common,2,2,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+CU15,Develop a Plan,U,Common,2,1,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,designed,generic,generic,generic,,,,
+CB01,Sith Acolyte,B,Common,2,1,Creature,Creature,Golgari; Rakdos,2,,,,,,,designed,generic,,
+CB02,Battle Droid Scout,B,Common,2,2,Artifact Creature,Creature,Golgari; Dimir; Rakdos,3,,,,generic,,,generic,designed,,
+CB03,Apprentice of the Dark Side,B,Common,2,2,Creature,Creature,Rakdos,1,,,,,,,designed,,,
+CB04,Weequay Pirate,B,Common,2,3,Creature,Creature,Dimir,1,,,,designed,,,,,,
+CB05,Pyke Syndicate Warrior,B,Common,2,3,Creature,Creature,Orzhov; Golgari; Rakdos,3,,designed,,,,,generic,generic,,
+CB06,Mastiff Phalones,B,Common,2,4,Creature,Creature,Orzhov,1,,designed,,,,,,,,
+CB07,The Last Geonosian,B,Common,2,5,Creature,Creature,Golgari,1,,,,,,,,designed,,
+CB08,Banking Clan Enforcer,B,Common,2,5,Creature,Creature,Orzhov; Dimir,2,,generic,,designed,,,,,,
+CB09,Trade Federation MTT,B,Common,2,5,Artifact,Other,Golgari; Dimir,2,,,,generic,,,,designed,,
+CB10,Sabotage Mission,B,Common,2,3,Sorcery,Instant/Sorcery,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,designed,,,generic,generic,,
+CB11,Political Leverage,B,Common,2,2,Instant,Instant/Sorcery,Orzhov; Golgari; Dimir; Rakdos,4,,designed,,generic,,,generic,generic,,
+CB12,Intercept Beacon Transmissions,B,Common,2,4,Sorcery,Instant/Sorcery,Rakdos,1,,,,,,,designed,,,
+CB13,Drain the Living Force,B,Common,2,3,Instant,Instant/Sorcery,Golgari; Rakdos,2,,,,,,,designed,generic,,
+CB14,Galactic Disturbance,B,Common,2,4,Instant,Instant/Sorcery,Golgari; Dimir; Rakdos,3,,,,secondary,,,secondary,secondary,,
+CB15,Dark Side Temptations,B,Common,2,2,Enchantment,Other,Golgari; Rakdos,2,,,,,,,secondary,secondary,,
+CR01,Lone Raider,R,Common,2,1,Creature,Creature,Gruul; Rakdos,2,,,,,,,secondary,,secondary,
+CR02,Immoral General,R,Common,2,2,Creature,Creature,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,generic,,generic,generic
+CR03,Patrolian Robot Fish,R,Common,2,2,Artifact Creature,Creature,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,generic,,designed,generic
+CR04,Guild Member,R,Common,2,3,Creature,Creature,Gruul; Rakdos,2,,,,,,,generic,,designed,
+CR05,Warmonger's Fodder,R,Common,2,3,Creature,Creature,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,designed,,secondary,generic
+CR06,Clone Paratrooper,R,Common,2,3,Creature,Creature,Azorius; Izzet; Boros,3,,,secondary,,,designed,,,,secondary
+CR07,Coruscanti Protestor,R,Common,2,4,Creature,Creature,Rakdos,1,,,,,,,designed,,,
+CR08,Hutt Clan Member,R,Common,2,4,Creature,Creature,Gruul,1,,,,,,,,,designed,
+CR09,Anakin's Speeder Bike,R,Common,2,2,Artifact,Other,Boros,1,,,,,,,,,,designed
+CR10,Junkpile Diving,R,Common,2,2,Instant,Instant/Sorcery,Boros,1,,,,,,,,,,designed
+CR11,Huttese Contract,R,Common,2,3,Sorcery,Instant/Sorcery,Gruul,1,,,,,,,,,designed,
+CR12,Simulated Combat Drill,R,Common,2,2,Instant,Instant/Sorcery,Gruul; Izzet; Rakdos; Boros,4,,,,,,designed,generic,,generic,generic
+CR13,Separatist Bombardment,R,Common,2,5,Instant,Instant/Sorcery,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,designed,,generic,generic
+CR14,Clone Trooper Blaster,R,Common,2,1,Artifact,Other,Izzet; Boros,2,,,,,,designed,,,,generic
+CR15,Twin Blaster Showdown,R,Common,2,6,Enchantment,Other,Gruul,1,,,,,,,,,designed,
+CG01,ARC Trooper Elite,G,Common,2,1,Creature,Creature,Selesnya,1,designed,,,,,,,,,
+CG02,Tuned Assassin,G,Common,2,2,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,designed,
+CG03,Gungan Operative,G,Common,2,2,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+CG04,Rocket Droid Squadron,G,Common,2,3,Artifact Creature,Creature,Golgari; Selesnya,2,generic,,,,,,,designed,,
+CG05,Gamorrean Guard,G,Common,2,4,Creature,Creature,Gruul; Golgari,2,,,,,,,,generic,designed,
+CG06,Jedi Youngling Initiate,G,Common,2,4,Creature,Creature,Simic,1,,,,,designed,,,,,
+CG07,Meandering Bantha,G,Common,2,5,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+CG08,Leader of Kashyyyk,G,Common,2,6,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,designed,,,,generic,,,generic,generic,
+CG09,Delta 7 Jedi Starfighter,G,Common,2,3,Artifact,Other,Simic; Selesnya,2,designed,,,,generic,,,,,
+CG10,Shatter the Holocron,G,Common,2,3,Sorcery,Instant/Sorcery,Golgari,1,,,,,,,,designed,,
+CG11,Commune with Bounty Hunters,G,Common,2,2,Sorcery,Instant/Sorcery,Gruul; Golgari,2,,,,,,,,secondary,designed,
+CG12,Pursue the Bounty,G,Common,2,3,Instant,Instant/Sorcery,Gruul,1,,,,,,,,,designed,
+CG13,Luminara's Safekeeping,G,Common,2,1,Instant,Instant/Sorcery,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+CG14,Jedi Training Grounds,G,Common,2,1,Enchantment,Other,Simic,1,,,,,designed,,,,,
+CG15,Jango's Poison Dart,G,Common,2,1,Artifact,Other,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,designed,
+CA01,Hologram Projector,Colorless,Common,2,2,Artifact,Other,Azorius; Golgari; Boros,3,,,designed,,,,,generic,,secondary
+CA02,Credit Vault,Colorless,Common,2,3,Artifact,Other,Gruul; Orzhov; Dimir,3,,generic,,designed,,,,,generic,
+CA03,Network Terminal,Colorless,Common,2,3,Artifact,Other,Gruul; Orzhov; Azorius; Golgari; Simic; Izzet; Selesnya; Dimir; Rakdos; Boros,10,generic,generic,designed,generic,generic,generic,generic,generic,generic,generic
+CA04,Ohnaka's Florrum Rum,Colorless,Common,2,2,Artifact,Other,Gruul; Orzhov; Azorius; Golgari; Simic; Izzet; Selesnya; Dimir; Rakdos; Boros,10,generic,generic,designed,generic,generic,generic,generic,generic,generic,generic
+CA05,Grievous' Medical Droid,Colorless,Common,2,6,Artifact Creature,Creature,Gruul; Azorius; Golgari,3,,,secondary,,,,,designed,generic,
+RL01,Hallowed Fountain,WU,Rare,1,0,Land,Land,Azorius,1,,,designed,,,,,,,
+RL02,Godless Shrine,WB,Rare,1,0,Land,Land,Orzhov,1,,designed,,,,,,,,
+RL03,Watery Grave,UB,Rare,1,0,Land,Land,Dimir,1,,,,designed,,,,,,
+RL04,Steam Vents,UR,Rare,1,0,Land,Land,Izzet,1,,,,,,designed,,,,
+RL05,Blood Crypt,BR,Rare,1,0,Land,Land,Rakdos,1,,,,,,,designed,,,
+RL06,Overgrown Tomb,BG,Rare,1,0,Land,Land,Golgari,1,,,,,,,,designed,,
+RL07,Stomping Ground,RG,Rare,1,0,Land,Land,Gruul,1,,,,,,,,,designed,
+RL08,Sacred Foundry,RW,Rare,1,0,Land,Land,Boros,1,,,,,,,,,,designed
+RL09,Temple Garden,GW,Rare,1,0,Land,Land,Selesnya,1,designed,,,,,,,,,
+RL10,Breeding Pool,GU,Rare,1,0,Land,Land,Simic,1,,,,,designed,,,,,
+CL01,Fabled Passage,Colorless,Rare,1,0,Land,Land,Gruul; Orzhov; Azorius; Golgari; Simic; Izzet; Selesnya; Dimir; Rakdos; Boros,10,generic,generic,generic,generic,generic,generic,generic,generic,generic,generic
+UW01,"Shmi Skywalker, Desert Survivor",W,Uncommon,2,2,Creature,Creature,Orzhov; Boros,2,,generic,,,,,,,,designed
+UW02,"Bail Organa, Principled Senator",W,Uncommon,2,3,Legendary Creature,Creature,Orzhov,1,,designed,,,,,,,,
+UW03,"Huyang, Lightsaber Architect",W,Uncommon,2,3,Legendary Creature,Creature,Azorius; Boros,2,,,designed,,,,,,,generic
+UW04,212th Battalion,W,Uncommon,2,3,Enchantment,Other,Azorius; Selesnya,2,designed,,generic,,,,,,,
+UW05,Astromech Navigator,W,Uncommon,2,4,Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+UW06,Duchess of Mandalore,W,Uncommon,2,4,Creature,Creature,Orzhov,1,,designed,,,,,,,,
+UW07,"Obi-Wan Kenobi, Patient General",W,Uncommon,2,5,Legendary Creature,Creature,Azorius; Selesnya,2,designed,,generic,,,,,,,
+UW08,Sebulba's Pod,W,Uncommon,2,5,Legendary Artifact,Other,Boros,1,,,,,,,,,,designed
+UW09,Droid Distress Network,W,Uncommon,2,1,Artifact,Other,Orzhov; Azorius,2,,generic,designed,,,,,,,
+UW10,Clone Trooper Helmet,W,Uncommon,2,1,Artifact,Other,Azorius; Selesnya; Boros,3,designed,,generic,,,,,,,generic
+UW11,Republic Battle Tactics,W,Uncommon,2,1,Enchantment,Other,Orzhov; Selesnya,2,designed,generic,,,,,,,,
+UW12,Dismantle For Parts,W,Uncommon,2,2,Sorcery,Instant/Sorcery,Orzhov; Azorius; Selesnya; Boros,4,generic,generic,generic,,,,,,,generic
+UW13,Spare Hyperdrive,W,Uncommon,2,2,Artifact,Other,Orzhov; Azorius; Simic; Selesnya,4,secondary,generic,designed,,secondary,,,,,
+UW14,Assassinate the Exposed,W,Uncommon,2,2,Instant,Instant/Sorcery,Orzhov; Azorius; Simic; Selesnya; Boros,5,secondary,generic,generic,,secondary,,,,,generic
+UW15,Coordinated Assault,W,Uncommon,2,3,Instant,Instant/Sorcery,Orzhov; Azorius; Selesnya; Boros,4,designed,generic,generic,,,,,,,generic
+UW16,Senatorial Decree,W,Uncommon,2,3,Enchantment,Other,Orzhov; Selesnya,2,secondary,designed,,,,,,,,
+UW17,Battle of Christophsis,W,Uncommon,2,4,Battle,Other,Azorius; Selesnya,2,generic,,generic,,,,,,,
+UW18,Mechanic's Talent,W,Uncommon,2,1,Enchantment,Other,Boros,1,,,,,,,,,,designed
+UU01,Clone Vat Technician,U,Uncommon,2,2,Creature,Creature,Azorius; Izzet,2,,,generic,,,designed,,,,
+UU02,Y-Wing Squadron Leader,U,Uncommon,2,2,Creature,Creature,Azorius; Izzet,2,,,generic,,,designed,,,,
+UU03,"Ahsoka Tano, Padawan Learner",U,Uncommon,2,3,Legendary Creature,Creature,Simic,1,,,,,designed,,,,,
+UU04,AZ-345211896246498721347,U,Uncommon,2,3,Legendary Artifact Creature,Creature,Azorius,1,,,generic,,,,,,,
+UU05,Separatist Saboteur,U,Uncommon,2,4,Creature,Creature,Azorius; Simic; Izzet; Dimir,4,,,generic,designed,generic,generic,,,,
+UU06,Now There Are Two Of Them!,U,Uncommon,2,5,Sorcery,Instant/Sorcery,Azorius; Izzet,2,,,designed,,,generic,,,,
+UU07,Reprogramming Station,U,Uncommon,2,6,Artifact,Other,Azorius; Simic; Izzet; Dimir,4,,,designed,generic,generic,generic,,,,
+UU08,Jedi Temple Archives,U,Uncommon,2,5,Enchantment,Other,Simic,1,,,,,designed,,,,,
+UU09,Inhibitor Chip,U,Uncommon,2,4,Legendary Enchantment Artifact,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,designed,,,,
+UU10,Don't Try It,U,Uncommon,2,2,Instant,Instant/Sorcery,Izzet,1,,,,,,designed,,,,
+UU11,Trade Federation Blockade,U,Uncommon,2,3,Enchantment,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,designed,generic,generic,,,,
+UU12,Jedi Training Helmet,U,Uncommon,2,1,Artifact,Other,Azorius; Simic,2,,,designed,,generic,,,,,
+UU13,Jedi Mind Trick,U,Uncommon,2,1,Instant,Instant/Sorcery,Simic; Izzet,2,,,,,designed,generic,,,,
+UU14,Tactical Retreat,U,Uncommon,2,2,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,designed,generic,generic,,,,
+UU15,Shape The Force,U,Uncommon,2,2,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+UU16,Wolfpack Battalion,U,Uncommon,2,3,Enchantment,Other,Azorius; Izzet,2,,,generic,,,designed,,,,
+UU17,Battle of Anaxes,U,Uncommon,2,3,Battle,Other,Izzet; Dimir,2,,,,designed,,secondary,,,,
+UU18,Astromech's Talent,U,Uncommon,2,2,Enchantment,Other,Azorius; Izzet,2,,,designed,,,generic,,,,
+UB01,Nightsister Initiate,B,Uncommon,2,2,Creature,Creature,Golgari; Rakdos,2,,,,,,,designed,generic,,
+UB02,Geonosian Hive Wurm,B,Uncommon,2,2,Creature,Creature,Golgari; Dimir; Rakdos,3,,,,generic,,,generic,designed,,
+UB03,Super Battle Droid,B,Uncommon,2,3,Artifact Creature,Creature,Golgari; Dimir,2,,,,generic,,,,designed,,
+UB04,Undercity Scavenger,B,Uncommon,2,3,Creature,Creature,Orzhov; Golgari; Dimir,3,,designed,,secondary,,,,secondary,,
+UB05,"Jar Jar Binks, Sith Lord?",B,Uncommon,2,4,Legendary Creature,Creature,Orzhov; Rakdos,2,,secondary,,,,,designed,,,
+UB06,"Almec, Prime Minister",B,Uncommon,2,4,Creature,Creature,Orzhov; Golgari; Dimir; Rakdos,4,,designed,,generic,,,generic,generic,,
+UB07,IG-100 MagnaGuard,B,Uncommon,2,4,Artifact Creature,Creature,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,designed,,,generic,generic,,
+UB08,"Maul, Broken by Hatred",B,Uncommon,2,5,Legendary Creature,Creature,Rakdos,1,,,,,,,designed,,,
+UB09,The Malevolence,B,Uncommon,2,3,Artifact,Other,Golgari,1,,,,,,,,designed,,
+UB10,Rebuild the Legion,B,Uncommon,2,4,Sorcery,Instant/Sorcery,Golgari,1,,,,,,,,designed,,
+UB11,Nightsister Energy Bow,B,Uncommon,2,1,Artifact,Other,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,generic,,,secondary,generic,,
+UB12,Separatist Intelligence Network,B,Uncommon,2,2,Enchantment,Other,Orzhov; Dimir,2,,secondary,,designed,,,,,,
+UB13,Political Assassination,B,Uncommon,2,2,Sorcery,Instant/Sorcery,Orzhov; Golgari; Dimir; Rakdos,4,,designed,,generic,,,generic,generic,,
+UB14,Is that legal?,B,Uncommon,2,2,Instant,Instant/Sorcery,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,secondary,,,designed,generic,,
+UB15,Dooku's Manipulation,B,Uncommon,2,6,Sorcery,Instant/Sorcery,Golgari; Dimir,2,,,,designed,,,,generic,,
+UB16,Palpatine's Revelation,B,Uncommon,2,5,Sorcery,Instant/Sorcery,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,designed,,,generic,generic,,
+UB17,Battle of Dathomir,B,Uncommon,2,5,Battle,Other,Orzhov,1,,generic,,,,,,,,
+UB18,Separatist's Talent,B,Uncommon,2,2,Enchantment,Other,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,designed,,,generic,generic,,
+UR01,"Rako, Marksman of Concord Dawn",R,Uncommon,2,2,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+UR02,"Hondo, Pirate Captain",R,Uncommon,2,2,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+UR03,Anakin's Podracer,R,Uncommon,2,3,Artifact,Other,Boros,1,,,,,,,,,,designed
+UR04,Clone Deserter,R,Uncommon,2,3,Creature,Creature,Gruul; Izzet,2,,,,,,designed,,,generic,
+UR05,"Asajj Ventress, Sith's Apprentice",R,Uncommon,2,3,Legendary Creature,Creature,Rakdos,1,,,,,,,designed,,,
+UR06,"Watto, Toydarian Junkdealer",R,Uncommon,2,3,Creature,Creature,Gruul; Boros,2,,,,,,,,,generic,designed
+UR07,Scrapyard Smelter Droid,R,Uncommon,2,5,Artifact Creature,Creature,Boros,1,,,,,,,,,,designed
+UR08,"Savage, Manipulated Brute",R,Uncommon,2,5,Creature,Creature,Rakdos,1,,,,,,,designed,,,
+UR09,Army of the Dead,R,Uncommon,2,4,Enchantment,Other,Gruul; Rakdos,2,,,,,,,designed,,generic,
+UR10,Blast Them!,R,Uncommon,2,4,Instant,Instant/Sorcery,Boros,1,,,,,,,,,,designed
+UR11,Kamino Tidal Surge,R,Uncommon,2,4,Sorcery,Instant/Sorcery,Gruul; Izzet; Rakdos; Boros,4,,,,,,designed,generic,,generic,generic
+UR12,Force Lightning,R,Uncommon,2,1,Sorcery,Instant/Sorcery,Gruul; Izzet; Rakdos; Boros,4,,,,,,designed,secondary,,generic,generic
+UR13,Seismic Charge,R,Uncommon,2,1,Artifact,Other,Gruul; Rakdos; Boros,3,,,,,,,generic,,designed,generic
+UR14,Put A Price On Their Head,R,Uncommon,2,2,Instant,Instant/Sorcery,Gruul,1,,,,,,,,,designed,
+UR15,Discard the Defective,R,Uncommon,2,3,Kindred Sorcery,Instant/Sorcery,Izzet; Rakdos,2,,,,,,designed,secondary,,,
+UR16,Explosive Dismantling,R,Uncommon,2,2,Enchantment,Other,Boros,1,,,,,,,,,,designed
+UR17,Battle of Sullust,R,Uncommon,2,3,Battle,Other,Rakdos,1,,,,,,,generic,,,
+UR18,Sith Apprentice's Talent,R,Uncommon,2,3,Enchantment,Other,Rakdos,1,,,,,,,designed,,,
+UG01,Honorable Jedi Knight,G,Uncommon,2,1,Creature,Creature,Simic,1,,,,,designed,,,,,
+UG02,Gungan Battle Party,G,Uncommon,2,2,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,designed,,,,generic,,,generic,generic,
+UG03,Geonosian Grunt,G,Uncommon,2,2,Creature,Creature,Golgari,1,,,,,,,,designed,,
+UG04,Zygerrian Slaver,G,Uncommon,2,3,Creature,Creature,Gruul,1,,,,,,,,,designed,
+UG05,"Hevy, Devoted Trooper",G,Uncommon,2,3,Legendary Creature,Creature,Simic; Selesnya,2,designed,,,,generic,,,,,
+UG06,Clone Liutenant Waxer,G,Uncommon,2,4,Creature,Creature,Simic; Selesnya,2,designed,,,,secondary,,,,,
+UG07,"Bossk, Trandoshan Enforcer",G,Uncommon,2,4,Legendary Creature,Creature,Gruul; Golgari,2,,,,,,,,generic,designed,
+UG08,Droideka,G,Uncommon,2,5,Artifact Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,designed,generic,
+UG09,"Cham Syndulla, Radical Captain",G,Uncommon,2,5,Creature,Creature,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,designed,
+UG10,"Kit Fisto, Frontline Tactician",G,Uncommon,2,6,Legendary Creature,Creature,Simic; Selesnya,2,generic,,,,designed,,,,,
+UG11,Battle For The Droid Factory,G,Uncommon,2,3,Battle,Other,Gruul; Golgari; Simic; Selesnya,4,secondary,,,,generic,,,designed,generic,
+UG12,Jedi Brain Fog,G,Uncommon,2,3,Instant,Instant/Sorcery,Gruul; Simic; Selesnya,3,secondary,,,,designed,,,,secondary,
+UG13,Grappling Hook,G,Uncommon,2,1,Artifact,Other,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+UG14,Coordinated Strike,G,Uncommon,2,2,Instant,Instant/Sorcery,Gruul; Golgari; Simic; Selesnya,4,designed,,,,generic,,,generic,generic,
+UG15,501st Legion,G,Uncommon,2,2,Enchantment,Other,Simic; Selesnya,2,generic,,,,generic,,,,,
+UG16,Battle of Kadavo,G,Uncommon,2,4,Battle,Other,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+UG17,Padawan's Talent,G,Uncommon,2,1,Enchantment,Other,Gruul; Golgari; Simic; Selesnya,4,generic,,,,designed,,,generic,generic,
+UG18,Clan Viszla,G,Uncommon,2,3,Creature,Creature,Gruul,1,,,,,,,,,designed,
+UA01,Droid Foundry,Colorless,Uncommon,2,3,Artifact,Other,Azorius; Golgari; Dimir; Rakdos; Boros,5,,,designed,generic,,,secondary,generic,,secondary
+UA02,Armored Assault Tank,Colorless,Uncommon,2,4,Artifact,Other,Golgari; Boros,2,,,,,,,,designed,,secondary
+UA03,Droid Repair Bay,Colorless,Uncommon,2,2,Artifact,Other,Azorius,1,,,designed,,,,,,,
+UA04,Power Cell Array,Colorless,Uncommon,2,4,Artifact,Other,Azorius; Boros,2,,,designed,,,,,,,generic
+UA05,ARC-170 Starfighter,Colorless,Uncommon,2,5,Artifact,Other,Azorius; Izzet; Selesnya; Boros,4,secondary,,generic,,,designed,,,,generic
+UZ01,Droid Coordinator,WU,Uncommon,2,2,Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+UZ02,Hutt Tax Collector,WB,Uncommon,2,4,Enchantment Creature,Creature,Orzhov,1,,designed,,,,,,,,
+UZ03,"Nute Gunray, Trade Viceroy",UB,Uncommon,2,4,Legendary Creature,Creature,Dimir; Rakdos,2,,,,designed,,,secondary,,,
+UZ04,"Nala Se, Genetic Designer",UR,Uncommon,2,4,Creature,Creature,Izzet,1,,,,,,designed,,,,
+UZ05,Shadow Collective Commando,BR,Uncommon,2,3,Creature,Creature,Rakdos,1,,,,,,,designed,,,
+UZ06,Super Tactical Droid,BG,Uncommon,2,3,Artifact Creature,Creature,Golgari,1,,,,,,,,designed,,
+UZ07,"Aurra Sing, Deadly Assassin",RG,Uncommon,2,4,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+UZ08,Jawa Salvage Team,RW,Uncommon,2,3,Creature,Creature,Boros,1,,,,,,,,,,designed
+UZ09,"Anakin Skywalker, 501st General",GW,Uncommon,2,4,Legendary Creature,Creature,Selesnya,1,designed,,,,,,,,,
+UZ10,"Qui-Gon Jinn, Jedi Wanderer",GU,Uncommon,2,4,Legendary Creature,Creature,Simic,1,,,,,designed,,,,,
+UZ11,Hunt for Maul,WU,Uncommon,2,3,Battle,Other,Azorius,1,,,designed,,,,,,,
+UZ12,Revelation of the Sith,UB,Uncommon,2,4,Battle,Other,Dimir,1,,,,designed,,,,,,
+UZ13,This Party's Over,RG,Uncommon,2,6,Battle,Other,Gruul,1,,,,,,,,,designed,
+UZ14,Duel of the Fates,RW,Uncommon,2,4,Battle,Other,Boros,1,,,,,,,,,,designed
+UZ15,"Twice The Pride, Double the Fall",GW,Uncommon,2,2,Battle,Other,Selesnya,1,designed,,,,,,,,,
+RW01,"C-3PO, Protocol Specialist",W,Rare,1,3,Legendary Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+RW02,Watto's Junkyard,W,Rare,1,3,Enchantment,Other,Boros,1,,,,,,,,,,designed
+RW03,"Padmé, Voice of the People",W,Rare,1,4,Legendary Creature,Creature,Orzhov,1,,designed,,,,,,,,
+RW04,IPV-2C Stealth Corvette,W,Rare,1,5,Artifact,Other,Selesnya; Boros,2,designed,,,,,,,,,generic
+RW05,"Mon Mothma, Silent Dissentor",W,Rare,1,3,Legendary Creature,Creature,Orzhov,1,,generic,,,,,,,,
+RW06,Gungan Energy Shield,W,Rare,1,2,Artifact,Other,Boros,1,,,,,,,,,,generic
+RW07,Buzz Droid Swarm,W,Rare,1,4,Sorcery,Instant/Sorcery,Azorius,1,,,generic,,,,,,,
+RW08,Representative's Talent,W,Rare,1,2,Enchantment,Other,Orzhov; Selesnya,2,designed,generic,,,,,,,,
+RW09,"Commander Cody, Methodical Leader",W,Rare,1,2,Legendary Creature,Creature,Azorius; Selesnya,2,generic,,generic,,,,,,,
+RW10,Battle Over Coruscant,W,Rare,1,4,Battle,Other,Orzhov; Azorius; Selesnya; Boros,4,generic,generic,generic,,,,,,,generic
+RW11,Ray Shield,W,Rare,1,1,Enchantment,Other,Orzhov; Azorius; Selesnya; Boros,4,generic,generic,generic,,,,,,,generic
+RU01,Genetic Template Vault,U,Rare,1,5,Enchantment,Other,Izzet,1,,,,,,designed,,,,
+RU02,Technological Breakthrough,U,Rare,1,5,Enchantment,Other,Azorius; Izzet,2,,,designed,,,generic,,,,
+RU03,Jedi Temple Guard,U,Rare,1,4,Creature,Creature,Simic; Dimir,2,,,,designed,generic,,,,,
+RU04,Stun Blaster,U,Rare,1,2,Artifact,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+RU05,"R2-D2, Daring Savior",U,Rare,1,4,Legendary Creature,Creature,Azorius,1,,,designed,,,,,,,
+RU06,Take a Seat,U,Rare,1,3,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+RU07,Jedi Master's Talent,U,Rare,1,1,Enchantment,Other,Simic,1,,,,,designed,,,,,
+RU08,"ARC Trooper Fives, Loyal Brother",U,Rare,1,3,Legendary Creature,Creature,Azorius,1,,,generic,,,,,,,
+RU09,Puppet Ruler,UB,Rare,1,5,Creature,Creature,Dimir,1,,,,generic,,,,,,
+RU10,Battle of Kashyyyk,U,Rare,1,2,Battle,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+RU11,Fives' Warning,U,Rare,1,1,Instant,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,generic,generic,,,,
+RB01,Brink of Death,B,Rare,1,2,Enchantment,Other,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,generic,,,generic,generic,,
+RB02,Sith Amulet,B,Rare,1,2,Artifact,Other,Orzhov; Rakdos,2,,generic,,,,,designed,,,
+RB03,"Count Dooku, Separatist Leader",B,Rare,1,2,Legendary Creature,Creature,Orzhov; Dimir; Rakdos,3,,generic,,designed,,,generic,,,
+RB04,The Galactic Senate,B,Rare,1,3,Enchantment,Other,Orzhov,1,,designed,,,,,,,,
+RB05,Vulture Class Starfighter,B,Rare,1,3,Artifact,Other,Dimir,1,,,,designed,,,,,,
+RB06,"Mother Talzin, Harnesser of Voodoo",B,Rare,1,6,Legendary Creature,Creature,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,generic,,,generic,generic,,
+RB07,Hateful Tutor,B,Rare,1,1,Instant,Instant/Sorcery,Rakdos,1,,,,,,,designed,,,
+RB08,Sith Lord's Talent,B,Rare,1,2,Enchantment,Other,Golgari; Rakdos,2,,,,,,,designed,generic,,
+RB09,Palpatine's Command,BR,Rare,1,5,Kindred Sorcery,Instant/Sorcery,Rakdos,1,,,,,,,generic,,,
+RB10,Battle of Umbara,B,Rare,1,3,Battle,Other,Orzhov; Rakdos,2,,generic,,,,,generic,,,
+RB11,Dark Reflection,B,Mythic Rare,1,3,Creature,Creature,Orzhov; Golgari; Dimir; Rakdos,4,,generic,,generic,,,generic,generic,,
+RR01,The Sandcrawler,R,Rare,1,5,Artifact,Other,Boros,1,,,,,,,,,,designed
+RR02,Assassin's Impulse,R,Rare,1,4,Kindred Enchantment,Other,Gruul,1,,,,,,,,,designed,
+RR03,"Jango Fett, Clone Template",R,Rare,1,4,Legendary Creature,Creature,Gruul; Izzet,2,,,,,,secondary,,,designed,
+RR04,False Friend,R,Rare,1,2,Sorcery,Instant/Sorcery,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,generic,,generic,generic
+RR05,Trash Compacter,R,Rare,1,3,Enchantment,Other,Boros,1,,,,,,,,,,designed
+RR06,Wrist Mounted Flamethrower,R,Rare,1,2,Artifact,Other,Boros,1,,,,,,,,,,generic
+RR07,"Watto, Junkyard Tycoon",R,Rare,1,4,Legendary Planeswalker,Other,Gruul; Izzet; Rakdos; Boros,4,,,,,,generic,generic,,generic,designed
+RR08,Spice Slaver's Talent,R,Rare,1,2,Enchantment,Other,Gruul,1,,,,,,,,,designed,
+RR09,"Echo, Victim of Lola Sayu",UR,Rare,1,3,Legendary Creature,Creature,Izzet,1,,,,,,designed,,,,
+RR10,Siege of Mandalore,RW,Rare,1,3,Battle,Other,Boros,1,,,,,,,,,,generic
+RR11,Secret Account,R,Rare,1,4,Artifact,Other,Gruul,1,,,,,,,,,generic,
+RG01,Profitable Carnage,G,Rare,1,5,Sorcery,Instant/Sorcery,Gruul,1,,,,,,,,,designed,
+RG02,"Obi-Wan Kenobi, Jedi Master",G,Rare,1,4,Legendary Creature,Creature,Simic,1,,,,,designed,,,,,
+RG03,Republic Gunship,G,Rare,1,3,Legendary Artifact,Other,Golgari; Selesnya,2,designed,,,,,,,secondary,,
+RG04,"Wat Tambor, Union Foreman",G,Rare,1,3,Legendary Creature,Creature,Golgari,1,,,,,,,,designed,,
+RG05,Kyber Crystal,G,Rare,1,2,Artifact,Other,Golgari,1,,,,,,,,generic,,
+RG06,Jedi Sacrifice,G,Rare,1,2,Instant,Instant/Sorcery,Simic,1,,,,,designed,,,,,
+RG07,Droidmaker's Talent,G,Rare,1,1,Enchantment,Other,Golgari,1,,,,,,,,designed,,
+RG08,"Captain Rex, Loyal Soldier",G,Rare,1,4,Legendary Creature,Creature,Simic; Selesnya,2,designed,,,,secondary,,,,,
+RG09,Saw Gerrera,RG,Rare,1,4,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+RG10,Battle of Ringo Vinda,G,Rare,1,4,Battle,Other,Gruul; Golgari; Simic; Selesnya,4,generic,,,,generic,,,generic,generic,
+RG11,Skirmish on Florrum,GUR,Rare,1,5,Battle,Other,Gruul; Simic; Izzet,3,,,,,generic,generic,,,generic,
+RA01,Ancient Sith Holocron,Colorless,Rare,1,2,Artifact,Other,Rakdos,1,,,,,,,designed,,,
+RA02,Security Droid Data Core,Colorless,Rare,1,3,Artifact,Other,Azorius,1,,,designed,,,,,,,
+RA03,Mos Eisley Cantina,Colorless,Rare,1,2,Artifact,Other,Gruul,1,,,,,,,,,designed,
+RA04,Primary Motivator,Colorless,Rare,1,1,Artifact,Other,Boros,1,,,,,,,,,,designed
+RA05,Ancient Jedi Holocron,Colorless,Rare,1,2,Artifact,Other,Simic,1,,,,,designed,,,,,
+RZ01,"C-3PO and R2-D2, Droid Duo",WU,Rare,1,5,Legendary Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+RZ02,Nubian Royal Starship,WB,Rare,1,5,Artifact,Other,Orzhov,1,,designed,,,,,,,,
+RZ03,Invisible Hand,UB,Rare,1,7,Artifact,Other,Dimir,1,,,,designed,,,,,,
+RZ04,Prototype Iteration,UR,Rare,1,2,Instant,Instant/Sorcery,Izzet,1,,,,,,designed,,,,
+RZ05,Unleash Chaos,BR,Rare,1,2,Sorcery,Instant/Sorcery,Rakdos,1,,,,,,,designed,,,
+RZ06,Honor Bound Duel,BG,Rare,1,3,Sorcery,Instant/Sorcery,Golgari,1,,,,,,,,designed,,
+RZ07,"Cad Bane, Infamous Mercenary",RG,Rare,1,5,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+RZ08,"Anakin Skywalker, Prodigy Mechanic",RW,Rare,1,4,Legendary Creature,Creature,Boros,1,,,,,,,,,,designed
+RZ09,"Plo Koon, Guardian General",GW,Rare,1,5,Legendary Creature,Creature,Selesnya,1,designed,,,,,,,,,
+RZ10,Mastery of the Force,GU,Rare,1,7,Legendary Enchantment,Other,Simic,1,,,,,designed,,,,,
+RZ11,"General Grievous, Droid General",BGU,Rare,1,6,Legendary Artifact Creature,Creature,Golgari,1,,,,,,,,generic,,
+RZ12,"Ahsoka Tano, Grey Jedi",GWU,Rare,1,4,Legendary Creature,Creature,Simic; Selesnya,2,designed,,,,secondary,,,,,
+RZ13,Sith Teachings,BRG,Rare,1,4,Enchantment,Other,Golgari; Rakdos,2,,,,,,,generic,generic,,
+RZ14,"Count Dooku, Political Mastermind",WUB,Rare,1,4,Legendary Creature,Creature,Orzhov; Dimir,2,,secondary,,designed,,,,,,
+RZ15,"Mace Windu, Council Champion",BGU,Rare,1,6,Legendary Creature,Creature,Simic; Rakdos,2,,,,,designed,,secondary,,,
+RZ16,Revival,BRG,Rare,1,5,Enchantment,Other,Golgari; Rakdos,2,,,,,,,designed,secondary,,
+RZ17,Rebellion on Onderon,RGW,Rare,1,5,Enchantment,Other,Gruul; Selesnya,2,designed,,,,,,,,generic,
+RZ18,The Wrong Jedi,GWU,Rare,1,4,Enchantment,Other,Simic,1,,,,,designed,,,,,
+RZ19,The Clone Who Knew Too Much,WUB,Rare,1,4,Enchantment,Other,Azorius; Dimir,2,,,generic,designed,,,,,,
+RZ20,Duel in the Senate,WB,Rare,1,5,Battle,Other,Orzhov,1,,designed,,,,,,,,
+RZ21,Duel on Kamino,UR,Rare,1,3,Battle,Other,Izzet,1,,,,,,designed,,,,
+RZ22,Throne Room Massacre,BR,Rare,1,3,Battle,Other,Rakdos,1,,,,,,,designed,,,
+RZ23,Duel on Mustafar,BG,Rare,1,4,Battle,Other,Golgari,1,,,,,,,,designed,,
+RZ24,Duel on Utapau,GU,Rare,1,2,Battle,Other,Simic,1,,,,,designed,,,,,
+RZ25,"Commander Fox, Coruscant Guard",UR,Rare,1,4,Legendary Creature,Creature,Izzet,1,,,,,,designed,,,,
+RZ26,"Admiral Tarkin, Prosecutor",WB,Rare,1,4,Legendary Creature,Creature,Orzhov,1,,designed,,,,,,,,
+MW01,"Padmé Amidala, Senator of Naboo",W,Mythic Rare,1,5,Legendary Planeswalker,Other,Orzhov; Azorius; Selesnya; Boros,4,secondary,secondary,designed,,,,,,,secondary
+MW02,"Qui-Gon Jinn, Force Ghost",W,Mythic Rare,1,4,Legendary Enchantment Creature,Creature,Orzhov; Boros,2,,generic,,,,,,,,designed
+MW03,Grand Army Mobilization,W,Mythic Rare,1,6,Enchantment,Other,Azorius; Selesnya,2,designed,,generic,,,,,,,
+MW04,Good Soldiers Follow Orders,W,Mythic Rare,1,3,Enchantment,Other,Azorius; Selesnya,2,generic,,generic,,,,,,,
+MU01,Astromech Interface Socket,U,Mythic Rare,1,5,Legendary Enhancement Artifact,Other,Azorius; Dimir,2,,,designed,generic,,,,,,
+MU02,Thunderous Applause,U,Mythic Rare,1,5,Sorcery,Instant/Sorcery,Azorius; Simic; Izzet; Dimir,4,,,generic,designed,generic,generic,,,,
+MU03,"Yoda, Future Seer",U,Mythic Rare,1,5,Legendary Creature,Creature,Simic,1,,,,,designed,,,,,
+MU04,"Obi-Wan, The Negotiator",U,Mythic Rare,1,6,Legendary Planeswalker,Other,Azorius; Simic; Izzet; Dimir,4,,,generic,generic,designed,generic,,,,
+MB01,"Darth Sidious, Lord of the Sith",B,Mythic Rare,1,7,Legendary Planeswalker,Other,Orzhov; Rakdos,2,,generic,,,,,designed,,,
+MB02,Trade Federation Battleship,B,Mythic Rare,1,7,Artifact,Other,Orzhov; Golgari; Dimir,3,,generic,,designed,,,,secondary,,
+MB03,Jedi Blindness,UBR,Mythic Rare,1,4,Enchantment,Other,Izzet; Dimir; Rakdos,3,,,,secondary,,generic,designed,,,
+MB04,Tragedy of Darth Plagueis,B,Mythic Rare,1,5,Enchantment,Other,Golgari; Rakdos,2,,,,,,,designed,generic,,
+MR01,"Darth Vader, Twisted By Fear",R,Mythic Rare,1,6,Legendary Creature,Creature,Rakdos,1,,,,,,,designed,,,
+MR02,The Boonta Eve Classic,R,Mythic Rare,1,5,Enchantment,Other,Boros,1,,,,,,,,,,designed
+MR03,"Hondo Ohnaka, Pirate King",R,Mythic Rare,1,4,Legendary Planeswalker,Other,Gruul,1,,,,,,,,,designed,
+MR04,Slave I,R,Mythic Rare,1,4,Artifact,Other,Gruul; Boros,2,,,,,,,,,generic,generic
+MG01,"Anakin Skywalker, Chosen One",G,Mythic Rare,1,6,Legendary Planeswalker,Other,Golgari; Simic,2,,,,,designed,,,secondary,,
+MG02,"Poggle, Archduke of Geonosis",G,Mythic Rare,1,4,Legendary Creature,Creature,Golgari,1,,,,,,,,designed,,
+MG03,Jedi Lightsaber,GU,Mythic Rare,1,5,Artifact,Other,Simic,1,,,,,designed,,,,,
+MG04,Republic Venator Class Cruiser,GW,Mythic Rare,1,7,Legendary Artifact,Other,Selesnya; Boros,2,designed,,,,,,,,,secondary
+MA01,"General Grievous, Ruthless Warlord",Colorless,Mythic Rare,1,3,Legendary Planeswalker,Other,Azorius; Golgari,2,,,designed,,,,,secondary,,
+MA02,Starship License,Colorless,Mythic Rare,1,4,Artifact,Other,Boros,1,,,,,,,,,,generic
+MA03,Battle of Lola Sayu,Colorless,Mythic Rare,1,2,Battle,Other,Boros,1,,,,,,,,,,generic
+MA04,Droid Reprogramming,Colorless,Mythic Rare,1,4,Artifact,Other,Azorius,1,,,generic,,,,,,,
+MZ01,"R2-D2, Astromech Companion",WU,Mythic Rare,1,4,Legendary Artifact Creature,Creature,Azorius,1,,,designed,,,,,,,
+MZ02,"Palpatine, Supreme Chancellor",WB,Mythic Rare,1,5,Legendary Creature,Creature,Orzhov,1,,designed,,,,,,,,
+MZ03,"Admiral Trench, Cunning General",UB,Mythic Rare,1,6,Legendary Creature,Creature,Dimir,1,,,,designed,,,,,,
+MZ04,"Lama Su, Prime Minister",UR,Mythic Rare,1,6,Legendary Creature,Creature,Izzet,1,,,,,,designed,,,,
+MZ06,"Darth Tyranus, Patient Orchestrator",RWB,Mythic Rare,1,6,Legendary Creature,Creature,Orzhov; Rakdos,2,,generic,,,,,designed,,,
+MZ05,"Darth Maul, Shadow Lord",BRG,Mythic Rare,1,6,Legendary Creature,Creature,Gruul; Golgari; Rakdos,3,,,,,,,secondary,designed,secondary,
+MZ07,"Jango Fett, Master Bounty Hunter",RG,Mythic Rare,1,6,Legendary Creature,Creature,Gruul,1,,,,,,,,,designed,
+MZ08,"Sebulba, Vicious Pilot",RW,Mythic Rare,1,5,Legendary Creature,Creature,Boros,1,,,,,,,,,,designed
+MZ09,Commander Rex and Ahsoka,GW,Mythic Rare,1,6,Legendary Creature,Creature,Selesnya,1,designed,,,,,,,,,
+MZ10,"Yoda, Part of the Living Force",GU,Mythic Rare,1,4,Legendary Enchantment Creature,Creature,Simic,1,,,,,designed,,,,,
+MZ11,First Battle of Geonosis,WUBRG,Mythic Rare,1,5,Legendary Battle,Other,Gruul; Orzhov; Azorius; Golgari; Simic; Izzet; Selesnya; Dimir; Rakdos; Boros,10,generic,generic,generic,generic,generic,generic,generic,generic,generic,generic
+MZ12,Fall of the Chosen One,UBR,Mythic Rare,1,6,Enchantment,Other,Izzet; Dimir; Rakdos,3,,,,generic,,generic,generic,,,
+MZ13,"Asajj Ventress, Unlikely Ally",BGU,Mythic Rare,1,5,Legendary Creature,Creature,Golgari; Simic; Dimir,3,,,,generic,generic,,,generic,,
+MZ14,Order 66,WB,Mythic Rare,1,7,Sorcery,Instant/Sorcery,Orzhov; Selesnya; Rakdos,3,secondary,secondary,,,,,designed,,,
+6,Abafar - Droid Marketplace,WU,Mythic Rare,1,0,Land,Land,Azorius,1,,,designed,,,,,,,
+L_WB1,Coruscant - Stratified Metropolis,WB,Mythic Rare,1,0,Land,Land,Orzhov,1,,designed,,,,,,,,
+1,Mandalore - Warrior's Haven,UB,Mythic Rare,1,0,Land,Land,Dimir,1,,,,designed,,,,,,
+3,Kamino - Planet of Storms,UR,Mythic Rare,1,0,Land,Land,Izzet,1,,,,,,designed,,,,
+7,Mustafar - Bred For Evil,BR,Mythic Rare,1,0,Land,Land,Rakdos,1,,,,,,,designed,,,
+4,Geonosis - Hive of War,BG,Mythic Rare,1,0,Land,Land,Golgari,1,,,,,,,,designed,,
+8,Florrum - Outer Rim Paradise,RG,Mythic Rare,1,0,Land,Land,Gruul,1,,,,,,,,,designed,
+5,Tatooine - Twin-Sunned Arena,RW,Mythic Rare,1,0,Land,Land,Boros,1,,,,,,,,,,designed
+9,Naboo - Idllyic World,GW,Mythic Rare,1,0,Land,Land,Selesnya,1,designed,,,,,,,,,
+10,Mortis - Balance Point,GU,Mythic Rare,1,0,Land,Land,Simic,1,,,,,designed,,,,,
