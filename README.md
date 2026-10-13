@@ -35,7 +35,20 @@ You'll need to set up google_auth in mse_set_builder_app/google_auth, follow the
 cd $STEM
 git clone git@github.com:jbrzozo24/magic_the_gathering_projects.git
 cd magic_the_gathering_projects/src/mse_set_builder_app/
+source .venv/Scripts/activate
 ./set_builder.py -v # The defaults are correct already
+```
+
+## Dumping the Cards from spreadsheet for inspection
+
+This dumps a json file of each card which allows tools to generate visualizations etc to help with tool development.
+
+``` bash
+cd $STEM
+git clone git@github.com:jbrzozo24/magic_the_gathering_projects.git
+cd magic_the_gathering_projects/src/mse_set_builder_app/
+source .venv/Scripts/activate
+./dump_sheet_cards.py -v # The defaults are correct already
 ```
 
 ## Set Version 3.0
