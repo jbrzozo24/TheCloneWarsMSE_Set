@@ -27,10 +27,6 @@ two-colour archetypes mapped onto MTG's guild pairs.
 | Bounty Hunters | Gruul | RG |
 | Tatooine | Boros | RW |
 
-The set is in **active v2 → v3 iteration**. Two six-player drafts have been
-played; the decks and sideboards were photographed and reviewed. Changes are
-tracked in `CHANGELOG.md`.
-
 **Repos**
 - Set files (MSE + analysis): `https://github.com/jbrzozo24/TheCloneWarsMSE_Set`
 - Sync tooling: `https://github.com/jbrzozo24/magic_the_gathering_projects` (`set_builder`)
@@ -67,10 +63,16 @@ These are non-negotiable and apply to every suggestion:
 The card database lives in **Google Sheets**. Jack works in both 
 **Magic Set Editor** and Sheets, syncing via the `set_builder` tool
 with manual conflict resolution. Either side may be authoritative at a
-given moment. Given how finicky it is to keep these two in sync,
-let Jack make the actual edits and do the syncs. You can make change decisions in
-text describing the old/new card/rules text etc. Either side may be
-authoritative at a given moment — tooling should accept both `.xlsx` and `.csv`.
+given moment — tooling should accept both `.xlsx` and `.csv`.
+
+**Editing cards.** Claude may edit and create cards in the MSE set, but only
+through the `edit-mse-mtg-card` and `create-mse-mtg-card` skills (`ai/`,
+linked from `.claude/skills/`). They keep the MSE file format intact, render
+the card to check it, and respect the constraints in §2. Don't hand-edit card
+files outside these skills, and don't edit the Google Sheet. **Jack does the
+syncs:** never run `set_builder`. After an edit, say which cards changed so he
+can sync them. For design discussion, describing old/new card text in prose is
+still the default; only edit files when asked.
 `tcw_cfg.yaml` is passed to the `set_builder` tool, and should likely also be used to build a simple set_reader/writer tool which can read the google sheet the same way set_builder does.
 
 ### `Cards` tab columns
@@ -89,58 +91,3 @@ Commons and uncommons appear twice in the set, rares and mythics only have a
 single copy, so an archetype propped up by rares is not actually supported. 
 **Lands are excluded** from curves — they'd
 all pile at MV 0 and drown the signal. `7+` is the top bucket.
-
----
-
-## 7. Carried over from Pass 2 (post-draft design doc)
-
-- Removal is shallow: ~6 of 80 commons. Target 12–15%.
-- **Rakdos** has an identity crisis — consolidate around one
-  Plot/Crime → Dark Side → payoff loop; cut sacrifice, Morbid and Sith tribal
-  gating.
-- **Scrap** is too hard to enable, sacrifiing artifacts to scrap feels quite
-  bad in practice, need to make it feel more worth the sacrifice.
-- **Dimir** is poorly positioned. Interacting with battles just is not strong enough.
-  Siege's need more board affecting ETBs. Potentially more problems too.
-- **Izzet** lacks identity — concentrate copy cards there, and prowess triggers, 
-  add copy commons.
-  (Pass 2 changes 2.7 / 2.9 / 2.11 begin this.)
-- **Gruul's** v2 strong performance may reflect player skill rather than archetype
-  strength — flagged for controlled v3 testing. Do not "fix" Gruul on v2 data.
-- **Selesnya's** v2 strong performance may reflect shallow removal problem.
-
----
-
-## 8. Working agreements
-
-How Jack wants collaboration to go:
-
-- **Be constructively critical, don't sugar-coat.** Name structural problems
-  directly. Also name what's working — the tight weighted spread and the
-  well-built Light Side engine are real accomplishments and saying so is not
-  padding.
-- **Every problem statement comes with a proposed fix** — a redesigned card or
-  cards, plus the logic for *how* it fixes the problem.
-- **Every addition names its cut**, same rarity. Show the balance ledger when
-  changes move weight between archetypes.
-- **Stay scoped.** Answer the question asked; don't try to solve the whole set
-  at once. Findings outside the question go in a short "not yet specified"
-  note, not a full treatment.
-- **Playtest observation beats model output.** Jack's firsthand read that Simic
-  had a four-drop pileup matched the data exactly. When they conflict, dig into
-  why rather than trusting the script.
-- **State the model's limits.** The `generic` tagging pass is a heuristic doing
-  real work (it's the difference between 34 core and 135 weighted for Azorius).
-  Ledgers built on it are directionally right, not precise. Say so.
-
----
-
-## 9. Open threads
-
-- v3 playtests to validate the Pass 3 changes — specifically Izzet identity and
-  whether Gruul's strength is archetype or player.
-- Pick cuts for the Dimir one-drops and the Selesnya-answering removal commons.
-- Simic MV 6 becomes the second-tallest creature bar after 2.1–2.4; `CU07`
-  Kamino Stormcaller is a common 5/5 for six.
-- Consider whether `Secondary Archetype` should be normalised at source in the
-  sheet, which would let the alias map shrink.
