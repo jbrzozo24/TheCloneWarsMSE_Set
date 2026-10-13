@@ -66,7 +66,7 @@ with manual conflict resolution. Either side may be authoritative at a
 given moment — tooling should accept both `.xlsx` and `.csv`.
 
 **Editing cards.** Claude may edit and create cards in the MSE set, but only
-through the `edit-mse-mtg-card` and `create-mse-mtg-card` skills (`ai/`,
+through the `edit-mse-mtg-card` and `create-mse-mtg-card` skills (`ai/skills/`,
 linked from `.claude/skills/`). They keep the MSE file format intact, render
 the card to check it, and respect the constraints in §2. Don't hand-edit card
 files outside these skills, and don't edit the Google Sheet. **Jack does the
