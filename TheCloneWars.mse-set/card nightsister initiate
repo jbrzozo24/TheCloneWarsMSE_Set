@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-05 08:23:19
+	time_modified: 2026-08-17 08:40:59
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -25,9 +25,11 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		<kw-A><i-auto><nospellcheck><key>Morbid</key></nospellcheck></i-auto></kw-A> — When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Nightsister</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Initiate enters, if a creature died this turn, create a 1/1 black zombie creature token and you get <sym-auto>OO</sym-auto>. 
-		<kw-a><nospellcheck><key>First strike</key></nospellcheck></kw-a>
-		<sym-auto>T</sym-auto>, Sacrifice another creature: Target opponent loses 1 life, you get <sym-auto>O</sym-auto>.
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Nightsister</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Initiate enters, you may pay 3 life. When you do, choose one — 
+		<li><bullet>• </bullet>You get <sym-auto>OOO</sym-auto>
+		</li><li><bullet>• </bullet>Put two +1/+1 counters on <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Nightsister</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Initiate
+		<margin:0:0:5></li><kw-a><nospellcheck><key>First strike</key></nospellcheck></kw-a></margin:0:0:5>
+
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 2

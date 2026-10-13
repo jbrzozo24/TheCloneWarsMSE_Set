@@ -11,7 +11,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-05 08:33:27
+	time_modified: 2026-08-17 08:45:25
 	name: Jar Jar Binks, Sith Lord?
 	casting_cost: 3B
 	image: image157.png
@@ -28,12 +28,12 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		<kw-0><nospellcheck><key>Plot <param-cost><sym-auto>2B</sym-auto></param-cost></key></nospellcheck></kw-0> 
-		As an additional cost to cast this spell, if you control two or more <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, sacrifice a <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>.
-		When Jar Jar enters, destroy target artifact or planeswalker. At the beginning of your end step, if a creature died this turn, each opponent loses 1 life and you gain 1 life.
+		<kw-0><nospellcheck><key>Plot <param-cost><sym-auto>4B</sym-auto></param-cost></key></nospellcheck></kw-0> 
+		When Jar Jar enters, destroy target artifact or planeswalker. If Jar Jar was cast from exile, you get <sym-auto>OOO</sym-auto>.
+		Whenever Jar Jar attacks, if you have five or more <sym-auto>O</sym-auto>, this creature gets +4/+0 and gains <kw-0><nospellcheck><key>menace</key></nospellcheck></kw-0> until end of turn.
 	flavor_text:
-		<i-flavor>“<error-spelling:en_US>Meesa</error-spelling:en_US> propose that the Senate give immediately emergency powers to the Supreme Chancellor!”<soft-line>
-		</soft-line></i-flavor>
+		<i-flavor>“<error-spelling:en_US>Meesa</error-spelling:en_US> propose that the Senate give immediately emergency powers to the Supreme Chancellor!”
+		</i-flavor>
 	watermark: 
 	power: 1
 	toughness: 3

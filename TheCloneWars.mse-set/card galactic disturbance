@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-17 10:47:07
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -27,7 +27,7 @@ card:
 	rule_text:
 		Choose one — 
 		<li><bullet>• </bullet>Destroy target creature or battle, target player <kw-a><nospellcheck><key><param-mill>mills</param-mill> <param-one_word>3</param-one_word> car<param-*s>ds</param-*s></key></nospellcheck></kw-a> 
-		</li><li><bullet>• </bullet>Sacrifice a creature, then create a 2/2 black battle droid artifact creature token, you get <sym-auto>OO</sym-auto>.</li>
+		</li><li><bullet>• </bullet>Target opponent discards a card, then create a 2/2 black battle droid artifact creature token, you get <sym-auto>OO</sym-auto>.</li>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

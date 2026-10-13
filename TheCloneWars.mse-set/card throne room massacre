@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-07-18 18:25:44
+	time_modified: 2026-08-17 09:43:42
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Throne Room Massacre
@@ -26,7 +26,7 @@ card:
 	rarity: rare
 	rule_text:
 		<kw-A><nospellcheck><key>Duel</key></nospellcheck><atom-reminder-custom> <i-auto>(As a Duel enters, choose an opponent to protect it, then choose _ or _. When it’s defeated, exile it, then cast it transformed as your chosen winner.)</i-auto></atom-reminder-custom></kw-A>
-		When this card enters, it deals 4 damage to another target battle, or, 1 damage to any other target.
+		When this card enters, it deals 4 damage to another target battle, or, 3 damage to any other target.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	loyalty: 5

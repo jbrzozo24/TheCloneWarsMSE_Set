@@ -14,7 +14,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-08-17 10:48:17
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -34,7 +34,7 @@ card:
 	sub_type_4: 
 	rarity: common
 	rule_text:
-		When Immoral General enters, if a creature died this turn, you get <sym-auto>O</sym-auto>.
+		When Immoral General enters, if you committed a <kw-A><nospellcheck><key>crime</key></nospellcheck> this turn, you get <sym-auto>O</sym-auto>.<atom-reminder-expert> <i-auto>(Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)</i-auto></atom-reminder-expert></kw-A>
 		<kw-a><nospellcheck><key>Menace</key></nospellcheck></kw-a>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 

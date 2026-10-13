@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-01 13:05:48
+	time_modified: 2026-08-17 09:17:36
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -25,9 +25,11 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		<kw-a><nospellcheck><key>Double strike</key></nospellcheck></kw-a>
-		Other creatures you control get +1/+0. 
-		Whenever a nontoken creature you control dies, <kw-A><nospellcheck><key>Shadow</key></nospellcheck> Collective Commando deals 1 damage to any target.<atom-reminder-expert> <i-auto>(This creature can block or be blocked by only creatures with shadow.)</i-auto></atom-reminder-expert></kw-A>
+		<kw-a><nospellcheck><key>Menace</key></nospellcheck></kw-a>, <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a>
+		If you would get one or more <sym>O</sym>, you get that much plus one instead.
+		<sym-auto>2</sym-auto>: Put a +1/+1 counter on target creature. Activate only if you have 3 or more <sym>O</sym>
+		<sym-auto>5O</sym-auto>: Destroy target creature or battle. Activate only if you have 5 or more <sym>O</sym>
+
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 1

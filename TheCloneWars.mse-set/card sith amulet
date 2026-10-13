@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 09:00:16
+	time_modified: 2026-08-17 09:42:04
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -25,9 +25,10 @@ card:
 	sub_type_4: 
 	rarity: rare
 	rule_text:
-		Equip: <sym-auto>2</sym-auto>, pay 2 life.
-		Equipped creature gets +2/+1 and has <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a>. 
+		<kw-a><nospellcheck><key>Equip <param-name><sym>2</sym>, pay</param-name> <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck></kw-a> life.
+		Equipped creature gets +2/+1 and has <kw-a><nospellcheck><key>lifelink</key></nospellcheck></kw-a> and <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a>.
 		Whenever equipped creature deals combat damage to a player, you get <sym-auto>O</sym-auto>
+		<sym-auto>OO</sym-auto>: Put a hone counter on this equipment.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

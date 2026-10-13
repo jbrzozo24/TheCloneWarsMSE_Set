@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 08:57:13
+	time_modified: 2026-10-13 09:05:01
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Sith Lord's Talent
@@ -31,11 +31,11 @@ card:
 	watermark: 
 	level_2: Level 2
 	level_3: Level 3
-	level_1_text: Whenever one or more creatures you control dies, you get <sym-auto>O</sym-auto>. This ability triggers only once each turn.
-	level_2_text: <margin:0:0:30><error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> creatures you control have <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a>.</margin:0:0:30>
-	level_3_text: <margin:0:0:30>At the beginning of your upkeep, sacrifice a creature. When you do, return target creature from your graveyard to the battlefield. It gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> until end of turn.</margin:0:0:30>
+	level_1_text: When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Lord’s Talent enters, you get <sym-auto>OO</sym-auto>.
+	level_2_text: <margin:0:0:30>At the beginning of your end step, if you have 5 or more <sym>O</sym>, draw a card and target opponent loses 2 life.</margin:0:0:30>
+	level_3_text: <margin:0:0:30>Creature cards in your graveyard have escape. The escape cost is equal to the card’s mana cost plus exile two other cards from your graveyard.</margin:0:0:30>
 	level_4_text: 
-	level_9_text: <sym-auto>B</sym-auto>:
+	level_9_text: <sym-auto>1B</sym-auto>:
 	level_10_text: <sym-auto>4B</sym-auto>:
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
@@ -45,8 +45,8 @@ card:
 	card_code_text_3: 
 	special_text:
 		<i>(Gain the next level as a sorcery to add its ability.)</i>
-		Whenever one or more creatures you control dies, you get <sym-auto>O</sym-auto>. This ability triggers only once each turn.
-		<sym-auto>B</sym-auto>: Level 2
-		<margin:0:0:30><error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> creatures you control have <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a>.</margin:0:0:30>
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Lord’s Talent enters, you get <sym-auto>OO</sym-auto>.
+		<sym-auto>1B</sym-auto>: Level 2
+		<margin:0:0:30>At the beginning of your end step, if you have 5 or more <sym>O</sym>, draw a card and target opponent loses 2 life.</margin:0:0:30>
 		<sym-auto>4B</sym-auto>: Level 3
-		<margin:0:0:30>At the beginning of your upkeep, sacrifice a creature. When you do, return target creature from your graveyard to the battlefield. It gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a> until end of turn.</margin:0:0:30>
+		<margin:0:0:30>Creatures in your graveyard gain escape. The escape cost is equal to its mana cost, plus “exile two cards from your graveyard”</margin:0:0:30>

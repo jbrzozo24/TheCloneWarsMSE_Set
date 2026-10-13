@@ -11,7 +11,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-05 00:35:58
+	time_modified: 2026-08-17 10:20:44
 	name: Darth Tyranus, Patient Orchestrator
 	casting_cost: 3RWB
 	image: image20.png
@@ -31,7 +31,7 @@ card:
 		<kw-0><nospellcheck><key>Plot <param-cost><sym-auto>2BR</sym-auto></param-cost></key></nospellcheck></kw-0>
 		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tyranus</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, if you cast him from exile, create two 1/1 colorless Droid artifact creature tokens and you get <sym-auto>OO</sym-auto>.
 		<kw-0><nospellcheck><key>Menace</key></nospellcheck></kw-0>, <kw-0><nospellcheck><key>lifelink</key></nospellcheck></kw-0>
-		<sym-auto>OO</sym-auto>, Sacrifice any number of creatures: Each opponent loses X life and you gain X life, where X is the number of creatures sacrificed this way. Then exile that many cards from the top of your library, you many play them until the end of your next turn.
+		<sym-auto>OOO</sym-auto>: Each opponent loses 3 life and you gain 3 life. Then exile 3 cards from the top of your library, you many play them until the end of your next turn.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 4

@@ -1,4 +1,4 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Return target artifact creature card from your graveyard to the battlefield with a finality counter on it, it gains haste. You may pay OO, when you do it gains double strike until end of turn.
+	rule_text: Return target artifact creature card from your graveyard to the battlefield with a <kw-a><nospellcheck><key>finality counter</key></nospellcheck></kw-a> on it, it gains <kw-a><nospellcheck><key>haste</key></nospellcheck></kw-a>. You may pay <sym-auto>OO</sym-auto>, when you do it gains <kw-a><nospellcheck><key>double strike</key></nospellcheck></kw-a> until end of turn.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

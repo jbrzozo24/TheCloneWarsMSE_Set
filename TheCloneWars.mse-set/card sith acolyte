@@ -3,9 +3,9 @@ card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
 	has_styling: false
-	notes: 
+	notes: Cut the draw ability if you can move it to another card.
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-05 08:12:28
+	time_modified: 2026-08-17 08:14:00
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -25,8 +25,9 @@ card:
 	sub_type_4: 
 	rarity: common
 	rule_text:
-		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Acolyte enters, you may sacrifice a creature. When you do, draw a card. 
-		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Acolyte dies, each opponent loses 1 life and you get <sym-auto>O</sym-auto>.
+		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Acolyte enters, you get <sym-auto>O</sym-auto>.
+		As long as you have three or more <sym>O</sym>, <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Sith</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Acolyte gets +2/+1 and has <kw-a><nospellcheck><key>menace</key></nospellcheck></kw-a>.
+		<sym-auto>3O</sym-auto>: Draw a card. Activate only if you have 3 or more <sym>O</sym> and only once per turn.
 	flavor_text: <i-flavor>“Fear is my ally”</i-flavor>
 	watermark: 
 	power: 1

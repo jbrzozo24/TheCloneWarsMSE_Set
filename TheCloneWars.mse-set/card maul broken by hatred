@@ -1,4 +1,4 @@
-mse_version: 2.5.8
+﻿mse_version: 2.5.8
 card:
 	stylesheet: m15-altered
 	stylesheet_version: 2025-10-05
@@ -6,10 +6,12 @@ card:
 	styling_data:
 		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
 		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-08-16 15:48:07
+	time_modified: 2026-08-17 08:50:06
 	name: Maul, Broken by Hatred
 	casting_cost: 3BB
 	image: image147.png
@@ -26,10 +28,10 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		As an additional cost to cast this spell, if you control two or more Sith, sacrifice a Sith.
-		Whenever a creature you control commits a crime, target opponent loses 1 life and you get O. 
-		1BR: Choose target creature, that creature's power and toughness becomes half of its current power and toughness, rounded down.
-	flavor_text: <i-flavor></i-flavor>
+		Whenever a creature an opponent controls dies, you get <sym-auto>O</sym-auto>.
+		Whenever Maul attacks, if you have 3 or more <sym>O</sym>, each opponent loses 1 life and you gain 1 life.
+		<sym-auto>1BR</sym-auto>: Choose target creature, that creature’s power and toughness becomes half of its current power and toughness, rounded down.
+	flavor_text: <i-flavor>“Always remember I am fear, always remember I am hunter.”</i-flavor>
 	watermark: 
 	power: 4
 	toughness: 5
