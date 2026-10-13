@@ -1,0 +1,2 @@
+- Generate a report on the number of O sources (list the cards) and payoffs. Break down payoffs by cards that spend O, and cards that care about how much O you have.
+- Move on to fixing the Jedi archetype.

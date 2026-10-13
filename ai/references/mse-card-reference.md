@@ -118,6 +118,13 @@ don't change, leave them as they are. In the parts you rewrite, plain text is
 fine. Don't copy auto-generated reminder text (`<atom-reminder…>`) into a
 value.
 
+**Hiding reminder text.** Plain text, `<kw-a>` and `<kw-A>` all let MSE decide,
+and it shows reminder text for non-evergreen keywords (crime, contract, escape,
+outlaw…). To hide it, wrap the keyword in `<kw-0>`, as MSE does when you switch
+reminder text off:
+`<kw-0><nospellcheck><key>contract <param-number>2</param-number></key></nospellcheck></kw-0>`.
+`<kw-1>` forces it on.
+
 ## 5. Card codes
 
 `card_code_text` = **rarity** + **color** + **two-digit number**, plus `B`/`B_0` for back faces.
