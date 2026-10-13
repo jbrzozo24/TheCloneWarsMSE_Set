@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: uncommon
-	rule_text: Whenever you commit a <kw-0><nospellcheck><key>crime</key></nospellcheck></kw-0>, you may pay <sym-auto>1G</sym-auto>, when you do, add <sym-auto>O</sym-auto>. If you control another <kw-A><nospellcheck><key>outlaw</key></nospellcheck>, add <sym-auto>OO</sym-auto> instead and put a +1/+1 counter on target <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control.<blob></kw-A><moved><atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></moved></blob>
+	rule_text: Whenever you commit a <kw-0><nospellcheck><key>crime</key></nospellcheck></kw-0>, you may pay <sym-auto>1G</sym-auto>, when you do, you get <sym-auto>O</sym-auto>. If you control another <kw-A><nospellcheck><key>outlaw</key></nospellcheck>, you get <sym-auto>OO</sym-auto> instead and put a +1/+1 counter on target <kw-A><nospellcheck><key>outlaw</key></nospellcheck> you control.<blob></kw-A><moved><atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A></moved></blob>
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 3

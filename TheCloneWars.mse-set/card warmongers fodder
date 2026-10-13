@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-08-17 08:23:15
+	time_modified: 2026-10-13 19:46:26
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -26,7 +26,7 @@ card:
 	rarity: common
 	rule_text:
 		<kw-A><nospellcheck><key>Plot <param-cost><sym-auto>2RR</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay <param-mana><sym-auto>2RR</sym-auto></param-mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
-		When Warmonger’s Fodder enters, if it was cast from exile, you get <sym-auto>OO</sym-auto> and it deals 2 damage to any target.
+		When Warmonger’s Fodder enters, you get <sym>O</sym>. If it was cast from exile, you get <sym>OO</sym> instead and it deals 2 damage to any target.
 		Whenever you plot a card, create a 1/1 colorless clone cadet creature token.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 

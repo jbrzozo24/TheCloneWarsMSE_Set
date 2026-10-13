@@ -26,7 +26,7 @@ card:
 	rarity: uncommon
 	rule_text:
 		<kw-A><nospellcheck><key>Plot <param-cost><sym-auto>2BB</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay <param-mana><sym-auto>2BB</sym-auto></param-mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
-		Target opponent reveals their hand. Choose a nonland card from it. That player discards that card and loses life equal to it’s mana value. You get <sym-auto>OOO</sym-auto>.
+		Target opponent reveals their hand. Choose a nonland card from it. That player discards that card and loses life equal to its mana value. You get <sym-auto>OOO</sym-auto>.
 	flavor_text: <i-flavor>“Now, where were we?” -<error-spelling:en_US>Palpatine</error-spelling:en_US> to Fives, after his inhibitor chip discovery</i-flavor>
 	watermark: 
 	card_stamp: universes beyond

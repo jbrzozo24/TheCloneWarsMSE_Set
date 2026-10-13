@@ -42,7 +42,7 @@ card:
 	level_2_text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>B</sym-auto>.
 		<kw-0><nospellcheck><key>Station</key></nospellcheck></kw-0>
-	level_3_text: <sym-auto>T</sym-auto>: Add <sym-auto>OO</sym-auto>
+	level_3_text: <sym-auto>T</sym-auto>: You get <sym-auto>OO</sym-auto>
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
 	custom_card_number: 
