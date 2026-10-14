@@ -8,12 +8,12 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-05 00:20:34
+	time_modified: 2026-10-13 20:08:54
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	card_color: blue, multicolor
 	card_color_2: green, multicolor
-	name: Obi Wan's Varactyl
+	name: Obi-Wan's Varactyl
 	name_2: Grievous' Wheel Bike
 	casting_cost: 
 	casting_cost_2: 
@@ -32,7 +32,7 @@ card:
 	rarity: rare
 	rule_text:
 		<kw-a><nospellcheck><key>Haste</key></nospellcheck></kw-a>
-		At the beginning of your end step, Sacrifice Obi <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Wan’s</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Varactyl</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> unless you dealt combat damage to a player this turn.
+		At the beginning of your end step, sacrifice Obi-Wan’s Varactyl unless you dealt combat damage to a player this turn.
 	rule_text_2:
 		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Grievous’</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> Wheel Bike enters, it Endures Battle Droids 1.
 		 <kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a>, <kw-0><nospellcheck><key>scrap <param-number>2</param-number></key></nospellcheck></kw-0> 

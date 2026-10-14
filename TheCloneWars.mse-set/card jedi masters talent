@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-07-18 18:29:59
+	time_modified: 2026-10-13 20:08:54
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Jedi Master's Talent
@@ -34,7 +34,7 @@ card:
 	level_1_text: You may look at the top card of your library at any time.
 	level_2_text: <margin:0:0:30>You may play cards and cast spells from the top of your library, when you do you get <sym-auto>LL</sym-auto>.</margin:0:0:30>
 	level_3_text:
-		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra after this one.
+		<margin:0:0:30>At the beginning of your end step, you may pay <sym-auto>LLLLLLL</sym-auto>. When you do, take an extra turn after this one.
 		</margin:0:0:30>
 	level_4_text: 
 	level_9_text: <sym-auto>2U</sym-auto>:

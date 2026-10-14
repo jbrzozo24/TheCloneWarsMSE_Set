@@ -11,7 +11,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-02 10:53:37
+	time_modified: 2026-10-13 20:08:54
 	name: Ahsoka Tano, Grey Jedi
 	casting_cost: 1GWU
 	image: image315.png
@@ -30,7 +30,7 @@ card:
 	rule_text:
 		When <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> enters, put a +1/+1 counter on each creature you control. 
 		<kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a> 
-		<sym-auto>LLL</sym-auto>: Exile <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tano</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, then return her to the battlefield under your owner’s control. Activate only as a sorcery. 
+		<sym-auto>LLL</sym-auto>: Exile <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Tano</error-spelling:en_US:/magic.mse-game/dictionary/magic-words>, then return her to the battlefield under its owner’s control. Activate only as a sorcery. 
 		<sym-auto>2GWU</sym-auto>, <sym-auto>T</sym-auto>: If a source would deal damage to you or target creature you control, it deals that damage to <error-spelling:en_US:/magic.mse-game/dictionary/magic-words>Ahsoka</error-spelling:en_US:/magic.mse-game/dictionary/magic-words> instead.
 	flavor_text: <i-flavor>“I am no Jedi.”</i-flavor>
 	watermark: 

@@ -15,7 +15,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-04 23:29:39
+	time_modified: 2026-10-13 20:08:54
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -42,7 +42,7 @@ card:
 	level_2_text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>U</sym-auto>. 
 		<kw-0><nospellcheck><key>Station</key></nospellcheck></kw-0>
-	level_3_text: <sym-auto>T</sym-auto>: Add <sym-auto>LL</sym-auto>
+	level_3_text: <sym-auto>T</sym-auto>: You get <sym-auto>LL</sym-auto>
 	card_stamp: universes beyond
 	illustrator: LUCASFILM
 	custom_card_number: 

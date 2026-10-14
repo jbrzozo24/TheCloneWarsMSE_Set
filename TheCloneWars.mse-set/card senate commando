@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-10-13 20:08:54
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
@@ -27,7 +27,7 @@ card:
 	rule_text:
 		This spell costs <sym-auto>1</sym-auto> less to cast for each creature token you control.
 		<kw-a><nospellcheck><key>Vigilance</key></nospellcheck></kw-a>
-		When Senate Commander blocks, you get <sym-auto>L</sym-auto>.
+		When Senate Commando blocks, you get <sym-auto>L</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	power: 4

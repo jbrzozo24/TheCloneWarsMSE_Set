@@ -5,7 +5,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-10-13 20:08:54
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: Padawan's Talent
@@ -33,7 +33,7 @@ card:
 	level_3: Level 3
 	level_1_text: At the beginning of combat on your turn, put a +1/+1 counter on target creature you control.
 	level_2_text: <margin:0:0:30>Whenever one or more creatures you control attack or block, you get <sym-auto>L</sym-auto>.</margin:0:0:30>
-	level_3_text: <margin:0:0:30>When this class becomes level <nosym>3</nosym>, you may pay <sym-auto>LLLL</sym-auto>: When you do, search your library for a creature card, reveal it, put it in into your hand, then shuffle.</margin:0:0:30>
+	level_3_text: <margin:0:0:30>When this class becomes level <nosym>3</nosym>, you may pay <sym-auto>LLLL</sym-auto>. When you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.</margin:0:0:30>
 	level_4_text: 
 	level_9_text: <sym-auto>G</sym-auto>:
 	level_10_text: <sym-auto>3G</sym-auto>:

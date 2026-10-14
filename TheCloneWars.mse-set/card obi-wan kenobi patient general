@@ -11,7 +11,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-10-13 20:08:54
 	name: Obi-Wan Kenobi, Patient General
 	casting_cost: 3WW
 	image: image109.png
@@ -28,7 +28,7 @@ card:
 	sub_type_4: 
 	rarity: uncommon
 	rule_text:
-		When Obi Wan enters, you get <sym-auto>L</sym-auto> for each clone you control.
+		When Obi-Wan enters, you get <sym>L</sym> for each Clone you control.
 		<sym-auto>LL</sym-auto>: Target Clone gains <kw-a><nospellcheck><key>indestructible</key></nospellcheck></kw-a> until end of turn, untap it.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 

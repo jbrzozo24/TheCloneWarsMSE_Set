@@ -31,7 +31,7 @@ LABELS = {
   "name": "Name", "casting_cost": "Mana cost", "type": "Type line", "rarity": "Rarity",
   "rule_text": "Rules text", "flavor_text": "Flavor text", "power": "Power", "toughness": "Toughness",
   "loyalty": "Loyalty", "card_code_text": "Code", "image": "Art", "stylesheet": "Frame",
-  "notes": "Notes", "special_text": "Text box", "illustrator": "Illustrator", "watermark": "Watermark",
+  "notes": "Notes", "illustrator": "Illustrator", "watermark": "Watermark",
 }
 FIELD_ORDER = list(LABELS)
 
@@ -94,9 +94,9 @@ def display_fields(f: dict) -> dict:
     out["type"] = type_line(f, "")
     if f.get("name_2"):
       out["type_2"] = type_line(f, "_2")
-  if out.get("special_text"):
-    # Class levels and planeswalker abilities are repeated in special_text, the whole text box.
-    out = {k: v for k, v in out.items() if not re.fullmatch(r"(level_\d+_text|loyalty_cost_\d+)", k)}
+  # special_text is MSE's export copy of the whole text box. It repeats level_N_text and
+  # loyalty costs, and is only regenerated when MSE saves, so it can be stale. Report the real fields.
+  out.pop("special_text", None)
   return {k: v for k, v in out.items() if v}
 
 

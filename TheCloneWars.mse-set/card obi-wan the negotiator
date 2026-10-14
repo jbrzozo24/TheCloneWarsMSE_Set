@@ -11,7 +11,7 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-05 00:41:29
+	time_modified: 2026-10-13 20:08:54
 	name: Obi-Wan, The Negotiator
 	casting_cost: 4UU
 	image: image380.png
@@ -38,7 +38,7 @@ card:
 	level_1_text: Whenever an opponent casts a spell, you may pay <sym-auto>1U</sym-auto>. If you do, counter that spell unless its controller pays <sym-auto>2</sym-auto>. 
 	level_2_text: <margin:130:0:0>Look at the top three cards of your library. Put one into your hand and the rest on the bottom in any order. </margin:130:0:0>
 	level_3_text: <margin:130:0:0>You get <sym-auto>LL</sym-auto></margin:130:0:0>
-	level_4_text: <margin:130:0:0>Return X nonland permanents you don’t control to their owner’s hand, where X is the number of <sym-auto>L</sym-auto>, you have.</margin:130:0:0>
+	level_4_text: <margin:130:0:0>Return X nonland permanents you don’t control to their owner’s hand, where X is the number of <sym>L</sym> you have.</margin:130:0:0>
 	level_5_text: 
 	level_6_text: 
 	toughness: 5
