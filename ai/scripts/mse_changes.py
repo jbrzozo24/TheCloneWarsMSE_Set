@@ -26,7 +26,8 @@ from mse_card import REPO, SET_DIR, split_inline_cards, strip_tags  # noqa: E402
 
 REPORTS_DIR = REPO / "ai" / "reports"
 SET_REL = SET_DIR.relative_to(REPO).as_posix()
-IGNORED = {"time_created", "time_modified", "stylesheet_version", "has_styling", "extra_data", "styling_data"}
+IGNORED = {"time_created", "time_modified", "stylesheet_version", "has_styling", "extra_data", "styling_data",
+           "card_color", "card_color_2"}  # card_color*: frame colour metadata, not card text
 LABELS = {
   "name": "Name", "casting_cost": "Mana cost", "type": "Type line", "rarity": "Rarity",
   "rule_text": "Rules text", "flavor_text": "Flavor text", "power": "Power", "toughness": "Toughness",
@@ -83,17 +84,35 @@ def type_line(f: dict, suffix: str) -> str:
   return f"{supers} — {sub}" if sub else supers
 
 
-def display_fields(f: dict) -> dict:
+LEVEL_FRAMES = {"m15-saga", "m15-mainframe-planeswalker"}
+REMINDER_RE = re.compile(r"<(atom-reminder[\w-]*)>.*?</\1>", re.S)
+
+
+def without_reminders(value: str) -> str:
+  """Drop MSE's auto-generated reminder text, which some files have baked in and others don't."""
+  return REMINDER_RE.sub("", value or "")
+
+
+def norm(value: str) -> str:
+  """Comparison form: straight quotes, single spaces, no trailing whitespace."""
+  value = value.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+  return re.sub(r"\s+", " ", value).strip()  # line breaks too: re-flowing text isn't a change
+
+
+def display_fields(f: dict, reminders: bool = True) -> dict:
   """Tag-stripped values, with super/sub types folded into a type line per face."""
   out = {}
   for key, value in f.items():
     if key in IGNORED or re.match(r"(super|sub)_type", key):
       continue
-    out[key] = strip_tags(value).strip()
+    out[key] = strip_tags(value if reminders else without_reminders(value)).strip()
   if f:
     out["type"] = type_line(f, "")
     if f.get("name_2"):
       out["type_2"] = type_line(f, "_2")
+  if f.get("stylesheet") in LEVEL_FRAMES:
+    # Sagas, classes and planeswalkers show level_N_text; their rule_text is unused and often stale.
+    out.pop("rule_text", None)
   # special_text is MSE's export copy of the whole text box. It repeats level_N_text and
   # loyalty costs, and is only regenerated when MSE saves, so it can be stale. Report the real fields.
   out.pop("special_text", None)
@@ -134,11 +153,14 @@ def summary(f: dict) -> list:
 
 
 def field_changes(old: dict, new: dict, raw_old: dict, raw_new: dict, show_raw: bool) -> list:
-  a, b = display_fields(old), display_fields(new)
-  lines = []
-  for key in order(set(a) | set(b)):
+  a, b = display_fields(old, reminders=False), display_fields(new, reminders=False)
+  ra, rb = display_fields(old), display_fields(new)
+  lines, cosmetic = [], []
+  for key in order(set(a) | set(b) | set(ra) | set(rb)):
     before, after = a.get(key, ""), b.get(key, "")
-    if before == after:
+    if norm(before) == norm(after):
+      if ra.get(key, "") != rb.get(key, ""):
+        cosmetic.append(key)
       continue
     if "\n" in before or "\n" in after or key == "rule_text":
       diff = difflib.ndiff(before.splitlines(), after.splitlines())
@@ -146,6 +168,8 @@ def field_changes(old: dict, new: dict, raw_old: dict, raw_new: dict, show_raw: 
       lines.append(f"- **{label(key)}:**\n  ```diff\n" + "\n".join(body) + "\n  ```")
     else:
       lines.append(f"- **{label(key)}:** {before or '_(empty)_'} → {after or '_(empty)_'}")
+  if show_raw and cosmetic:
+    lines.append(f"- _Formatting only (reminder text, quotes, spacing):_ {', '.join(cosmetic)}")
   if show_raw:
     markup = [k for k in set(raw_old) | set(raw_new)
               if k not in IGNORED and raw_old.get(k) != raw_new.get(k)
@@ -157,6 +181,45 @@ def field_changes(old: dict, new: dict, raw_old: dict, raw_new: dict, show_raw: 
 
 def includes(text) -> list:
   return re.findall(r"^include_file: (.+)$", text or "", flags=re.M)
+
+
+def parse_block(block: str) -> dict:
+  """All top-level fields of one `card:` block, multi-line values joined."""
+  fields, key = {}, None
+  for line in block.splitlines()[1:]:
+    m = re.match(r"^\t([a-z0-9_]+):\s?(.*)$", line)
+    if m:
+      key = m.group(1)
+      fields[key] = m.group(2)
+    elif key and line.startswith("\t\t"):
+      fields[key] = (fields[key] + "\n" + line[2:]).lstrip("\n")
+  return fields
+
+
+def name_of(card) -> str:
+  return strip_tags(card["fields"].get("name", "")).strip()
+
+
+def code_of(card) -> str:
+  return strip_tags(card["fields"].get("card_code_text", "")).strip()
+
+
+def load_side(get_text) -> list:
+  """Every card one side's `set` references, whatever the layout: inline `card:` blocks,
+  one file per card, or a single file holding many cards (as the unzip utility writes).
+  Each card gets a key from its name, so the two sides can be matched card by card."""
+  set_text = get_text("set") or ""
+  sources = [("set", set_text)] + [(rel, get_text(rel) or "") for rel in includes(set_text)]
+  cards, seen = [], {}
+  for src, text in sources:
+    for _, block in split_inline_cards(text):
+      fields = parse_block(block)
+      key = re.sub(r"[^a-z0-9]+", " ", strip_tags(fields.get("name", "")).lower()).strip() or src
+      seen[key] = seen.get(key, 0) + 1
+      if seen[key] > 1:
+        key = f"{key} #{seen[key]}"
+      cards.append({"key": key, "src": src, "fields": fields})
+  return cards
 
 
 def changed_images(base: str) -> set:
@@ -176,34 +239,31 @@ def main():
   report = []
   emit = report.append
 
-  old_set, new_set = base_text(args.base, "set") or "", work_text("set") or ""
-  old_inc, new_inc = includes(old_set), includes(new_set)
-  if split_inline_cards(new_set) or split_inline_cards(old_set):
-    emit("_Note: `set` has inline `card:` blocks; this report only covers include_file cards._\n")
+  old_cards = load_side(lambda rel: base_text(args.base, rel))
+  new_cards = load_side(work_text)
+  old_by, new_by = {c["key"]: c for c in old_cards}, {c["key"]: c for c in new_cards}
 
+  # Pair cards: same name first; then, among the rest, the same card code is either a
+  # rename (similar name) or a swap (a different card took that code's slot).
+  matched = [(old_by[c["key"]], c) for c in new_cards if c["key"] in old_by]
+  old_left = [c for c in old_cards if c["key"] not in new_by]
+  new_left = [c for c in new_cards if c["key"] not in old_by]
   swaps, added, removed = [], [], []
-  matcher = difflib.SequenceMatcher(a=old_inc, b=new_inc, autojunk=False)
-  for op, i1, i2, j1, j2 in matcher.get_opcodes():
-    olds, news = old_inc[i1:i2], new_inc[j1:j2]
-    if op == "replace":
-      pairs = min(len(olds), len(news))
-      swaps += list(zip(olds[:pairs], news[:pairs]))
-      removed += olds[pairs:]
-      added += news[pairs:]
-    elif op == "delete":
-      removed += olds
-    elif op == "insert":
-      added += news
-  # A card moved elsewhere in `set` isn't added or removed.
-  moved = set(added) & set(removed)
-  added = [c for c in added if c not in moved]
-  removed = [c for c in removed if c not in moved]
+  old_by_code = {}
+  for c in old_left:
+    old_by_code.setdefault(code_of(c), []).append(c)
+  for c in new_left:
+    candidates = old_by_code.get(code_of(c)) if code_of(c) else None
+    if candidates:
+      old = candidates.pop(0)
+      ratio = difflib.SequenceMatcher(a=name_of(old).lower(), b=name_of(c).lower()).ratio()
+      (matched if ratio >= 0.6 else swaps).append((old, c))
+    else:
+      added.append(c)
+  paired = {id(o) for o, _ in matched + swaps}
+  removed = [c for c in old_left if id(c) not in paired]
 
   images = changed_images(args.base)
-  cards = {}
-  for rel in dict.fromkeys(old_inc + new_inc):
-    old_raw, new_raw = base_text(args.base, rel), work_text(rel)
-    cards[rel] = (parse_card(old_raw), parse_card(new_raw), old_raw != new_raw)
 
   def art_note(f: dict) -> list:
     img = f.get("image", "")
@@ -213,11 +273,10 @@ def main():
 
   if swaps:
     out = []
-    for old_rel, new_rel in swaps:
-      old_f, new_f = cards[old_rel][1] or cards[old_rel][0], cards[new_rel][1]
-      out.append(f"### {heading(new_f, new_rel)}\n_replaces_ **{heading(old_f, old_rel)}**\n")
-      out += summary(new_f)
-      before = summary(old_f)
+    for old, new in swaps:
+      out.append(f"### {heading(new['fields'], new['src'])}\n_replaces_ **{heading(old['fields'], old['src'])}**\n")
+      out += summary(new["fields"])
+      before = summary(old["fields"])
       if before:
         out.append("\n<details><summary>Replaced card</summary>\n\n" + "\n".join(before) + "\n\n</details>")
       out.append("")
@@ -225,22 +284,19 @@ def main():
 
   if added:
     out = []
-    for rel in added:
-      new_f = cards[rel][1]
-      out.append(f"### {heading(new_f, rel)}\n_new card_ (`{rel}`)\n")
-      out += summary(new_f) + [""]
+    for c in added:
+      out.append(f"### {heading(c['fields'], c['src'])}\n_new card_ (`{c['src']}`)\n")
+      out += summary(c["fields"]) + [""]
     sections.append(("Added cards", out))
 
   modified = []
-  for rel in dict.fromkeys(new_inc):
-    if rel in added or rel in (n for _, n in swaps):
-      continue
-    old_f, new_f, file_changed = cards[rel]
-    lines = field_changes(old_f, new_f, old_f, new_f, args.raw) if file_changed else []
+  for old, new in matched:
+    old_f, new_f = old["fields"], new["fields"]
+    lines = field_changes(old_f, new_f, old_f, new_f, args.raw) if old_f != new_f else []
     if old_f.get("image") == new_f.get("image"):
       lines += art_note(new_f)
     if lines:
-      modified.append((display_fields(new_f).get("card_code_text", "~"), heading(new_f, rel), lines))
+      modified.append((display_fields(new_f).get("card_code_text", "~"), heading(new_f, new["src"]), lines))
   if modified:
     out = []
     for _, head, lines in sorted(modified):
@@ -249,9 +305,8 @@ def main():
 
   if removed:
     out = []
-    for rel in removed:
-      f = cards[rel][1] or cards[rel][0]
-      out.append(f"- **{heading(f, rel)}** (`{rel}` no longer in `set`)")
+    for c in removed:
+      out.append(f"- **{heading(c['fields'], c['src'])}** (no longer in `set`)")
     sections.append(("Removed cards", out + [""]))
 
   if not sections:

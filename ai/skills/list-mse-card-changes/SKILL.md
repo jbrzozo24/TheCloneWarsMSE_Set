@@ -13,9 +13,15 @@ python3 ai/scripts/mse_changes.py --base HEAD  # everything uncommitted
 python3 ai/scripts/mse_changes.py --base main  # vs another commit or branch
 ```
 
-Add `--raw` to also note fields whose only change is MSE markup (spelling
-tags, symbol tags). Bookkeeping fields (`time_modified`, styling data) are
-always ignored, so a card that MSE merely re-saved doesn't show up.
+Cards are matched by name (and by card code for renames and swaps), so the two
+sides can use different layouts: one file per card, inline `card:` blocks in
+`set`, or one `cards` file holding every card (what `main` uses).
+
+Ignored, so a card MSE merely re-saved doesn't show up: bookkeeping fields
+(`time_modified`, styling data, frame colour), MSE's auto reminder text,
+straight vs curly quotes, whitespace and line breaks, and the unused
+`rule_text` on saga/class/planeswalker frames. Add `--raw` to list those
+formatting-only and markup-only (spelling/symbol tag) differences too.
 
 The report is written to `ai/reports/card-changes-YYYY-MM-DD_HHMMSS.md` and the
 script prints the counts and the path. Use `--out FILE` for another location or
@@ -23,9 +29,8 @@ script prints the counts and the path. Use `--out FILE` for another location or
 
 The report is Markdown:
 
-- **Swapped cards**: an `include_file` line in `set` replaced in place, i.e.
-  a new card taking an old card's slot. Shows the new card in full and the
-  replaced one collapsed.
+- **Swapped cards**: a different card now holds an old card's code (a new card
+  taking its slot). Shows the new card in full and the replaced one collapsed.
 - **Added / Removed cards**: cards that entered or left `set`.
 - **Modified cards**: field-by-field changes, sorted by card code. Rules text
   and class/planeswalker text boxes are shown as line diffs; changed image files
