@@ -78,11 +78,12 @@ card:
 	linked_relation_31: 
 	linked_relation_32: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-05-01 13:06:08
+	time_modified: 2026-11-07 14:41:48
 	extra_data:
 		magic-m15-altered: vorthos_box: Jack Brzozowski
 	name: This Party's Over
 	casting_cost: 4R/GR/G
+	transformation: position default, background default, rim default, icon default, front triangle
 	image: image224.png
 	image_2: 
 	mainframe_image: 
