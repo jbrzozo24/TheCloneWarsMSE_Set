@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jedi Creature Curve</title>
+<style>
+:root {
+  --bg: #f7f6f2; --panel: #ffffff; --text: #1d1d1f; --muted: #5f6368; --line: #dcdad3;
+  --accent: #2f6f4f; --down: #2f6f4f; --up: #8a5a14; --down-bg: #e6f2ea; --up-bg: #f7eedd;
+  --hi: #fff4c2; --code-bg: #f0eee8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17181a; --panel: #1f2023; --text: #e8e6e1; --muted: #a3a29d; --line: #34353a;
+    --accent: #7fc79c; --down: #7fc79c; --up: #e0b46a; --down-bg: #1d2e24; --up-bg: #33281a;
+    --hi: #3d3518; --code-bg: #2a2b2f;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --panel: #1f2023; --text: #e8e6e1; --muted: #a3a29d; --line: #34353a;
+  --accent: #7fc79c; --down: #7fc79c; --up: #e0b46a; --down-bg: #1d2e24; --up-bg: #33281a;
+  --hi: #3d3518; --code-bg: #2a2b2f;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.9rem; margin: 0 0 4px; }
+h2 { font-size: 1.3rem; margin: 40px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.05rem; margin: 0 0 8px; }
+p, li { max-width: 72ch; }
+.sub { color: var(--muted); margin: 0 0 24px; }
+.callout { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 8px; padding: 14px 18px; margin: 16px 0; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.stat b { display: block; font-size: 1.6rem; }
+.stat span { color: var(--muted); font-size: .9rem; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 8px; overflow: hidden; font-size: .93rem; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: .85rem; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+tr:last-child td { border-bottom: 0; }
+td.hi { background: var(--hi); font-weight: 600; }
+.trade { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+.trade header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin-bottom: 12px; }
+.pool { color: var(--muted); font-size: .9rem; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .pair { grid-template-columns: 1fr; } }
+.card { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.card.down { background: var(--down-bg); }
+.card.up { background: var(--up-bg); }
+.tag { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; }
+.down .tag { color: var(--down); }
+.up .tag { color: var(--up); }
+.cost { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--code-bg); padding: 1px 6px; border-radius: 4px; }
+.old { color: var(--muted); text-decoration: line-through; }
+.rules { margin: 8px 0 0; padding-left: 0; list-style: none; font-size: .93rem; }
+.rules li { margin: 4px 0; }
+.why { margin: 10px 0 0; font-size: .92rem; color: var(--muted); }
+code { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--code-bg); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Fixing the Jedi creature curve</h1>
+<p class="sub">Proposal for review · The Clone Wars v3 · 2026-10-13 · revision 3: Waxer trade dropped, Anakin trade added (2/2, LLL) · <strong>applied 2026-11-07</strong> with Rex flip 3G and Jedi Sacrifice 2GG</p>
+
+<div class="callout">
+  <strong>Recommendation:</strong> make four mana-value trades, each between two cards of the <em>same colour and rarity</em>. In each trade, a Jedi creature costs less and its partner costs more, and both are rebalanced to match. This brings Jedi creatures at 4 mana down from <strong>8 to 4</strong>. The set's colour, rarity and colour×rarity curves stay <strong>exactly</strong> the same.
+</div>
+
+<div class="stats">
+  <div class="stat"><b>8 → 4</b><span>Jedi creatures at 4 mana</span></div>
+  <div class="stat"><b>4 → 9</b><span>Jedi creature copies at 2 mana</span></div>
+  <div class="stat"><b>10</b><span>cards changed (green, blue, and one green-white pair)</span></div>
+  <div class="stat"><b>0</b><span>changes to colour × rarity × MV buckets</span></div>
+</div>
+
+<h2>The problem</h2>
+<p>Playtesters found that Jedi decks had nothing to do early. The count bears it out. Counting every creature with the Jedi subtype <em>or</em> a Jedi archetype tag in the sheet, across all colours, gives exactly <strong>8 at mana value 4</strong>:</p>
+<div class="scroll"><table>
+  <tr><th>Code</th><th>Card</th><th>Cost</th><th>Rarity</th><th>Why it counts</th><th>In this proposal</th></tr>
+  <tr><td>RG02</td><td>Obi-Wan Kenobi, Jedi Master</td><td><span class="cost">2GG</span></td><td>rare</td><td>Jedi subtype, Jedi tag</td><td>→ 3 mana</td></tr>
+  <tr><td>RG08</td><td>Captain Rex, Loyal Soldier</td><td><span class="cost">3G</span></td><td>rare</td><td>Jedi secondary tag</td><td>→ 2 mana</td></tr>
+  <tr><td>UG06</td><td>Clone Liutenant Waxer</td><td><span class="cost">2GG</span></td><td>uncommon</td><td>Jedi secondary tag</td><td>unchanged: you preferred to keep him</td></tr>
+  <tr><td>RU03</td><td>Jedi Temple Guard</td><td><span class="cost">3U</span></td><td>rare</td><td>Jedi subtype</td><td>→ 3 mana</td></tr>
+  <tr><td>MZ10</td><td>Yoda, Part of the Living Force</td><td><span class="cost">GGUU</span></td><td>mythic</td><td>Jedi God</td><td>unchanged: not a creature until devotion 7</td></tr>
+  <tr><td>MW02</td><td>Qui-Gon Jinn, Force Ghost</td><td><span class="cost">3W</span></td><td>mythic</td><td>Jedi God</td><td>unchanged: white, and a God</td></tr>
+  <tr><td>RZ12</td><td>Ahsoka Tano, Grey Jedi</td><td><span class="cost">1GWU</span></td><td>rare</td><td>Jedi subtype</td><td>unchanged: three-colour Republic card</td></tr>
+  <tr><td>UZ09</td><td>Anakin Skywalker, 501st General</td><td><span class="cost">2GW</span></td><td>uncommon</td><td>Jedi subtype</td><td>→ 2 mana</td></tr>
+</table></div>
+<p>Green-blue's <em>overall</em> creature curve is normal: 18 / 20 / 16 copies at 2 / 3 / 4, in line with the other colour pairs. The problem is that the Jedi-flavoured bodies pile up at 4. At 2 mana there are only two: Sparring Padawan and Maintenance Trooper.</p>
+
+<h2>Approach</h2>
+<ul>
+  <li><strong>Trade mana values within colour and rarity.</strong> If a green rare drops from 4 to 3, another green rare rises from 3 to 4. Every colour × rarity × MV bucket keeps its count, so the colour and rarity curves you built don't move.</li>
+  <li><strong>Partners are mostly non-creatures</strong> (a sorcery, a battle, a craft, two instants). The creature curve gets earlier without the colour's total curve changing.</li>
+  <li><strong>Rebalance both sides.</strong> Cheaper creatures lose a bit of stats. Pricier partners gain a clear upgrade, so they're still worth playing.</li>
+  <li><strong>Archetype tags are a soft constraint.</strong> As you said, cards are meant to cross archetypes, so tag-curve shifts are listed below for reference, not as blockers.</li>
+</ul>
+
+<h2>The four trades</h2>
+
+<section class="trade">
+  <header><h3>1 · Jedi Youngling Initiate ⇄ Commune with Bounty Hunters</h3><span class="pool">green common · 3 ⇄ 2</span></header>
+  <div class="pair">
+    <div class="card down"><span class="tag">▼ 3 → 2</span>
+      <h3>CG06 Jedi Youngling Initiate</h3>
+      <div><span class="cost old">2G</span> → <span class="cost">1G</span> · Creature — Human Jedi · <span class="old">2/3</span> → <strong>2/2</strong></div>
+      <ul class="rules"><li>When this creature enters, you get LL.</li><li>LL: Untap target creature you control.</li></ul>
+      <p class="why">Rules text unchanged. The Jedi's only common creature becomes a 2-drop that gives you L on turn 2. Losing 1 toughness pays for the cheaper cost.</p>
+    </div>
+    <div class="card up"><span class="tag">▲ 2 → 3</span>
+      <h3>CG11 Commune with Bounty Hunters</h3>
+      <div><span class="cost old">1G</span> → <span class="cost">2G</span> · Sorcery</div>
+      <ul class="rules"><li>Look at the top <span class="old">four</span> <strong>five</strong> cards of your library. You may reveal an outlaw card <span class="old">or</span> <strong>and/or</strong> a land card from among them and put <strong>them</strong> into your hand. Put the rest into your graveyard.</li></ul>
+      <p class="why">One more card seen, and it can now find two cards. That makes it a real 3-mana card-advantage spell for Bounty Hunters and graveyard decks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="trade">
+  <header><h3>2 · Anakin Skywalker, 501st General ⇄ Twice the Pride, Double the Fall</h3><span class="pool">green-white uncommon · 4 ⇄ 2</span></header>
+  <p>Twice the Pride is the only other green-white uncommon, so an exact trade has to be 4 ⇄ 2. Both are Republic cards that Jedi decks can also play.</p>
+  <div class="pair">
+    <div class="card down"><span class="tag">▼ 4 → 2</span>
+      <h3>UZ09 Anakin Skywalker, 501st General</h3>
+      <div><span class="cost old">2GW</span> → <span class="cost">GW</span> · Legendary Creature — Jedi General · <span class="old">4/3</span> → <strong>2/2</strong></div>
+      <ul class="rules"><li>When Anakin enters, you get L for each Clone you control.</li><li>Whenever Anakin attacks with two or more creatures, you may pay <span class="old">LL</span> <strong>LLL</strong>. If you do, put a +1/+1 counter on each Clone you control.</li></ul>
+      <p class="why">Final version, per your review: 2/2, and the Clone pump costs LLL. His enters ability gives little on turn 2, but later he's a cheap way to refill L. The pricier attack trigger keeps a 2-mana legend from snowballing go-wide Clone decks too fast.</p>
+    </div>
+    <div class="card up"><span class="tag">▲ 2 → 4</span>
+      <h3>UZ15 Twice the Pride, Double the Fall</h3>
+      <div><span class="cost old">{G/W}{G/W}</span> → <span class="cost">2{G/W}{G/W}</span> · Battle — Duel (defense 6)</div>
+      <ul class="rules"><li>Duel. When this card enters, draw a card. <span class="old">…if your opponent has more cards than you, or</span> <strong>Then if an opponent controls more lands than you,</strong> search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</li></ul>
+      <p class="why">It used to do one conditional thing. Now it always draws, and it also ramps if you're behind on lands. Hybrid mana keeps it castable in either colour.</p>
+    </div>
+  </div>
+</section>
+
+<section class="trade">
+  <header><h3>3 · Obi-Wan and Captain Rex ⇄ Republic Gunship and Jedi Sacrifice</h3><span class="pool">green rare · 4, 4 ⇄ 3, 2</span></header>
+  <p>Green rares have 2 / 2 / 3 cards at mana values 2 / 3 / 4. Moving Obi-Wan to 3 and Rex to 2, then the Gunship to 4 and Jedi Sacrifice to 4, leaves those counts exactly as they are.</p>
+  <div class="pair">
+    <div class="card down"><span class="tag">▼ 4 → 3</span>
+      <h3>RG02 Obi-Wan Kenobi, Jedi Master</h3>
+      <div><span class="cost old">2GG</span> → <span class="cost">1GG</span> · Legendary Creature — Human Jedi · <span class="old">3/4</span> → <strong>3/3</strong></div>
+      <ul class="rules"><li><span class="old">Trample,</span> vigilance</li><li>When Obi-Wan enters or blocks, you may pay LL any number of times. Each time you do, put a +1/+1 counter on each untapped creature you control.</li><li>1U, T: Untap target permanent you control.</li></ul>
+      <p class="why">His enter and block ability scales with your L, so he's still strong later. Losing trample and a point of toughness pays for the cheaper cost.</p>
+    </div>
+    <div class="card up"><span class="tag">▲ 3 → 4</span>
+      <h3>RG03 Republic Gunship</h3>
+      <div><span class="cost old">1GG</span> → <span class="cost">2GG</span> · Legendary Artifact — Craft Gunship 3/3</div>
+      <ul class="rules"><li>When Republic Gunship enters, create <span class="old">a</span> <strong>two</strong> 1/1 white Clone Trooper creature token<strong>s</strong>.</li><li>Flying, scrap 2. Whenever Republic Gunship attacks, you may pay 2. If you do, put target Clone creature card from your graveyard onto the battlefield tapped and attacking.</li></ul>
+      <p class="why">The second token also feeds scrap 2, so the Gunship becomes a creature as soon as it's cast.</p>
+    </div>
+    <div class="card down"><span class="tag">▼ 4 → 2</span>
+      <h3>RG08 Captain Rex, Loyal Soldier</h3>
+      <div><span class="cost old">3G</span> → <span class="cost">1G</span> · Legendary Creature — Clone Commander · <span class="old">3/3</span> → <strong>2/2</strong></div>
+      <ul class="rules"><li>When Rex enters, you get <span class="old">LLL</span> <strong>LL</strong>.</li><li>Vigilance, reach</li><li><span class="old">1G</span> <strong>3G</strong>: Transform Rex. Activate only as a sorcery and only if a clone you control died this turn.</li></ul>
+      <p class="why">A 2-drop that gives you L, and it helps both Jedi and Republic. The transform now costs 3G, so the 5/5 card-drawing back face can't show up on turn 3. The back face is unchanged.</p>
+    </div>
+    <div class="card up"><span class="tag">▲ 2 → 4</span>
+      <h3>RG06 Jedi Sacrifice</h3>
+      <div><span class="cost old">1G</span> → <span class="cost">2GG</span> · Instant</div>
+      <ul class="rules"><li>Target creature you control <strong>gets +2/+2 and gains indestructible and</strong> “When another creature you control would be dealt damage, you may have this creature be dealt that damage instead” until end of turn. Draw a card.</li></ul>
+      <p class="why">It's now a combat blowout: one indestructible creature soaks all the damage, and it still draws a card. That's worth 4 mana at rare.</p>
+    </div>
+  </div>
+</section>
+
+<section class="trade">
+  <header><h3>4 · Jedi Temple Guard ⇄ Take a Seat</h3><span class="pool">blue rare · 4 ⇄ 3</span></header>
+  <div class="pair">
+    <div class="card down"><span class="tag">▼ 4 → 3</span>
+      <h3>RU03 Jedi Temple Guard</h3>
+      <div><span class="cost old">3U</span> → <span class="cost">2U</span> · Creature — Jedi Soldier · <span class="old">2/2</span> → <strong>1/2</strong></div>
+      <ul class="rules"><li>Jedi Temple Guard can’t be blocked.</li><li>U, T: Another target creature you control can’t be blocked this turn.</li><li>Whenever one or more creatures you control deal combat damage to one or more players, draw a card.</li></ul>
+      <p class="why">Rules text unchanged. An unblockable creature that draws cards is strong at 3, so it drops to 1 power.</p>
+    </div>
+    <div class="card up"><span class="tag">▲ 3 → 4</span>
+      <h3>RU06 Take a Seat</h3>
+      <div><span class="cost old">2U</span> → <span class="cost">3U</span> · Instant</div>
+      <ul class="rules"><li>Tap target creature. It doesn’t untap during its controller’s next untap step. That creature’s controller discards a card. <strong>Draw a card.</strong></li></ul>
+      <p class="why">One creature locked for a turn, you draw a card and they discard one. That's fair at 4.</p>
+    </div>
+  </div>
+</section>
+
+<h2>Effect on the curves</h2>
+<p>Counts are <strong>cards (copies)</strong>: commons and uncommons count twice, rares and mythics once. Lands are left out, and 7+ is the top bucket.</p>
+
+<h3>Jedi creatures (Jedi subtype or Jedi tag, all colours)</h3>
+<div class="scroll"><table>
+  <tr><th>MV</th><th class="n">1</th><th class="n">2</th><th class="n">3</th><th class="n">4</th><th class="n">5</th><th class="n">6</th></tr>
+  <tr><td>Before</td><td class="n">1 (2)</td><td class="n">2 (4)</td><td class="n">3 (6)</td><td class="n hi">8 (10)</td><td class="n">3 (4)</td><td class="n">4 (6)</td></tr>
+  <tr><td>After</td><td class="n">1 (2)</td><td class="n hi">5 (9)</td><td class="n">4 (6)</td><td class="n hi">4 (5)</td><td class="n">3 (4)</td><td class="n">4 (6)</td></tr>
+</table></div>
+
+<h3 style="margin-top:20px">Creatures castable in green-blue (copies)</h3>
+<div class="scroll"><table>
+  <tr><th>MV</th><th class="n">1</th><th class="n">2</th><th class="n">3</th><th class="n">4</th><th class="n">5</th><th class="n">6</th></tr>
+  <tr><td>Before</td><td class="n">6</td><td class="n">18</td><td class="n">20</td><td class="n">16</td><td class="n">9</td><td class="n">4</td></tr>
+  <tr><td>After</td><td class="n">6</td><td class="n hi">21</td><td class="n">20</td><td class="n hi">13</td><td class="n">9</td><td class="n">4</td></tr>
+</table></div>
+
+<h3 style="margin-top:20px">Creatures castable in green-white (copies)</h3>
+<div class="scroll"><table>
+  <tr><th>MV</th><th class="n">1</th><th class="n">2</th><th class="n">3</th><th class="n">4</th><th class="n">5</th><th class="n">6</th></tr>
+  <tr><td>Before</td><td class="n">8</td><td class="n">17</td><td class="n">19</td><td class="n">17</td><td class="n">9</td><td class="n">5</td></tr>
+  <tr><td>After</td><td class="n">8</td><td class="n hi">22</td><td class="n hi">18</td><td class="n hi">13</td><td class="n">9</td><td class="n">5</td></tr>
+</table></div>
+<p>Mono-green creature copies go from 10 / 11 / 9 to 13 / 10 / 7 at 2 / 3 / 4. Green's <em>total</em> curve doesn't change, because the partners moved up by the same amounts.</p>
+
+<h3 style="margin-top:20px">Constraints checked</h3>
+<div class="scroll"><table>
+  <tr><th>Curve</th><th>Result</th></tr>
+  <tr><td>Colour × rarity × MV (every bucket)</td><td><strong>Identical</strong></td></tr>
+  <tr><td>Colour × MV</td><td><strong>Identical</strong></td></tr>
+  <tr><td>Rarity × MV</td><td><strong>Identical</strong></td></tr>
+  <tr><td>Primary archetype × MV</td><td>Small shifts (below)</td></tr>
+</table></div>
+
+<h3 style="margin-top:20px">Archetype-tag shifts (copies, for reference)</h3>
+<div class="scroll"><table>
+  <tr><th>Archetype</th><th>Change</th><th>From</th></tr>
+  <tr><td>Bounty Hunters</td><td>2 copies move from MV 2 to 3</td><td>Commune with Bounty Hunters</td></tr>
+  <tr><td>Republic</td><td>Net: 1 copy from MV 3 to 2 (Anakin and Twice the Pride trade places; Rex 4 to 2, Gunship 3 to 4)</td><td>Anakin, Twice the Pride, Rex, Gunship</td></tr>
+  <tr><td>Jedi</td><td>Youngling 3 to 2 (2 copies), Obi-Wan 4 to 3, Jedi Sacrifice 2 to 4</td><td></td></tr>
+  <tr><td>Separatist</td><td>1 copy from MV 4 to 3</td><td>Jedi Temple Guard</td></tr>
+  <tr><td>Untagged</td><td>1 copy from MV 3 to 4</td><td>Take a Seat</td></tr>
+</table></div>
+
+<h2>Questions for you</h2>
+<ol>
+  <li><strong>Anakin's cost:</strong> <span class="cost">GW</span> (as proposed) or hybrid <span class="cost">{G/W}{G/W}</span>? Hybrid would make him castable in mono-green Jedi decks, not just green-white.</li>
+  <li><strong>Waxer's name</strong> (separate from this proposal): fix the “Clone <em>Liutenant</em> Waxer” spelling some other time?</li>
+  <li><strong>Rex's transform cost:</strong> 3G is a cautious choice. 2G would make the flip easier to reach, since a 2-drop Rex is often on the battlefield early.</li>
+  <li><strong>Jedi Sacrifice:</strong> 2GG or 3G? 2GG keeps it heavily green. 3G is easier to splash.</li>
+  <li><strong>Any trade you'd rather skip?</strong> Each one stands alone. Dropping one simply leaves its two cards as they are.</li>
+</ol>
+
+<h2>Next steps once approved</h2>
+<ol>
+  <li>Edit the 10 cards with the <code>edit-mse-mtg-card</code> skill, rendering each one before and after.</li>
+  <li>Re-run the curve check against the edited set. Colour × rarity × MV must match today's numbers, and Jedi creatures at 4 must equal 4.</li>
+  <li>Run <code>economy_report.py L</code> to confirm the L economy is intact. Rex and Youngling still give L, just earlier.</li>
+  <li>Generate the card change report with <code>mse_changes.py</code> and commit it with the edits.</li>
+</ol>
+
+</main>
+</body>
+</html>

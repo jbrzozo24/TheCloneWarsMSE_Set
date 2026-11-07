@@ -1,0 +1,105 @@
+﻿mse_version: 2.6.4
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2026-09-13
+	has_styling: false
+	notes: 
+	uid: 40279787932398324040492808138911
+	linked_card_1: 
+	linked_card_2: 
+	linked_card_3: 
+	linked_card_4: 
+	linked_card_5: 
+	linked_card_6: 
+	linked_card_7: 
+	linked_card_8: 
+	linked_card_9: 
+	linked_card_10: 
+	linked_card_11: 
+	linked_card_12: 
+	linked_card_13: 
+	linked_card_14: 
+	linked_card_15: 
+	linked_card_16: 
+	linked_card_17: 
+	linked_card_18: 
+	linked_card_19: 
+	linked_card_20: 
+	linked_card_21: 
+	linked_card_22: 
+	linked_card_23: 
+	linked_card_24: 
+	linked_card_25: 
+	linked_card_26: 
+	linked_card_27: 
+	linked_card_28: 
+	linked_card_29: 
+	linked_card_30: 
+	linked_card_31: 
+	linked_card_32: 
+	linked_relation_1: 
+	linked_relation_2: 
+	linked_relation_3: 
+	linked_relation_4: 
+	linked_relation_5: 
+	linked_relation_6: 
+	linked_relation_7: 
+	linked_relation_8: 
+	linked_relation_9: 
+	linked_relation_10: 
+	linked_relation_11: 
+	linked_relation_12: 
+	linked_relation_13: 
+	linked_relation_14: 
+	linked_relation_15: 
+	linked_relation_16: 
+	linked_relation_17: 
+	linked_relation_18: 
+	linked_relation_19: 
+	linked_relation_20: 
+	linked_relation_21: 
+	linked_relation_22: 
+	linked_relation_23: 
+	linked_relation_24: 
+	linked_relation_25: 
+	linked_relation_26: 
+	linked_relation_27: 
+	linked_relation_28: 
+	linked_relation_29: 
+	linked_relation_30: 
+	linked_relation_31: 
+	linked_relation_32: 
+	time_created: 2026-04-21 21:47:59
+	time_modified: 2026-08-16 14:29:24
+	extra_data:
+		magic-m15-altered:
+			vorthos_box: Jack Brzozowski
+	name: Repair Technician
+	casting_cost: 3U
+	image: image32.png
+	image_2: 
+	mainframe_image: 
+	mainframe_image_2: 
+	super_type: <word-list-type-en>Creature</word-list-type-en>
+	super_type_2: <word-list-type-en></word-list-type-en>
+	super_type_3: <word-list-type-en></word-list-type-en>
+	super_type_4: <word-list-type-en></word-list-type-en>
+	sub_type: <word-list-race-en>Droid</word-list-race-en><atom-sep> </atom-sep><word-list-class-en>Artificer</word-list-class-en><soft><atom-sep> </atom-sep></soft><word-list-class-en></word-list-class-en>
+	sub_type_2: 
+	sub_type_3: 
+	sub_type_4: 
+	rarity: common
+	rule_text:
+		<kw-A><nospellcheck><key>Kicker <param-cost><sym-auto>2</sym-auto></param-cost></key></nospellcheck><atom-reminder-expert> <i-auto>(You may pay an additional <param-mana><sym-auto>2</sym-auto></param-mana> as you cast this spell.)</i-auto></atom-reminder-expert></kw-A>
+		When Repair Technician enters, return target creature an opponent controls to its owners hand. If it was kicked, draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: guild symbol The Izzet (U/R)
+	power: 2
+	toughness: 2
+	card_stamp: universes beyond
+	illustrator: LUCASFILM
+	custom_card_number: 
+	card_code_text: CU05
+	card_code_text_2: 
+	card_code_text_3: 
+	vorthos_box: Jack Brzozowski

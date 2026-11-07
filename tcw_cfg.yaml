@@ -15,4 +15,5 @@ mse_set_builder_info:
   write_spreadsheet: true
 
   # Output File
-  output_file: "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\MagicSetEditor_Sets\\TheCloneWars\\TheCloneWars.mse-set\\cards"
+  output_file: "C:\\Users\\jbrzo\\Desktop\\workroot\\magic_the_gathering\\MagicSetEditor_Sets\\TheCloneWars\\TheCloneWars.mse-set"
+  write_mode: "in_place"
