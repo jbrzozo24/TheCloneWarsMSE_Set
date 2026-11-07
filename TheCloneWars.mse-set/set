@@ -1,8 +1,8 @@
-﻿mse_version: 2.0.2
+﻿mse_version: 2.6.0
 game: magic
-game_version: 2025-06-14
+game_version: 2026-09-24
 stylesheet: m15-altered
-stylesheet_version: 2025-10-05
+stylesheet_version: 2026-09-13
 set_info:
 	title: The Clone Wars
 	copyright: 101
@@ -88,6 +88,8 @@ styling:
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		inverted_common_symbol: no
 		overlay: 
+		casting_cost_mana_symbols: magic-mana-large.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 	magic-m15-scroll:
 		text_box_mana_symbols: magic-mana-scroll.mse-symbol-font
 		overlay: 
@@ -411,7 +413,7 @@ include_file: card twice the pride double the fall
 include_file: card dookus cloak
 include_file: card c-3po protocol specialist
 include_file: card wattos junkyard
-include_file: card padmé voice of the people
+include_file: card padm voice of the people
 include_file: card ipv-2c stealth corvette
 include_file: card mon mothma silent dissentor
 include_file: card gungan energy shield
@@ -500,16 +502,16 @@ include_file: card the clone who knew too much
 include_file: card duel in the senate
 include_file: card yoda sage general
 include_file: card duel on kamino
-include_file: card obi wans lightsaber
+include_file: card obi-wans lightsaber
 include_file: card throne room massacre
 include_file: card sidious vengeful killer
 include_file: card duel on mustafar
 include_file: card vader the fallen
 include_file: card duel on utapau
-include_file: card obi wans varactyl
+include_file: card obi-wans varactyl
 include_file: card commander fox coruscant guard
 include_file: card admiral tarkin prosecutor
-include_file: card padmé amidala senator of naboo
+include_file: card padm amidala senator of naboo
 include_file: card qui-gon jinn force ghost
 include_file: card grand army mobilization
 include_file: card good soldiers follow orders
