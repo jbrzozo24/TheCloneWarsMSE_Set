@@ -5,12 +5,12 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2026-04-21 21:47:59
-	time_modified: 2026-05-01 13:05:41
+	time_modified: 2026-11-07 13:28:54
 	extra_data:
 		magic-m15-altered:
 			vorthos_box: Jack Brzozowski
 	name: Commune with Bounty Hunters
-	casting_cost: 1G
+	casting_cost: 2G
 	image: image83.png
 	image_2: 
 	mainframe_image: 
@@ -24,7 +24,7 @@ card:
 	sub_type_3: 
 	sub_type_4: 
 	rarity: common
-	rule_text: Look at the top 4 cards your library, you may reveal an <kw-A><nospellcheck><key>outlaw</key></nospellcheck> or land card from among them and put it into your hand. Put the rest into your graveyard.<atom-reminder-action> <i-auto>(Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</i-auto></atom-reminder-action></kw-A>
+	rule_text: Look at the top five cards of your library. You may reveal an outlaw card and/or a land card from among them and put them into your hand. Put the rest into your graveyard.
 	flavor_text: <i-flavor></i-flavor>
 	watermark: 
 	card_stamp: universes beyond

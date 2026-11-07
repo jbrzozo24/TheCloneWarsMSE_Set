@@ -12,9 +12,9 @@ card:
 		overlay: 
 	notes: 
 	time_created: 2026-04-21 21:48:00
-	time_modified: 2026-07-18 18:26:14
+	time_modified: 2026-11-07 13:28:54
 	name: Republic Gunship
-	casting_cost: 1GG
+	casting_cost: 2GG
 	image: image286.png
 	image_2: 
 	mainframe_image: 
@@ -29,7 +29,7 @@ card:
 	sub_type_4: 
 	rarity: rare
 	rule_text:
-		When Republic Gunship enters the battlefield, create a 1/1 white Clone Trooper creature token.
+		When Republic Gunship enters the battlefield, create two 1/1 white Clone Trooper creature tokens.
 		<kw-a><nospellcheck><key>Flying</key></nospellcheck></kw-a>. <kw-0><nospellcheck><key>scrap <param-number>2</param-number></key></nospellcheck></kw-0>. 
 		Whenever Republic Gunship attacks, you may pay <sym-auto>2</sym-auto>. If you do, put target Clone creature card from your graveyard onto the battlefield tapped and attacking.
 	flavor_text:
