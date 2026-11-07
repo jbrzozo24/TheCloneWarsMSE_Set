@@ -27,7 +27,9 @@ from mse_card import REPO, SET_DIR, split_inline_cards, strip_tags  # noqa: E402
 REPORTS_DIR = REPO / "ai" / "reports"
 SET_REL = SET_DIR.relative_to(REPO).as_posix()
 IGNORED = {"time_created", "time_modified", "stylesheet_version", "has_styling", "extra_data", "styling_data",
-           "card_color", "card_color_2"}  # card_color*: frame colour metadata, not card text
+           "card_color", "card_color_2",  # frame colour metadata, not card text
+           "uid",  # MSE 2.6 gives every card a random uid on save
+           "vorthos_box"}  # designer credit; MSE 2.6 moved it out of extra_data, same value
 LABELS = {
   "name": "Name", "casting_cost": "Mana cost", "type": "Type line", "rarity": "Rarity",
   "rule_text": "Rules text", "flavor_text": "Flavor text", "power": "Power", "toughness": "Toughness",
@@ -172,7 +174,7 @@ def field_changes(old: dict, new: dict, raw_old: dict, raw_new: dict, show_raw: 
     lines.append(f"- _Formatting only (reminder text, quotes, spacing):_ {', '.join(cosmetic)}")
   if show_raw:
     markup = [k for k in set(raw_old) | set(raw_new)
-              if k not in IGNORED and raw_old.get(k) != raw_new.get(k)
+              if k not in IGNORED and (raw_old.get(k) or "") != (raw_new.get(k) or "")
               and strip_tags(raw_old.get(k, "")).strip() == strip_tags(raw_new.get(k, "")).strip()]
     if markup:
       lines.append(f"- _Markup only:_ {', '.join(sorted(markup))}")
